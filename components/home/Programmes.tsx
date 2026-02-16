@@ -17,8 +17,8 @@ export default function Programmes() {
         {
             day: 'EVERY FIRST FRIDAY',
             time: '10:00PM',
-            title: 'Night of Glory',
-            description: 'Powerful night of worship and intercession',
+            title: 'Night VIGIL',
+            description: 'Powerful night of worship, intercession and the word',
             color: 'from-blue-500/20 to-blue-500/5',
         },
     ];
