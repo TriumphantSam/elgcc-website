@@ -15,9 +15,9 @@ export default function Hero() {
                 <div className="max-w-4xl mx-auto">
                     {/* Main Heading */}
                     <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                        <span className="block text-white">A PLACE OF</span>
-                        <span className="block gradient-text">PRAYER, POWER,</span>
-                        <span className="block gradient-text">AND PURPOSE</span>
+                        <span className="block text-white">UNVEILING THE FATHER</span>
+                        <span className="block gradient-text">IN THE FACE OF THE SON,</span>
+                        <span className="block gradient-text">JESUS CHRIST</span>
                     </h1>
 
                     {/* Subheading */}

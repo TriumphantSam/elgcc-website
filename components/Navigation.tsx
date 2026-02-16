@@ -19,9 +19,14 @@ export default function Navigation() {
             <div className="container-custom">
                 <div className="flex items-center justify-between h-20">
                     {/* Logo */}
-                    <Link href="/" className="text-2xl font-bold tracking-wider">
-                        <span className="text-white">ELG</span>
-                        <span className="text-primary">CC</span>
+                    <Link href="/" className="flex items-center gap-3">
+                        <div className="bg-primary-light rounded-lg overflow-hidden">
+                            <img
+                                src="/images/elgcc-logo1.png"
+                                alt="ELGCC - Eternal Life Global Community Church"
+                                className="h-20 w-auto"
+                            />
+                        </div>
                     </Link>
 
                     {/* Desktop Navigation */}

@@ -9,10 +9,13 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* About */}
                     <div>
-                        <h3 className="text-xl font-bold mb-4">
-                            <span className="text-white">ELG</span>
-                            <span className="text-primary">CC</span>
-                        </h3>
+                        <div className="bg-primary-light rounded-lg inline-block mb-4 overflow-hidden">
+                            <img
+                                src="/images/elgcc-logo1.png"
+                                alt="ELGCC"
+                                className="h-24 w-auto"
+                            />
+                        </div>
                         <p className="text-white/60 text-sm leading-relaxed">
                             Eternal Life Global Community Church - A place of prayer, power, and purpose. Join us as we grow together in faith and community.
                         </p>

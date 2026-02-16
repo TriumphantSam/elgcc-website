@@ -10,18 +10,23 @@ const config: Config = {
         extend: {
             colors: {
                 primary: {
-                    DEFAULT: '#D4AF37', // Gold
-                    dark: '#B8941F',
-                    light: '#E8C968',
+                    DEFAULT: '#6B7F4C', // Olive green from logo
+                    dark: '#556339',
+                    light: '#8A9D6F',
+                },
+                secondary: {
+                    DEFAULT: '#8B7355', // Brown/tan from logo
+                    dark: '#6F5C44',
+                    light: '#A68968',
                 },
                 dark: {
-                    DEFAULT: '#0A0E27', // Deep navy/black
-                    lighter: '#1A1F3A',
-                    card: '#151A35',
+                    DEFAULT: '#1A1A1A', // Deep charcoal
+                    lighter: '#2A2A2A',
+                    card: '#252525',
                 },
                 accent: {
-                    gold: '#D4AF37',
-                    cream: '#F5F5DC',
+                    cream: '#F5F1E8', // Cream from logo background
+                    olive: '#6B7F4C',
                 }
             },
             fontFamily: {
@@ -30,7 +35,7 @@ const config: Config = {
             },
             backgroundImage: {
                 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-                'gradient-dark': 'linear-gradient(to bottom, #0A0E27, #151A35)',
+                'gradient-dark': 'linear-gradient(to bottom, #1A1A1A, #2A2A2A)',
             },
         },
     },
