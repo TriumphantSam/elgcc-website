@@ -1,0 +1,32 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+
+const inter = Inter({
+    subsets: ["latin"],
+    variable: '--font-inter',
+});
+
+export const metadata: Metadata = {
+    title: "ELGCC - Eternal Life Global Community Church",
+    description: "Welcome to Eternal Life Global Community Church - A place of prayer, power, and purpose. Join us for worship, teachings, and community.",
+    keywords: ["church", "worship", "sermons", "community", "faith", "ELGCC", "Eternal Life", "Ibadan", "Nigeria"],
+};
+
+export default function RootLayout({
+    children,
+}: Readonly<{
+    children: React.ReactNode;
+}>) {
+    return (
+        <html lang="en" className={inter.variable}>
+            <body className="antialiased">
+                <Navigation />
+                <main>{children}</main>
+                <Footer />
+            </body>
+        </html>
+    );
+}
