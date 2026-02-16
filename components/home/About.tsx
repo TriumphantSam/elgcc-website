@@ -48,7 +48,7 @@ export default function About() {
 
                             <p>
                                 Whether you&apos;re seeking spiritual growth, community, or answers to life&apos;s questions,
-                                BLOCC is a place where you belong. Join us as we journey together in faith, hope, and love.
+                                ELGCC is a place where you belong. Join us as we journey together in faith, hope, and love.
                             </p>
                         </div>
 
