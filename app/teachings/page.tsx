@@ -58,6 +58,25 @@ const sermons: Sermon[] = [
     { title: "January 2026 Healing Meeting", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/January%202026%20Healing%20Meeting.mp3", series: "Special Messages", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
     { title: "Joy of the Lord (Impartation and prophecy 11th February 2026)", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Joy%20of%20the%20Lord%20%28Impartation%20and%20prophecy%2011th%20February%202026%29.mp3", series: "Special Messages", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
 
+    // 2016 General Teachings
+    { title: "05. Infallible Proofs  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/05.%20Infallible%20Proofs-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "06. Walking in Dominion  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/06.%20Walking%20in%20Dominion-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "07. Staying Focused on Purpose  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/07.%20Staying%20Focused%20on%20Purpose-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "08. The Spirit of Prophecy  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/08.%20The%20Spirit%20of%20Prophecy-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "11. The Authority of Scriptures  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/11.%20The%20Authority%20of%20Scriptures-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "12. Doctrine of Eternal Security  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/12.%20Doctrine%20of%20Eternal%20Security-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "13. Established in Righteousness  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/13.%20Established%20in%20Righteousness-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "15. The Believer's Authority  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/15.%20The%20Believer's%20Authority-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "16. Walking in Love as Believers  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/16.%20Walking%20in%20Love%20as%20Believers-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "17. Keeping the Devil Far Away  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/17.%20Keeping%20the%20Devil%20Far%20Away-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "19. Living in Honour  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/19.%20Living%20in%20Honour-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "25. Jesus Christ; The Explanation of All Things  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/25.%20Jesus%20Christ;%20The%20Explanation%20of%20All%20Things-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "38. The Accomplishment of God's Plan  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/38.%20The%20Accomplishment%20of%20God's%20Plan-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "41. Dominion Over Sicknesses  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/41.%20Dominion%20Over%20Sicknesses-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "49. Jesus, Our Worship  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/49.%20Jesus,%20Our%20Worship-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "58. The Hardening of Pharaoh's Heart  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/58.%20The%20Hardening%20of%20Pharaoh's%20Heart-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "59. Joy and the Believer in Christ  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/59.%20Joy%20and%20the%20Believer%20in%20Christ-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+
 ];
 
 // Helper to get consistent gradient for series
@@ -71,6 +90,10 @@ const getSeriesGradient = (series: string) => {
             return 'from-[#556339] to-[#6B7F4C]'; // Dark Olive to Olive
         case 'Reviews':
             return 'from-[#2A2A2A] to-[#6B7F4C]'; // Dark to Olive
+        case 'General Teachings':
+            return 'from-[#4A5D3E] to-[#7A8B6F]'; // Forest Green to Sage
+        case 'Special Messages':
+            return 'from-[#8B7355] to-[#6B7F4C]'; // Brown to Olive
         default:
             return 'from-[#6B7F4C] to-[#1A1A1A]'; // Olive to Dark
     }
