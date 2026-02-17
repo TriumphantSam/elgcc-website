@@ -10,7 +10,7 @@ export default function Navigation() {
         { name: 'HOME', href: '/' },
         { name: 'ABOUT', href: '#about' },
         { name: 'TEACHINGS', href: '/teachings' },
-        { name: 'PROGRAMMES', href: '#programmes' },
+        { name: 'SPECIAL PROGRAMMES', href: '/programmes' },
         { name: 'CONTACT', href: '#contact' },
     ];
 
