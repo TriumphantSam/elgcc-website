@@ -13,6 +13,10 @@ export const metadata: Metadata = {
     title: "ELGCC - Eternal Life Global Community Church",
     description: "Welcome to Eternal Life Global Community Church - A place of prayer, power, and purpose. Join us for worship, teachings, and community.",
     keywords: ["church", "worship", "sermons", "community", "faith", "ELGCC", "Eternal Life", "Ibadan", "Nigeria"],
+    icons: {
+        icon: '/images/favicon.png',
+        apple: '/images/favicon.png',
+    },
 };
 
 export default function RootLayout({
