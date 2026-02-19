@@ -477,6 +477,944 @@ const sermons: Sermon[] = [
     { title: "THREE LESSONS FROM CHRISTMAS (INCARNATION)", audioUrl: "https://archive.org/download/elgcc-teachings-2020/THREE%20LESSONS%20FROM%20CHRISTMAS%20%28INCARNATION%29.mp3", series: "General Teachings", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
     { title: "The Ministry of the Word", audioUrl: "https://archive.org/download/elgcc-teachings-2020/The%20Ministry%20of%20the%20Word.mp3", series: "General Teachings", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
 
+    // 2021 Sermons
+    { title: "1. MY LIFE AND MY TIME (WALKING IN GOD'S WISDOM)", audioUrl: "https://archive.org/download/elgcc-teachings-2021/1.%20MY%20LIFE%20AND%20MY%20TIME%20%28WALKING%20IN%20GOD%27S%20WISDOM%29.mp3", series: "General Teachings", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALMS 22092021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/PSALMS%2022092021.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%201.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 10", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%2010.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 11", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%2011.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 12", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%2012.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 13", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%2013.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 14", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%2014.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 15", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%2015.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%202.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%203.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%204.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%205.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%206.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 7", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%207.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 8", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%208.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST TRACK 9", audioUrl: "https://archive.org/download/elgcc-teachings-2021/10.%20THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST/THE%20KNOWLEDGE%20OF%20GOD%27S%20STEADFAST%20LOVE%20IN%20CHRIST%20TRACK%209.mp3", series: "10. THE KNOWLEDGE OF GOD'S STEADFAST LOVE IN CHRIST", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CONCERNING UTTERANCE TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/11.%20CONCERNING%20UTTERANCE/CONCERNING%20UTTERANCE%20TRACK%201.mp3", series: "11. CONCERNING UTTERANCE", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CONCERNING UTTERANCE TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/11.%20CONCERNING%20UTTERANCE/CONCERNING%20UTTERANCE%20TRACK%202.mp3", series: "11. CONCERNING UTTERANCE", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CONCERNING UTTERANCE TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2021/11.%20CONCERNING%20UTTERANCE/CONCERNING%20UTTERANCE%20TRACK%203.mp3", series: "11. CONCERNING UTTERANCE", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CONCERNING UTTERANCE TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2021/11.%20CONCERNING%20UTTERANCE/CONCERNING%20UTTERANCE%20TRACK%204.mp3", series: "11. CONCERNING UTTERANCE", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CONCERNING UTTERANCE TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2021/11.%20CONCERNING%20UTTERANCE/CONCERNING%20UTTERANCE%20TRACK%205.mp3", series: "11. CONCERNING UTTERANCE", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CONCERNING UTTERANCE TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2021/11.%20CONCERNING%20UTTERANCE/CONCERNING%20UTTERANCE%20TRACK%206.mp3", series: "11. CONCERNING UTTERANCE", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CONTENDING IN THIS WORK (IT IS TIME TO WAR) TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/12.%20CONTENDING%20IN%20THIS%20WORK%20%28IT%20IS%20TIME%20TO%20WAR%29/CONTENDING%20IN%20THIS%20WORK%20%28IT%20IS%20TIME%20TO%20WAR%29%20TRACK%201.mp3", series: "12. CONTENDING IN THIS WORK (IT IS TIME TO WAR)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CONTENDING IN THIS WORK (IT IS TIME TO WAR) TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/12.%20CONTENDING%20IN%20THIS%20WORK%20%28IT%20IS%20TIME%20TO%20WAR%29/CONTENDING%20IN%20THIS%20WORK%20%28IT%20IS%20TIME%20TO%20WAR%29%20TRACK%202.mp3", series: "12. CONTENDING IN THIS WORK (IT IS TIME TO WAR)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CONTENDING IN & FOR SUPERNATURAL RELATIONSHIPS (WINNING WITH WISDOM) Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/13.%20CONTENDING%20IN%20%26%20FOR%20SUPERNATURAL%20RELATIONSHIPS%20%28WINNING%20WITH%20WISDOM%29/CONTENDING%20IN%20%26%20FOR%20SUPERNATURAL%20RELATIONSHIPS%20%28WINNING%20WITH%20WISDOM%29%20Track%201.mp3", series: "13. CONTENDING IN & FOR SUPERNATURAL RELATIONSHIPS (WINNING WITH WISDOM)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CONTENDING IN & FOR SUPERNATURAL RELATIONSHIPS (WINNING WITH WISDOM) Track 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/13.%20CONTENDING%20IN%20%26%20FOR%20SUPERNATURAL%20RELATIONSHIPS%20%28WINNING%20WITH%20WISDOM%29/CONTENDING%20IN%20%26%20FOR%20SUPERNATURAL%20RELATIONSHIPS%20%28WINNING%20WITH%20WISDOM%29%20Track%202.mp3", series: "13. CONTENDING IN & FOR SUPERNATURAL RELATIONSHIPS (WINNING WITH WISDOM)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT) TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/14.%20THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29/THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29%20TRACK%201.mp3", series: "14. THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT) TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/14.%20THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29/THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29%20TRACK%202.mp3", series: "14. THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT) TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2021/14.%20THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29/THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29%20TRACK%203.mp3", series: "14. THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT) TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2021/14.%20THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29/THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29%20TRACK%204.mp3", series: "14. THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT) TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2021/14.%20THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29/THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29%20TRACK%205.mp3", series: "14. THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT) TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2021/14.%20THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29/THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29%20TRACK%206.mp3", series: "14. THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT) TRACK 7", audioUrl: "https://archive.org/download/elgcc-teachings-2021/14.%20THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29/THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29%20TRACK%207.mp3", series: "14. THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT) TRACK 8", audioUrl: "https://archive.org/download/elgcc-teachings-2021/14.%20THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29/THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29%20TRACK%208.mp3", series: "14. THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "15. HEALING SERVICE DECEMBER 2021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/15.%20HEALING%20SERVICE%20DECEMBER%202021.mp3", series: "General Teachings", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES) TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/16.%20CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29/CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29%20TRACK%202.mp3", series: "16. CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES)", audioUrl: "https://archive.org/download/elgcc-teachings-2021/16.%20CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29/CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29.mp3", series: "16. CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "SUPERNATURALLY CONSCIOUS IN DISCIPLESHIP TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2.%20SUPERNATURALLY%20CONSCIOUS%20IN%20DISCIPLESHIP/SUPERNATURALLY%20CONSCIOUS%20IN%20DISCIPLESHIP%20TRACK%201.mp3", series: "2. SUPERNATURALLY CONSCIOUS IN DISCIPLESHIP", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "SUPERNATURALLY CONSCIOUS IN DISCIPLESHIP TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2.%20SUPERNATURALLY%20CONSCIOUS%20IN%20DISCIPLESHIP/SUPERNATURALLY%20CONSCIOUS%20IN%20DISCIPLESHIP%20TRACK%202.mp3", series: "2. SUPERNATURALLY CONSCIOUS IN DISCIPLESHIP", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHARGE; DO NOT SLEEP, PRAY", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/CHARGE%3B%20DO%20NOT%20SLEEP%2C%20PRAY.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "INSTRUCTIONS 02052021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/INSTRUCTIONS%2002052021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "INSTRUCTIONS 05052021 (2)", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/INSTRUCTIONS%2005052021%20%282%29.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "INSTRUCTIONS 14052021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/INSTRUCTIONS%2014052021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "INSTRUCTIONS 18042021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/INSTRUCTIONS%2018042021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "INSTRUCTIONS 21052021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/INSTRUCTIONS%2021052021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "INSTRUCTIONS 23052021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/INSTRUCTIONS%2023052021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PASTOR'S UTTERANCE 02072021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/PASTOR%27S%20UTTERANCE%2002072021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PASTOR'S UTTERANCE 20012021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/PASTOR%27S%20UTTERANCE%2020012021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PASTOR'S UTTERANCE 24012021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/PASTOR%27S%20UTTERANCE%2024012021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PASTOR'S UTTERANCE 27012021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/PASTOR%27S%20UTTERANCE%2027012021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PASTOR'S WORDS 21042021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/PASTOR%27S%20WORDS%2021042021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE & INSTRUCTION 13062021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%20%26%20INSTRUCTION%2013062021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE & INSTRUCTION 28052021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%20%26%20INSTRUCTION%2028052021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE & INSTRUCTION 30052021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%20%26%20INSTRUCTION%2030052021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE & INSTRUCTIONS 20062021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%20%26%20INSTRUCTIONS%2020062021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE (1) 7TH of MARCH", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%20%281%29%207TH%20of%20MARCH.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE (2) 7TH of MARCH", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%20%282%29%207TH%20of%20MARCH.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 03022021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2003022021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 07022021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2007022021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 09052021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2009052021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 1 21ST of FEB", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%201%2021ST%20of%20FEB.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 11022021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2011022021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 11062021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2011062021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 12052021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2012052021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 14032021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2014032021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 1604021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%201604021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 19032021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2019032021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 19052021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2019052021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 2 21ST of FEB", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%202%2021ST%20of%20FEB.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 24032021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2024032021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 25042021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2025042021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 28042021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2028042021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE 29032021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%2029032021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UTTERANCE GIVEN BY PASTOR STEPHEN & PASTOR BABALOLA SEGUN", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/UTTERANCE%20GIVEN%20BY%20PASTOR%20STEPHEN%20%26%20PASTOR%20BABALOLA%20SEGUN.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "Utterance 26 Dec, 2021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/Utterance%2026%20Dec%2C%202021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%201.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 10", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2010.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 11", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2011.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 12", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2012.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 13", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2013.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 15", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2015.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 16", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2016.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 17", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2017.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 18", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2018.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 19", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2019.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%202.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 20", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2020.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 21", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2021.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 22", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2022.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 23", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2023.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 24", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2024.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 25", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2025.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 26", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2026.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 27", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2027.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 28", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2028.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 29", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2029.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%203.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 30", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2030.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 31", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2031.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 32", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2032.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 33", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2033.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 34", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2034.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 35", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2035.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 36", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2036.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 37", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2037.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 38", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2038.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 39", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2039.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%204.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 40", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%2040.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%205.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%206.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 7", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%207.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 8", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%208.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE HARVEST OF GOD TRACK 9", audioUrl: "https://archive.org/download/elgcc-teachings-2021/3.%20THE%20HARVEST%20OF%20GOD/THE%20HARVEST%20OF%20GOD%20TRACK%209.mp3", series: "3. THE HARVEST OF GOD", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "4. WHY WE PRAY FOR OUR PASTOR", audioUrl: "https://archive.org/download/elgcc-teachings-2021/4.%20WHY%20WE%20PRAY%20FOR%20OUR%20PASTOR.mp3", series: "General Teachings", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. FLOWING WITH THE SPIRIT OF GOD IN SPECIAL MEETINGS", audioUrl: "https://archive.org/download/elgcc-teachings-2021/5.%20FLOWING%20WITH%20THE%20SPIRIT%20OF%20GOD%20IN%20SPECIAL%20MEETINGS.mp3", series: "General Teachings", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "6. PRAYER AND OUR LOVE WALK (SERIES 2)", audioUrl: "https://archive.org/download/elgcc-teachings-2021/6.%20PRAYER%20AND%20OUR%20LOVE%20WALK%20%28SERIES%202%29.mp3", series: "General Teachings", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%201.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 10", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%2010.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 12", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%2012.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 13", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%2013.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 14", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%2014.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 15", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%2015.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%202.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%203.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%204.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%205.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%206.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 7", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%207.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 8", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%208.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3) TRACK 9", audioUrl: "https://archive.org/download/elgcc-teachings-2021/7.%20FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29/FOLLOWING%20THE%20LEADING%20OF%20THE%20SPIRIT%20%28SERIES%203%29%20TRACK%209.mp3", series: "7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "APPRECIATION & HONOUR TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/8.%20APPRECIATION%20%26%20HONOUR/APPRECIATION%20%26%20HONOUR%20TRACK%201.mp3", series: "8. APPRECIATION & HONOUR", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "APPRECIATION & HONOUR TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/8.%20APPRECIATION%20%26%20HONOUR/APPRECIATION%20%26%20HONOUR%20TRACK%202.mp3", series: "8. APPRECIATION & HONOUR", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "APPRECIATION & HONOUR TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2021/8.%20APPRECIATION%20%26%20HONOUR/APPRECIATION%20%26%20HONOUR%20TRACK%203.mp3", series: "8. APPRECIATION & HONOUR", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "APPRECIATION & HONOUR TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2021/8.%20APPRECIATION%20%26%20HONOUR/APPRECIATION%20%26%20HONOUR%20TRACK%204.mp3", series: "8. APPRECIATION & HONOUR", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "APPRECIATION & HONOUR TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2021/8.%20APPRECIATION%20%26%20HONOUR/APPRECIATION%20%26%20HONOUR%20TRACK%205.mp3", series: "8. APPRECIATION & HONOUR", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "EXCEEDING GREATNESS OF HIS POWER TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/9.%20EXCEEDING%20GREATNESS%20OF%20HIS%20POWER/EXCEEDING%20GREATNESS%20OF%20HIS%20POWER%20TRACK%201.mp3", series: "9. EXCEEDING GREATNESS OF HIS POWER", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "EXCEEDING GREATNESS OF HIS POWER TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/9.%20EXCEEDING%20GREATNESS%20OF%20HIS%20POWER/EXCEEDING%20GREATNESS%20OF%20HIS%20POWER%20TRACK%202.mp3", series: "9. EXCEEDING GREATNESS OF HIS POWER", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "EXCEEDING GREATNESS OF HIS POWER TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2021/9.%20EXCEEDING%20GREATNESS%20OF%20HIS%20POWER/EXCEEDING%20GREATNESS%20OF%20HIS%20POWER%20TRACK%203.mp3", series: "9. EXCEEDING GREATNESS OF HIS POWER", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "EXCEEDING GREATNESS OF HIS POWER TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2021/9.%20EXCEEDING%20GREATNESS%20OF%20HIS%20POWER/EXCEEDING%20GREATNESS%20OF%20HIS%20POWER%20TRACK%204.mp3", series: "9. EXCEEDING GREATNESS OF HIS POWER", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "EXCEEDING GREATNESS OF HIS POWER TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2021/9.%20EXCEEDING%20GREATNESS%20OF%20HIS%20POWER/EXCEEDING%20GREATNESS%20OF%20HIS%20POWER%20TRACK%205.mp3", series: "9. EXCEEDING GREATNESS OF HIS POWER", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "EXCEEDING GREATNESS OF HIS POWER TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2021/9.%20EXCEEDING%20GREATNESS%20OF%20HIS%20POWER/EXCEEDING%20GREATNESS%20OF%20HIS%20POWER%20TRACK%206.mp3", series: "9. EXCEEDING GREATNESS OF HIS POWER", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHURCH RETREAT 2021 (LABORING IN PRAYERS)", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28LABORING%20IN%20PRAYERS%29.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHURCH RETREAT 2021 (MAINTAINING THE BOND OF UNITY)", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28MAINTAINING%20THE%20BOND%20OF%20UNITY%29.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHURCH RETREAT 2021 (OUR GIVING) 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28OUR%20GIVING%29%201.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHURCH RETREAT 2021 (OUR GIVING) 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28OUR%20GIVING%29%202.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHURCH RETREAT 2021 (THE CHURCH AND HER MISSION) 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28THE%20CHURCH%20AND%20HER%20MISSION%29%201.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHURCH RETREAT 2021 (THE CHURCH AND HER MISSION) 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28THE%20CHURCH%20AND%20HER%20MISSION%29%202.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHURCH RETREAT 2021 (THE CHURCH AND HER MISSION) 3", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28THE%20CHURCH%20AND%20HER%20MISSION%29%203.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHURCH RETREAT 2021 (THE CHURCH AND HER MISSION) 4 - Q&A", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28THE%20CHURCH%20AND%20HER%20MISSION%29%204%20-%20Q%26A.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHRISTIAN CONDUCT AND SERVICE", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20CHRISTIAN%20CONDUCT%20AND%20SERVICE.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHRISTIAN LIVING EP. 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20CHRISTIAN%20LIVING%20EP.%201.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHRISTIAN LIVING EP. 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20CHRISTIAN%20LIVING%20EP.%202.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHRISTIAN LIVING EP. 3", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20CHRISTIAN%20LIVING%20EP.%203.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "CHRISTIAN LIVING EP. 4", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20CHRISTIAN%20LIVING%20EP.%204.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "EVANGELISM 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20EVANGELISM%201.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "EVANGELISM 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20EVANGELISM%202.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALMS", audioUrl: "https://archive.org/download/elgcc-teachings-2021/UTTERANCE%20%26%20INSTRUCTIONS/PSALMS.mp3", series: "UTTERANCE & INSTRUCTIONS", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+    // 2022 Sermons
+    { title: "1. PRIORITY; A SUPERNATURAL ORDERED 2022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/1.%20PRIORITY%3B%20A%20SUPERNATURAL%20ORDERED%202022/1.%20PRIORITY%3B%20A%20SUPERNATURAL%20ORDERED%202022.mp3", series: "1. PRIORITY; A SUPERNATURAL ORDERED 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "HOW TO FLOW WITH THE SPIRIT OF GOD IN SPECIAL MEETINGS (series 2) TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/10.%20HOW%20TO%20FLOW%20WITH%20THE%20SPIRIT%20OF%20GOD%20IN%20SPECIAL%20MEETINGS%20series%202/HOW%20TO%20FLOW%20WITH%20THE%20SPIRIT%20OF%20GOD%20IN%20SPECIAL%20MEETINGS%20%28series%202%29%20TRACK%201.mp3", series: "10. HOW TO FLOW WITH THE SPIRIT OF GOD IN SPECIAL MEETINGS series 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "HOW TO FLOW WITH THE SPIRIT OF GOD IN SPECIAL MEETINGS (series 2) TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/10.%20HOW%20TO%20FLOW%20WITH%20THE%20SPIRIT%20OF%20GOD%20IN%20SPECIAL%20MEETINGS%20series%202/HOW%20TO%20FLOW%20WITH%20THE%20SPIRIT%20OF%20GOD%20IN%20SPECIAL%20MEETINGS%20%28series%202%29%20TRACK%202.mp3", series: "10. HOW TO FLOW WITH THE SPIRIT OF GOD IN SPECIAL MEETINGS series 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "HOW TO FLOW WITH THE SPIRIT OF GOD IN SPECIAL MEETINGS (series 2) TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/10.%20HOW%20TO%20FLOW%20WITH%20THE%20SPIRIT%20OF%20GOD%20IN%20SPECIAL%20MEETINGS%20series%202/HOW%20TO%20FLOW%20WITH%20THE%20SPIRIT%20OF%20GOD%20IN%20SPECIAL%20MEETINGS%20%28series%202%29%20TRACK%203.mp3", series: "10. HOW TO FLOW WITH THE SPIRIT OF GOD IN SPECIAL MEETINGS series 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALMS", audioUrl: "https://archive.org/download/elgcc-teachings-2022/10.%20HOW%20TO%20FLOW%20WITH%20THE%20SPIRIT%20OF%20GOD%20IN%20SPECIAL%20MEETINGS%20series%202/PSALMS.mp3", series: "10. HOW TO FLOW WITH THE SPIRIT OF GOD IN SPECIAL MEETINGS series 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "11. DEALING WITH THE ATTACKS OF THE ENEMY (THE PLACE & IMPORTANCE OF UNITY)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/11.%20DEALING%20WITH%20THE%20ATTACKS%20OF%20THE%20ENEMY%20%28THE%20PLACE%20%26%20IMPORTANCE%20OF%20UNITY%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "DEALING WITH THE ATTACKS OF THE ENEMY (THE PLACE & IMPORTANCE OF UNITY)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/11.%20DEALING%20WITH%20THE%20ATTACKS%20OF%20THE%20ENEMY%20%28THE%20PLACE%20%26%20IMPORTANCE%20OF%20UNITY%29/DEALING%20WITH%20THE%20ATTACKS%20OF%20THE%20ENEMY%20%28THE%20PLACE%20%26%20IMPORTANCE%20OF%20UNITY%29.mp3", series: "11. DEALING WITH THE ATTACKS OF THE ENEMY (THE PLACE & IMPORTANCE OF UNITY)", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%201.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 10", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%2010.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 11", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%2011.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 12", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%2012.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 13", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%2013.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 14", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%2014.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 15", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%2015.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 16", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%2016.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 17", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%2017.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 18", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%2018.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 19", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%2019.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%202.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 20", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%2020.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%203.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%204.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%205.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%206.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 7", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%207.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 8", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%208.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A SACRED ATTITUDE IN THE LOCAL CHURCH TRACK 9", audioUrl: "https://archive.org/download/elgcc-teachings-2022/13.%20A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH/A%20SACRED%20ATTITUDE%20IN%20THE%20LOCAL%20CHURCH%20TRACK%209.mp3", series: "13. A SACRED ATTITUDE IN THE LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "MIRACLES TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/14.%20MIRACLES/MIRACLES%20TRACK%201.mp3", series: "14. MIRACLES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "MIRACLES TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/14.%20MIRACLES/MIRACLES%20TRACK%202.mp3", series: "14. MIRACLES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "MIRACLES TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/14.%20MIRACLES/MIRACLES%20TRACK%203.mp3", series: "14. MIRACLES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "MIRACLES TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2022/14.%20MIRACLES/MIRACLES%20TRACK%204.mp3", series: "14. MIRACLES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "MIRACLES TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2022/14.%20MIRACLES/MIRACLES%20TRACK%205.mp3", series: "14. MIRACLES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "MIRACLES TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2022/14.%20MIRACLES/MIRACLES%20TRACK%206.mp3", series: "14. MIRACLES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "MIRACLES TRACK 7", audioUrl: "https://archive.org/download/elgcc-teachings-2022/14.%20MIRACLES/MIRACLES%20TRACK%207.mp3", series: "14. MIRACLES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "COMMITMENT TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/15.%20COMMITMENT/COMMITMENT%20TRACK%201.mp3", series: "15. COMMITMENT", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "COMMITMENT TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/15.%20COMMITMENT/COMMITMENT%20TRACK%202.mp3", series: "15. COMMITMENT", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "COMMITMENT TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/15.%20COMMITMENT/COMMITMENT%20TRACK%203.mp3", series: "15. COMMITMENT", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "COMMITMENT TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2022/15.%20COMMITMENT/COMMITMENT%20TRACK%204.mp3", series: "15. COMMITMENT", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%202.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%203.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%204.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%205.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%206.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "POWER THROUGH PRAYERS", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/POWER%20THROUGH%20PRAYERS.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "HOW TO BE A BLESSING IN THIS LOCAL CHURCH TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/17.%20HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH/HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH%20TRACK%201.mp3", series: "17. HOW TO BE A BLESSING IN THIS LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "HOW TO BE A BLESSING IN THIS LOCAL CHURCH TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/17.%20HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH/HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH%20TRACK%202.mp3", series: "17. HOW TO BE A BLESSING IN THIS LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "HOW TO BE A BLESSING IN THIS LOCAL CHURCH TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/17.%20HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH/HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH%20TRACK%203.mp3", series: "17. HOW TO BE A BLESSING IN THIS LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "HOW TO BE A BLESSING IN THIS LOCAL CHURCH TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2022/17.%20HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH/HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH%20TRACK%204.mp3", series: "17. HOW TO BE A BLESSING IN THIS LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "HOW TO BE A BLESSING IN THIS LOCAL CHURCH TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2022/17.%20HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH/HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH%20TRACK%205.mp3", series: "17. HOW TO BE A BLESSING IN THIS LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "HOW TO BE A BLESSING IN THIS LOCAL CHURCH TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2022/17.%20HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH/HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH%20TRACK%206.mp3", series: "17. HOW TO BE A BLESSING IN THIS LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%201.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 10", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%2010.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 11", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%2011.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 12", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%2012.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 13", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%2013.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 14", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%2014.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 15", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%2015.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 16", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%2016.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 17", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%2017.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 18", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%2018.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 19", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%2019.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%202.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%203.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%204.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%205.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%206.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 7", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%207.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 8", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%208.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "OUR SUPERNATURAL FACULTIES TRACK 9", audioUrl: "https://archive.org/download/elgcc-teachings-2022/18.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%209.mp3", series: "18. OUR SUPERNATURAL FACULTIES SERIES 2", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "19. FLOWING WITH THE HOLY GHOST", audioUrl: "https://archive.org/download/elgcc-teachings-2022/19.%20FLOWING%20WITH%20THE%20HOLY%20GHOST.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BIBLE INTERPRETATION TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%201.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BIBLE INTERPRETATION TRACK 10", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%2010.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BIBLE INTERPRETATION TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%202.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BIBLE INTERPRETATION TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%203.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BIBLE INTERPRETATION TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%204.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BIBLE INTERPRETATION TRACK 5A", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%205A.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BIBLE INTERPRETATION TRACK 5B", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%205B.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BIBLE INTERPRETATION TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%206.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BIBLE INTERPRETATION TRACK 7", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%207.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BIBLE INTERPRETATION TRACK 8", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%208.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "BIBLE INTERPRETATION TRACK 9", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%209.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "NECESSITY OF PRAYERS TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/20.%20NECESSITY%20OF%20PRAYERS/NECESSITY%20OF%20PRAYERS%20TRACK%201.mp3", series: "20. NECESSITY OF PRAYERS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "NECESSITY OF PRAYERS TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/20.%20NECESSITY%20OF%20PRAYERS/NECESSITY%20OF%20PRAYERS%20TRACK%202.mp3", series: "20. NECESSITY OF PRAYERS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "A LIFE OF TOTAL CONSECRATION TO GOD'S LIFE", audioUrl: "https://archive.org/download/elgcc-teachings-2022/3.%20A%20LIFE%20OF%20TOTAL%20CONSECRATION%20TO%20GOD%27S%20PLAN/A%20LIFE%20OF%20TOTAL%20CONSECRATION%20TO%20GOD%27S%20LIFE.mp3", series: "3. A LIFE OF TOTAL CONSECRATION TO GOD'S PLAN", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALMS 09012022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/3.%20A%20LIFE%20OF%20TOTAL%20CONSECRATION%20TO%20GOD%27S%20PLAN/PSALMS%2009012022.mp3", series: "3. A LIFE OF TOTAL CONSECRATION TO GOD'S PLAN", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE (19012022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICE%20%2819012022%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE APRIL (20042022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20APRIL%20%2820042022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE DECEMBER 14122022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20DECEMBER%2014122022.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE FEBRUARY (16022022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20FEBRUARY%20%2816022022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE JANUARY (19012022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20JANUARY%20%2819012022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE JUNE (15062022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20JUNE%20%2815062022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE MARCH 2022 (Healing A sign of God's Compassion)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20MARCH%202022%20%28Healing%20A%20sign%20of%20God%27s%20Compassion%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE MAY (15062022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20MAY%20%2815062022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE MAY (18052022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20MAY%20%2818052022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE NOVEMBER 23112022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20NOVEMBER%2023112022.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE OCTOBER (19102022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20OCTOBER%20%2819102022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. HEALING SERVICE SEPTEMBER (21092022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20SEPTEMBER%20%2821092022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. SUNDAY HEALING SERVICE APRIL (24042022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20SUNDAY%20HEALING%20SERVICE%20APRIL%20%2824042022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. SUNDAY HEALING SERVICE AUGUST (17082022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20SUNDAY%20HEALING%20SERVICE%20AUGUST%20%2817082022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "5. SUNDAY HEALING SERVICE JULY (20072022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20SUNDAY%20HEALING%20SERVICE%20JULY%20%2820072022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "DADDY & MUMMY'S PRAYERS FOR THE CHURCH (16012022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/DADDY%20%26%20MUMMY%27S%20PRAYERS%20FOR%20THE%20CHURCH%20%2816012022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "DADDY & MUMMY'S PRAYERS FOR THE CHURCH (16022022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/DADDY%20%26%20MUMMY%27S%20PRAYERS%20FOR%20THE%20CHURCH%20%2816022022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "HEALING SESSION", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/HEALING%20SESSION.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "6 things about living a Supernatural Life", audioUrl: "https://archive.org/download/elgcc-teachings-2022/6%20things%20about%20living%20a%20Supernatural%20Life.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "6. SUPERNATURAL BOLDNESS; WORKING IN THE CONFIDENCE OF THE SPIRIT (CHRIST WORKING IN AND THROUGH THE CHURCH). TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/6.%20SUPERNATURAL%20BOLDNESS%3B%20WORKING%20IN%20THE%20CONFIDENCE%20OF%20THE%20SPIRIT%20%28CHRIST%20WORKING%20IN%20AND%20THROUGH%20THE%20CHURCH%29.%20TRACK%201.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "6. SUPERNATURAL BOLDNESS; WORKING IN THE CONFIDENCE OF THE SPIRIT (CHRIST WORKING IN AND THROUGH THE CHURCH). TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/6.%20SUPERNATURAL%20BOLDNESS%3B%20WORKING%20IN%20THE%20CONFIDENCE%20OF%20THE%20SPIRIT%20%28CHRIST%20WORKING%20IN%20AND%20THROUGH%20THE%20CHURCH%29.%20TRACK%202.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "SUPERNATURAL BOLDNESS; WORKING IN THE CONFIDENCE OF THE SPIRIT TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/6.%20SUPERNATURAL%20BOLDNESS%3B%20WORKING%20IN%20THE%20CONFIDENCE%20OF%20THE%20SPIRIT%20%28CHRIST%20WORKING%20IN%20AND%20THROUGH%20THE%20CHURCH%29/SUPERNATURAL%20BOLDNESS%3B%20WORKING%20IN%20THE%20CONFIDENCE%20OF%20THE%20SPIRIT%20TRACK%201.mp3", series: "6. SUPERNATURAL BOLDNESS; WORKING IN THE CONFIDENCE OF THE SPIRIT (CHRIST WORKING IN AND THROUGH THE CHURCH)", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "SUPERNATURAL BOLDNESS; WORKING IN THE CONFIDENCE OF THE SPIRIT TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/6.%20SUPERNATURAL%20BOLDNESS%3B%20WORKING%20IN%20THE%20CONFIDENCE%20OF%20THE%20SPIRIT%20%28CHRIST%20WORKING%20IN%20AND%20THROUGH%20THE%20CHURCH%29/SUPERNATURAL%20BOLDNESS%3B%20WORKING%20IN%20THE%20CONFIDENCE%20OF%20THE%20SPIRIT%20TRACK%202.mp3", series: "6. SUPERNATURAL BOLDNESS; WORKING IN THE CONFIDENCE OF THE SPIRIT (CHRIST WORKING IN AND THROUGH THE CHURCH)", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE CROSS; THE COST OF THE CAUSE", audioUrl: "https://archive.org/download/elgcc-teachings-2022/7.%20THE%20CROSS%3B%20THE%20COST%20OF%20THE%20CAUSE/THE%20CROSS%3B%20THE%20COST%20OF%20THE%20CAUSE.mp3", series: "7. THE CROSS; THE COST OF THE CAUSE", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALMS & NINU ORUKO RE", audioUrl: "https://archive.org/download/elgcc-teachings-2022/8.%20THE%20WONDERFUL%20NAME%20OF%20JESUS/PSALMS%20%26%20NINU%20ORUKO%20RE.mp3", series: "8. THE WONDERFUL NAME OF JESUS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE WONDERFUL NAME OF JESUS TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/8.%20THE%20WONDERFUL%20NAME%20OF%20JESUS/THE%20WONDERFUL%20NAME%20OF%20JESUS%20TRACK%201.mp3", series: "8. THE WONDERFUL NAME OF JESUS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE WONDERFUL NAME OF JESUS TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/8.%20THE%20WONDERFUL%20NAME%20OF%20JESUS/THE%20WONDERFUL%20NAME%20OF%20JESUS%20TRACK%202.mp3", series: "8. THE WONDERFUL NAME OF JESUS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE WONDERFUL NAME OF JESUS TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/8.%20THE%20WONDERFUL%20NAME%20OF%20JESUS/THE%20WONDERFUL%20NAME%20OF%20JESUS%20TRACK%203.mp3", series: "8. THE WONDERFUL NAME OF JESUS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE WONDERFUL NAME OF JESUS TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2022/8.%20THE%20WONDERFUL%20NAME%20OF%20JESUS/THE%20WONDERFUL%20NAME%20OF%20JESUS%20TRACK%204.mp3", series: "8. THE WONDERFUL NAME OF JESUS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE WONDERFUL NAME OF JESUS TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2022/8.%20THE%20WONDERFUL%20NAME%20OF%20JESUS/THE%20WONDERFUL%20NAME%20OF%20JESUS%20TRACK%205.mp3", series: "8. THE WONDERFUL NAME OF JESUS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE WONDERFUL NAME OF JESUS TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2022/8.%20THE%20WONDERFUL%20NAME%20OF%20JESUS/THE%20WONDERFUL%20NAME%20OF%20JESUS%20TRACK%206.mp3", series: "8. THE WONDERFUL NAME OF JESUS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE WONDERFUL NAME OF JESUS TRACK 7", audioUrl: "https://archive.org/download/elgcc-teachings-2022/8.%20THE%20WONDERFUL%20NAME%20OF%20JESUS/THE%20WONDERFUL%20NAME%20OF%20JESUS%20TRACK%207.mp3", series: "8. THE WONDERFUL NAME OF JESUS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "9. THE RESSURECTION; AN INSTRUCTION", audioUrl: "https://archive.org/download/elgcc-teachings-2022/9.%20THE%20RESSURECTION%3B%20AN%20INSTRUCTION.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+
+
+    { title: "A SACRED ATTITUDE IN THE CHURCH", audioUrl: "https://archive.org/download/elgcc-teachings-2022/A%20SACRED%20ATTITUDE%20IN%20THE%20CHURCH.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE BASICS OF DISCIPLESHIP", audioUrl: "https://archive.org/download/elgcc-teachings-2022/LEADERS%2C%20AND%20WORKERS%27%20MEETING/THE%20BASICS%20OF%20DISCIPLESHIP.mp3", series: "LEADERS, AND WORKERS' MEETING", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "MINISTRATION 1 DAY 2(IGNITING SAINST PASSION)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/MINISTRATION%201%20DAY%202%28IGNITING%20SAINST%20PASSION%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PASTOR'S CORRECTION & EXHORTATION (01062022).", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PASTOR%27S%20CORRECTION%20%26%20EXHORTATION%20%2801062022%29..mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALM GIVEN BY PASTOR ON 30012022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALM%20GIVEN%20BY%20PASTOR%20ON%2030012022.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALM GIVEN ON 16012022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALM%20GIVEN%20ON%2016012022.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALMS (THE NATIONS ARE OPEN NOW AND OTHERS)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALMS%20%28THE%20NATIONS%20ARE%20OPEN%20NOW%20AND%20OTHERS%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALMS ONA TI LA", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALMS%20-%20ONA%20TI%20LA.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALM GIVEN BY PASTOR ON 30012022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALMS%20GIVEN/PSALM%20GIVEN%20BY%20PASTOR%20ON%2030012022.mp3", series: "PSALMS GIVEN", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALM GIVEN ON 16012022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALMS%20GIVEN/PSALM%20GIVEN%20ON%2016012022.mp3", series: "PSALMS GIVEN", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "QUESTION AND ANSWER (SAT 23072022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/QUESTION%20AND%20ANSWER%20%28SAT%2023072022%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "QUESTION AND ANSWER SERVICE (SATURDAY 23072022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/QUESTION%20AND%20ANSWER%20SERVICE%20%28SATURDAY%2023072022%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "SATURDAY TEACHING 18062022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/SATURDAY%20TEACHING%2018062022.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "SUNDAY SERVICE 28082022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/SUNDAY%20SERVICE%2028082022.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "SUPERNATURAL BOLDNESS; WORKING IN THE CONFIDENCE OF THE SPIRIT (CHRIST WORKING IN AND THROUGH THE CHURCH). TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/SUPERNATURAL%20BOLDNESS%3B%20WORKING%20IN%20THE%20CONFIDENCE%20OF%20THE%20SPIRIT%20%28CHRIST%20WORKING%20IN%20AND%20THROUGH%20THE%20CHURCH%29.%20TRACK%201.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE BASICS OF DISCIPLESHIP", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20BASICS%20OF%20DISCIPLESHIP%20%28LEADERS%2C%20AND%20WORKERS%27%20MEETING%202022%29/THE%20BASICS%20OF%20DISCIPLESHIP.mp3", series: "THE BASICS OF DISCIPLESHIP (LEADERS, AND WORKERS' MEETING 2022)", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MISSION IS POSSIBLE 1. (OFFA MEETING)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20MISSION%20IS%20POSSIBLE%20%28OFFA%29/THE%20MISSION%20IS%20POSSIBLE%201.%20%28OFFA%20MEETING%29.mp3", series: "THE MISSION IS POSSIBLE (OFFA)", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MISSION IS POSSIBLE 2. (OFFA MEETING)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20MISSION%20IS%20POSSIBLE%20%28OFFA%29/THE%20MISSION%20IS%20POSSIBLE%202.%20%28OFFA%20MEETING%29.mp3", series: "THE MISSION IS POSSIBLE (OFFA)", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MISSION IS POSSIBLE 1. (OFFA MEETING)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20MISSION%20IS%20POSSIBLE/THE%20MISSION%20IS%20POSSIBLE%201.%20%28OFFA%20MEETING%29.mp3", series: "THE MISSION IS POSSIBLE", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE MISSION IS POSSIBLE 2. (OFFA MEETING)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20MISSION%20IS%20POSSIBLE/THE%20MISSION%20IS%20POSSIBLE%202.%20%28OFFA%20MEETING%29.mp3", series: "THE MISSION IS POSSIBLE", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "UNITY IN THE HARVEST (PASTOR WUNMI)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/UNITY%20IN%20THE%20HARVEST%20%28PASTOR%20WUNMI%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+
+
+    // 2023 Sermons
+    { title: "REDEEMING THE TIMES (NEW YEAR EXHORTATION) TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2023/1.%20REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29/REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29%20TRACK%201.mp3", series: "1. REDEEMING THE TIMES (NEW YEAR EXHORTATION)", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "REDEEMING THE TIMES (NEW YEAR EXHORTATION) TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2023/1.%20REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29/REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29%20TRACK%202.mp3", series: "1. REDEEMING THE TIMES (NEW YEAR EXHORTATION)", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "REDEEMING THE TIMES (NEW YEAR EXHORTATION) TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2023/1.%20REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29/REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29%20TRACK%203.mp3", series: "1. REDEEMING THE TIMES (NEW YEAR EXHORTATION)", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "10. How do I Handle Difficult Disciples", audioUrl: "https://archive.org/download/elgcc-teachings-2023/10.%20How%20to%20Handle%20Difficult%20Disciples/10.%20How%20do%20I%20Handle%20Difficult%20Disciples.mp3", series: "10. How to Handle Difficult Disciples", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "Questions and Answers (How to Handle Difficult Disciples) 1", audioUrl: "https://archive.org/download/elgcc-teachings-2023/10.%20How%20to%20Handle%20Difficult%20Disciples/Questions%20and%20Answers%20%28How%20to%20Handle%20Difficult%20Disciples%29%201.mp3", series: "10. How to Handle Difficult Disciples", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "Questions and Answers (How to Handle Difficult Disciples) 2", audioUrl: "https://archive.org/download/elgcc-teachings-2023/10.%20How%20to%20Handle%20Difficult%20Disciples/Questions%20and%20Answers%20%28How%20to%20Handle%20Difficult%20Disciples%29%202.mp3", series: "10. How to Handle Difficult Disciples", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "The Leading of God's Spirit Series 5 (Track 1)", audioUrl: "https://archive.org/download/elgcc-teachings-2023/11.%20The%20Leading%20of%20God%27s%20Spirit%20Series%205/The%20Leading%20of%20God%27s%20Spirit%20Series%205%20%28Track%201%29.mp3", series: "11. The Leading of God's Spirit Series 5", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "The Leading of God's Spirit Series 5 (Track 2)", audioUrl: "https://archive.org/download/elgcc-teachings-2023/11.%20The%20Leading%20of%20God%27s%20Spirit%20Series%205/The%20Leading%20of%20God%27s%20Spirit%20Series%205%20%28Track%202%29.mp3", series: "11. The Leading of God's Spirit Series 5", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "The Leading of God's Spirit Series 5 (Track 3)", audioUrl: "https://archive.org/download/elgcc-teachings-2023/11.%20The%20Leading%20of%20God%27s%20Spirit%20Series%205/The%20Leading%20of%20God%27s%20Spirit%20Series%205%20%28Track%203%29.mp3", series: "11. The Leading of God's Spirit Series 5", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "The Leading of God's Spirit Series 5 (Track 4)", audioUrl: "https://archive.org/download/elgcc-teachings-2023/11.%20The%20Leading%20of%20God%27s%20Spirit%20Series%205/The%20Leading%20of%20God%27s%20Spirit%20Series%205%20%28Track%204%29.mp3", series: "11. The Leading of God's Spirit Series 5", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "The Leading of God's Spirit Series 5 (Track 5)", audioUrl: "https://archive.org/download/elgcc-teachings-2023/11.%20The%20Leading%20of%20God%27s%20Spirit%20Series%205/The%20Leading%20of%20God%27s%20Spirit%20Series%205%20%28Track%205%29.mp3", series: "11. The Leading of God's Spirit Series 5", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "The Leading of God's Spirit Series 5 (Track 6)", audioUrl: "https://archive.org/download/elgcc-teachings-2023/11.%20The%20Leading%20of%20God%27s%20Spirit%20Series%205/The%20Leading%20of%20God%27s%20Spirit%20Series%205%20%28Track%206%29.mp3", series: "11. The Leading of God's Spirit Series 5", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "The Leading of God's Spirit Series 5 (Track 7)", audioUrl: "https://archive.org/download/elgcc-teachings-2023/11.%20The%20Leading%20of%20God%27s%20Spirit%20Series%205/The%20Leading%20of%20God%27s%20Spirit%20Series%205%20%28Track%207%29.mp3", series: "11. The Leading of God's Spirit Series 5", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "The Leading of God's Spirit Series 5 (Track 8)", audioUrl: "https://archive.org/download/elgcc-teachings-2023/11.%20The%20Leading%20of%20God%27s%20Spirit%20Series%205/The%20Leading%20of%20God%27s%20Spirit%20Series%205%20%28Track%208%29.mp3", series: "11. The Leading of God's Spirit Series 5", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "What are you doing with the Seed in your Hands   Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2023/12.%20What%20are%20you%20doing%20with%20the%20Seed%20in%20your%20Hands/What%20are%20you%20doing%20with%20the%20Seed%20in%20your%20Hands%20-%20Track%201.mp3", series: "12. What are you doing with the Seed in your Hands", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "What are you doing with the Seed in your Hands   Track 2", audioUrl: "https://archive.org/download/elgcc-teachings-2023/12.%20What%20are%20you%20doing%20with%20the%20Seed%20in%20your%20Hands/What%20are%20you%20doing%20with%20the%20Seed%20in%20your%20Hands%20-%20Track%202.mp3", series: "12. What are you doing with the Seed in your Hands", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "What are you doing with the Seed in your Hands   Track 3", audioUrl: "https://archive.org/download/elgcc-teachings-2023/12.%20What%20are%20you%20doing%20with%20the%20Seed%20in%20your%20Hands/What%20are%20you%20doing%20with%20the%20Seed%20in%20your%20Hands%20-%20Track%203.mp3", series: "12. What are you doing with the Seed in your Hands", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "13. Awakening the Dawn (Morning Devotion)", audioUrl: "https://archive.org/download/elgcc-teachings-2023/13.%20Awakening%20the%20Dawn%20%28Morning%20Devotion%29.mp3", series: "General Teachings", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "14. How to Handfle the Spirit of Offence   Track 5", audioUrl: "https://archive.org/download/elgcc-teachings-2023/14.%20How%20to%20Handle%20the%20Spirit%20of%20Offence/14.%20How%20to%20Handfle%20the%20Spirit%20of%20Offence%20-%20Track%205.mp3", series: "14. How to Handle the Spirit of Offence", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "14. How to Handle the Spirit of Offence   Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2023/14.%20How%20to%20Handle%20the%20Spirit%20of%20Offence/14.%20How%20to%20Handle%20the%20Spirit%20of%20Offence%20-%20Track%201.mp3", series: "14. How to Handle the Spirit of Offence", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "14. How to Handle the Spirit of Offence   Track 2", audioUrl: "https://archive.org/download/elgcc-teachings-2023/14.%20How%20to%20Handle%20the%20Spirit%20of%20Offence/14.%20How%20to%20Handle%20the%20Spirit%20of%20Offence%20-%20Track%202.mp3", series: "14. How to Handle the Spirit of Offence", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "14. How to Handle the Spirit of Offence   Track 3", audioUrl: "https://archive.org/download/elgcc-teachings-2023/14.%20How%20to%20Handle%20the%20Spirit%20of%20Offence/14.%20How%20to%20Handle%20the%20Spirit%20of%20Offence%20-%20Track%203.mp3", series: "14. How to Handle the Spirit of Offence", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "14. How to Handle the Spirit of Offence   Track 4", audioUrl: "https://archive.org/download/elgcc-teachings-2023/14.%20How%20to%20Handle%20the%20Spirit%20of%20Offence/14.%20How%20to%20Handle%20the%20Spirit%20of%20Offence%20-%20Track%204.mp3", series: "14. How to Handle the Spirit of Offence", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "PSALMS   Husbandman", audioUrl: "https://archive.org/download/elgcc-teachings-2023/14.%20How%20to%20Handle%20the%20Spirit%20of%20Offence/PSALMS%20-%20Husbandman.mp3", series: "14. How to Handle the Spirit of Offence", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "15. The Essence of Revelational Knowledge", audioUrl: "https://archive.org/download/elgcc-teachings-2023/15.%20The%20Essence%20of%20Revelational%20Knowledge.mp3", series: "General Teachings", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%201.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 10", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%2010.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 11", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%2011.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 12", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%2012.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 13", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%2013.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 14", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%2014.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 15", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%2015.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 16", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%2016.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%202.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%203.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%204.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%205.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%206.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 7", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%207.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+    { title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 8", audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%208.mp3", series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+
+
+    {
+        title: "THE LEADING AND DEALINGS OF THE SPIRIT TRACK 9",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/2.%20THE%20LEADINGS%20AND%20DEALINGS%20OF%20THE%20SPIRIT/THE%20LEADING%20AND%20DEALINGS%20OF%20THE%20SPIRIT%20TRACK%209.mp3",
+        series: "2. THE LEADINGS AND DEALINGS OF THE SPIRIT",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 10",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%2010.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 11",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%2011.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 12",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%2012.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 13",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%2013.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 14",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%2014.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 15",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%2015.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 16",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%2016.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 17",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%2017.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 18",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%2018.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 7",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%207.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 8",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%208.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "DOMINION IN CHRIST TRACK 9",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%209.mp3",
+        series: "3. DOMINION IN CHRIST",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "4. THINGS TO BRING TO REMEMBRANCE ABOUT DISCIPLESHIP",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/4.%20THINGS%20TO%20BRING%20TO%20REMEMBRANCE%20ABOUT%20DISCIPLESHIP.mp3",
+        series: "General Teachings",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Admonition on Tongues",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/Admonition%20on%20Tongues.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 1",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%201.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 10",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%2010.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 11",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%2011.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 12",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%2012.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 13",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%2013.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 14",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%2014.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 15",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%2015.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 16",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%2016.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 17",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%2017.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 18",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%2018.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 2",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%202.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 3",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%203.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 4",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%204.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 5",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%205.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 6",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%206.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 7",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%207.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 8",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%208.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "OUR SUPERNATURAL FACULTIES SERIES 2B   TRACK 9",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B%20-%20TRACK%209.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "PSALMS   INA TO N JO YI , AGBARA OLUWA",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/5.%20OUR%20SUPERNATURAL%20FACULTIES%20SERIES%202B/PSALMS%20-%20INA%20TO%20N%20JO%20YI%20%2C%20AGBARA%20OLUWA.mp3",
+        series: "5. OUR SUPERNATURAL FACULTIES SERIES 2B",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Building By Wisdom  The Basics   Track 1",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/6.%20Building%20By%20Wisdom-%20The%20Basics/Building%20By%20Wisdom-%20The%20Basics%20-%20Track%201.mp3",
+        series: "6. Building By Wisdom- The Basics",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Building By Wisdom  The Basics   Track 2",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/6.%20Building%20By%20Wisdom-%20The%20Basics/Building%20By%20Wisdom-%20The%20Basics%20-%20Track%202.mp3",
+        series: "6. Building By Wisdom- The Basics",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Building By Wisdom  The Basics   Track 3",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/6.%20Building%20By%20Wisdom-%20The%20Basics/Building%20By%20Wisdom-%20The%20Basics%20-%20Track%203.mp3",
+        series: "6. Building By Wisdom- The Basics",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Building By Wisdom  The Basics   Track 4",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/6.%20Building%20By%20Wisdom-%20The%20Basics/Building%20By%20Wisdom-%20The%20Basics%20-%20Track%204.mp3",
+        series: "6. Building By Wisdom- The Basics",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Psalms 1312023",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/6.%20Building%20By%20Wisdom-%20The%20Basics/Psalms%201312023.mp3",
+        series: "6. Building By Wisdom- The Basics",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "7. Why you should Pray for your Pastor.",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/7.%20Why%20you%20should%20Pray%20for%20your%20Pastor..mp3",
+        series: "General Teachings",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+
+
+    {
+        title: "The Preparations of the Kingdom (The Place of Surrender)   Track 1",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/8.%20The%20Preparations%20of%20the%20Kingdom%20%28The%20Place%20of%20Surrender%29/The%20Preparations%20of%20the%20Kingdom%20%28The%20Place%20of%20Surrender%29%20-%20Track%201.mp3",
+        series: "8. The Preparations of the Kingdom (The Place of Surrender)",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "The Preparations of the Kingdom (The Place of Surrender)   Track 2",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/8.%20The%20Preparations%20of%20the%20Kingdom%20%28The%20Place%20of%20Surrender%29/The%20Preparations%20of%20the%20Kingdom%20%28The%20Place%20of%20Surrender%29%20-%20Track%202.mp3",
+        series: "8. The Preparations of the Kingdom (The Place of Surrender)",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "The Preparations of the Kingdom (The Place of Surrender)   Track 3",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/8.%20The%20Preparations%20of%20the%20Kingdom%20%28The%20Place%20of%20Surrender%29/The%20Preparations%20of%20the%20Kingdom%20%28The%20Place%20of%20Surrender%29%20-%20Track%203.mp3",
+        series: "8. The Preparations of the Kingdom (The Place of Surrender)",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "The Preparations of the Kingdom (The Place of Surrender)   Track 4",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/8.%20The%20Preparations%20of%20the%20Kingdom%20%28The%20Place%20of%20Surrender%29/The%20Preparations%20of%20the%20Kingdom%20%28The%20Place%20of%20Surrender%29%20-%20Track%204.mp3",
+        series: "8. The Preparations of the Kingdom (The Place of Surrender)",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry   Track 1",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20-%20Track%201.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry   Track 10",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20-%20Track%2010.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry   Track 11",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20-%20Track%2011.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry   Track 12",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20-%20Track%2012.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry   Track 2",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20-%20Track%202.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry   Track 3",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20-%20Track%203.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry   Track 4",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20-%20Track%204.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry   Track 5",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20-%20Track%205.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry   Track 7",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20-%20Track%207.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry   Track 8",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20-%20Track%208.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry   Track 9",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20-%20Track%209.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Fulfilling your Ministry Track 6",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/9.%20Fulfilling%20your%20Ministry/Fulfilling%20your%20Ministry%20Track%206.mp3",
+        series: "9. Fulfilling your Ministry",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "APATA GOSPEL INVASION 2023 (DAY 1)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/APATA%20GOSPEL%20INVASION/APATA%20GOSPEL%20INVASION%202023%20%28DAY%201%29.mp3",
+        series: "APATA GOSPEL INVASION",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "APATA GOSPEL INVASION 2023 (DAY 2)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/APATA%20GOSPEL%20INVASION/APATA%20GOSPEL%20INVASION%202023%20%28DAY%202%29.mp3",
+        series: "APATA GOSPEL INVASION",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "APATA GOSPEL INVASION 2023 (DAY 3)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/APATA%20GOSPEL%20INVASION/APATA%20GOSPEL%20INVASION%202023%20%28DAY%203%29.mp3",
+        series: "APATA GOSPEL INVASION",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Children God's weapon of war",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Children%20God%27s%20weapon%20of%20war.mp3",
+        series: "General Teachings",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Order and Accountability in Supernatural Relationships   Track 1",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Church%20Retreat%202023/Order%20and%20Accountability%20in%20Supernatural%20Relationships%20-%20Track%201.mp3",
+        series: "Church Retreat 2023",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Order and Accountability in Supernatural Relationships   Track 2 (old)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Church%20Retreat%202023/Order%20and%20Accountability%20in%20Supernatural%20Relationships%20-%20Track%202%20%28old%29.mp3",
+        series: "Church Retreat 2023",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Order and Accountability in Supernatural Relationships   Track 2",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Church%20Retreat%202023/Order%20and%20Accountability%20in%20Supernatural%20Relationships%20-%20Track%202.mp3",
+        series: "Church Retreat 2023",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Praying out the Multitudes   Track 1",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Church%20Retreat%202023/Praying%20out%20the%20Multitudes%20-%20Track%201.mp3",
+        series: "Church Retreat 2023",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Praying out the Multitudes   Track 2",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Church%20Retreat%202023/Praying%20out%20the%20Multitudes%20-%20Track%202.mp3",
+        series: "Church Retreat 2023",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Psalms   Ina to n jo yi, Iba re Jesu",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Church%20Retreat%202023/Psalms%20-%20Ina%20to%20n%20jo%20yi%2C%20Iba%20re%20Jesu.mp3",
+        series: "Church Retreat 2023",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "The Power of Caution",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Church%20Retreat%202023/The%20Power%20of%20Caution.mp3",
+        series: "Church Retreat 2023",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "The Power of Focus",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Church%20Retreat%202023/The%20Power%20of%20Focus.mp3",
+        series: "Church Retreat 2023",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Dealing with the spirit of offences answers to questions",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Dealing%20with%20the%20spirit%20of%20offences%20answers%20to%20questions.mp3",
+        series: "General Teachings",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Endure Unto Fruitfulness (Workers' Meeting 17062023)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Endure%20Unto%20Fruitfulness%20%28Workers%27%20Meeting%2017062023%29.mp3",
+        series: "General Teachings",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Diverse Miracles (Healing Meeting October 2023)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/HEALING%20MEETINGS/Diverse%20Miracles%20%28Healing%20Meeting%20October%202023%29.mp3",
+        series: "HEALING MEETINGS",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Faith Experiences (Healing Meeting November 2023)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/HEALING%20MEETINGS/Faith%20Experiences%20%28Healing%20Meeting%20November%202023%29.mp3",
+        series: "HEALING MEETINGS",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "HEALING MEETING APRIL 2023",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/HEALING%20MEETINGS/HEALING%20MEETING%20APRIL%202023.mp3",
+        series: "HEALING MEETINGS",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "HEALING MEETING AUGUST 2023 (HUMILITY AND HEALING)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/HEALING%20MEETINGS/HEALING%20MEETING%20AUGUST%202023%20%28HUMILITY%20AND%20HEALING%29.mp3",
+        series: "HEALING MEETINGS",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "HEALING MEETING MARCH 2023 (",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/HEALING%20MEETINGS/HEALING%20MEETING%20MARCH%202023%20%28.mp3",
+        series: "HEALING MEETINGS",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "HEALING MEETING MAY 2023 (MINISTRATIONS)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/HEALING%20MEETINGS/HEALING%20MEETING%20MAY%202023%20%28MINISTRATIONS%29.mp3",
+        series: "HEALING MEETINGS",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "HEALING MEETING SEPTEMBER 2023 (SPIRIT OF FAITH)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/HEALING%20MEETINGS/HEALING%20MEETING%20SEPTEMBER%202023%20%28SPIRIT%20OF%20FAITH%29.mp3",
+        series: "HEALING MEETINGS",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "WONDERFUL. (HEALING MEETING JULY 2023)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/HEALING%20MEETINGS/WONDERFUL.%20%28HEALING%20MEETING%20JULY%202023%29.mp3",
+        series: "HEALING MEETINGS",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "What Manner of Man is this(HEALING MEETING MAY 2023)",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/HEALING%20MEETINGS/What%20Manner%20of%20Man%20is%20this%28HEALING%20MEETING%20MAY%202023%29.mp3",
+        series: "HEALING MEETINGS",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "In Nothing Terrified   Track 1  Pastor Wunmi",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/In%20Nothing%20Terrified%20-%20Track%201-%20Pastor%20Wunmi.mp3",
+        series: "General Teachings",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "PSALMS   We are taking Bold Steps",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/PSALMS%20-%20We%20are%20taking%20Bold%20Steps.mp3",
+        series: "General Teachings",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "SUPERNATURAL BLESSINGS (IKIRUN 2023) Track 1",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/SUPERNATURAL%20BLESSINGS%20%28IKIRUN%202023%29/SUPERNATURAL%20BLESSINGS%20%28IKIRUN%202023%29%20Track%201.mp3",
+        series: "SUPERNATURAL BLESSINGS (IKIRUN 2023)",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "SUPERNATURAL BLESSINGS (IKIRUN 2023) Track 2",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/SUPERNATURAL%20BLESSINGS%20%28IKIRUN%202023%29/SUPERNATURAL%20BLESSINGS%20%28IKIRUN%202023%29%20Track%202.mp3",
+        series: "SUPERNATURAL BLESSINGS (IKIRUN 2023)",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+    {
+        title: "Why Am I Serving   Worker's Meeting 03062023",
+        audioUrl: "https://archive.org/download/elgcc-teachings-2023/Why%20Am%20I%20Serving%20-%20Worker%27s%20Meeting%2003062023.mp3",
+        series: "General Teachings",
+        year: 2023,
+        speaker: "Stephen Tijesuni Oyagbile"
+    },
+
 ];
 
 // Helper to get consistent gradient for series
@@ -645,6 +1583,110 @@ const getSeriesGradient = (series: string) => {
             return 'from-[#5A6A7A] to-[#8A9AAA]'; // Blue-Gray Theme
         case 'Church Retreat 2020':
             return 'from-[#8B7355] to-[#D4C5A8]'; // Gold Theme
+        // 2021 Series
+        case '10. THE KNOWLEDGE OF GOD\'S STEADFAST LOVE IN CHRIST':
+            return 'from-[#993366] to-[#CC6699]'; // Rose Theme (Love)
+        case '11. CONCERNING UTTERANCE':
+            return 'from-[#4C7F7A] to-[#78A8A2]'; // Teal Theme
+        case '12. CONTENDING IN THIS WORK (IT IS TIME TO WAR)':
+            return 'from-[#7F4C4C] to-[#A86868]'; // Red/Crimson Theme (War)
+        case '13. CONTENDING IN & FOR SUPERNATURAL RELATIONSHIPS (WINNING WITH WISDOM)':
+            return 'from-[#5D4A6B] to-[#8D7A9E]'; // Purple Theme (relationship/wisdom)
+        case '14. THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT)':
+            return 'from-[#7F5F4C] to-[#A88568]'; // Amber Theme (Hands/Impartation)
+        case '16. CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES)':
+            return 'from-[#7F764C] to-[#A89E78]'; // Gold Theme (Riches)
+        case '2. SUPERNATURALLY CONSCIOUS IN DISCIPLESHIP':
+            return 'from-[#4C6B7F] to-[#7898A8]'; // Blue Theme (Discipleship)
+        case '2021 2':
+            return 'from-[#5A6A7A] to-[#8A9AAA]'; // Blue-Gray Theme (General)
+        case '3. THE HARVEST OF GOD':
+            return 'from-[#CC7A00] to-[#FF9933]'; // Orange Theme (Harvest)
+        case '7. FOLLOWING THE LEADING OF THE SPIRIT (SERIES 3)':
+            return 'from-[#664C7F] to-[#9278A8]'; // Violet Theme (Spirit)
+        case '8. APPRECIATION & HONOUR':
+            return 'from-[#8B7355] to-[#D4C5A8]'; // Gold Theme (Honour)
+        case '9. EXCEEDING GREATNESS OF HIS POWER':
+            return 'from-[#993333] to-[#CC6666]'; // Dark Red Theme (Power)
+        case 'CHURCH RETREAT 2021':
+            return 'from-[#8B7355] to-[#D4C5A8]'; // Gold Theme
+        case 'JOS BRETHREN RETREAT':
+            return 'from-[#556339] to-[#7F8C5F]'; // Growth Green (Retreat)
+        case 'UTTERANCE & INSTRUCTIONS':
+            return 'from-[#4C737F] to-[#789CA8]'; // Sky Blue Theme
+        // 2022 Series
+        case '1. PRIORITY; A SUPERNATURAL ORDERED 2022':
+            return 'from-[#4C7F5F] to-[#78A88F]'; // Emerald Theme (Priority)
+        case '10. HOW TO FLOW WITH THE SPIRIT OF GOD IN SPECIAL MEETINGS series 2':
+            return 'from-[#664C7F] to-[#9278A8]'; // Violet Theme (Flow/Spirit)
+        case '11. DEALING WITH THE ATTACKS OF THE ENEMY (THE PLACE & IMPORTANCE OF UNITY)':
+            return 'from-[#7F4C4C] to-[#A86868]'; // Red/Crimson Theme (Warfare)
+        case '13. A SACRED ATTITUDE IN THE LOCAL CHURCH':
+            return 'from-[#5D4A6B] to-[#8D7A9E]'; // Purple Theme (Sacred/Reverence)
+        case '14. MIRACLES':
+            return 'from-[#CC7A00] to-[#FF9933]'; // Orange/Gold Theme (Miracles)
+        case '15. COMMITMENT':
+            return 'from-[#4C6B7F] to-[#7898A8]'; // Blue Theme (Commitment)
+        case '16. CHURCH RETREAT 2022':
+            return 'from-[#8B7355] to-[#D4C5A8]'; // Gold Theme (Retreat)
+        case '17. HOW TO BE A BLESSING IN THIS LOCAL CHURCH':
+            return 'from-[#4C7F7A] to-[#78A8A2]'; // Teal Theme (Blessing)
+        case '18. OUR SUPERNATURAL FACULTIES SERIES 2':
+            return 'from-[#664C7F] to-[#9278A8]'; // Violet Theme (Supernatural)
+        case '2. BIBLE INTERPRETATION':
+            return 'from-[#7F6B4C] to-[#A89268]'; // Bronze Theme (Word)
+        case '20. NECESSITY OF PRAYERS':
+            return 'from-[#4C737F] to-[#789CA8]'; // Sky Blue Theme (Prayer)
+        case '3. A LIFE OF TOTAL CONSECRATION TO GOD\'S PLAN':
+            return 'from-[#5A6A7A] to-[#8A9AAA]'; // Blue-Gray Theme (Consecration)
+        case '5. HEALING SERVICES':
+            return 'from-[#4C7F7A] to-[#78A8A2]'; // Teal/Turquoise Theme (Healing)
+        case '6. SUPERNATURAL BOLDNESS; WORKING IN THE CONFIDENCE OF THE SPIRIT (CHRIST WORKING IN AND THROUGH THE CHURCH)':
+            return 'from-[#993333] to-[#CC6666]'; // Dark Red Theme (Boldness)
+        case '7. THE CROSS; THE COST OF THE CAUSE':
+            return 'from-[#7F4C4C] to-[#A86868]'; // Red Theme (Cross)
+        case '8. THE WONDERFUL NAME OF JESUS':
+            return 'from-[#5D4A6B] to-[#8D7A9E]'; // Purple Theme (Name)
+        case '9. THE RESSURECTION; AN INSTRUCTION':
+            return 'from-[#7F7A4C] to-[#A8A278]'; // Light Gold Theme (Resurrection/Life)
+        case 'LEADERS, AND WORKERS\' MEETING':
+            return 'from-[#5D4A6B] to-[#8D7A9E]'; // Purple Theme (Leadership)
+        case 'PSALMS GIVEN':
+            return 'from-[#556339] to-[#6B7F4C]'; // Dark Olive Theme (Psalms)
+        case 'THE BASICS OF DISCIPLESHIP (LEADERS, AND WORKERS\' MEETING 2022)':
+            return 'from-[#7F6B4C] to-[#A89268]'; // Bronze Theme (Basics)
+        case 'THE MISSION IS POSSIBLE':
+        case 'THE MISSION IS POSSIBLE (OFFA)':
+            return 'from-[#CC7A00] to-[#FF9933]'; // Orange Theme (Mission)
+
+        // 2023 Series
+        case '1. REDEEMING THE TIMES (NEW YEAR EXHORTATION)':
+            return 'from-[#4C7F5F] to-[#78A88F]'; // Emerald Theme
+        case '10. How to Handle Difficult Disciples':
+            return 'from-[#5A6A7A] to-[#8A9AAA]'; // Blue-Gray Theme
+        case '11. The Leading of God\'s Spirit Series 5':
+        case '2. THE LEADINGS AND DEALINGS OF THE SPIRIT':
+            return 'from-[#664C7F] to-[#9278A8]'; // Violet Theme
+        case '12. What are you doing with the Seed in your Hands':
+            return 'from-[#7F6B4C] to-[#A89268]'; // Bronze Theme
+        case '14. How to Handle the Spirit of Offence':
+            return 'from-[#7F4C4C] to-[#A86868]'; // Red/Crimson Theme
+        case '3. DOMINION IN CHRIST':
+            return 'from-[#8B7355] to-[#D4C5A8]'; // Gold Theme
+        case '5. OUR SUPERNATURAL FACULTIES SERIES 2B':
+            return 'from-[#5D4A6B] to-[#8D7A9E]'; // Purple Theme
+        case '6. Building By Wisdom- The Basics':
+            return 'from-[#4C6B7F] to-[#7898A8]'; // Blue Theme
+        case '8. The Preparations of the Kingdom (The Place of Surrender)':
+            return 'from-[#7F764C] to-[#A89E78]'; // Gold Theme
+        case '9. Fulfilling your Ministry':
+            return 'from-[#CC7A00] to-[#FF9933]'; // Orange Theme
+        case 'APATA GOSPEL INVASION':
+            return 'from-[#993333] to-[#CC6666]'; // Dark Red Theme
+        case 'Church Retreat 2023':
+            return 'from-[#8B7355] to-[#D4C5A8]'; // Gold Theme
+        case 'SUPERNATURAL BLESSINGS (IKIRUN 2023)':
+            return 'from-[#4C7F7A] to-[#78A8A2]'; // Teal Theme
         default:
             return 'from-[#6B7F4C] to-[#1A1A1A]'; // Olive to Dark
     }
