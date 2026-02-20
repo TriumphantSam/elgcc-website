@@ -23,6 +23,13 @@ export default function Programmes() {
             description: 'Powerful night of worship, intercession and the word',
             color: 'from-blue-500/20 to-blue-500/5',
         },
+        {
+            day: '2ND, 3RD & 4TH FRIDAY',
+            time: '5:30PM - 8:00PM',
+            title: 'Friday Service',
+            description: 'Teaching, prayers and spiritual growth',
+            color: 'from-emerald-500/20 to-emerald-500/5',
+        }
     ];
 
     return (
@@ -40,7 +47,7 @@ export default function Programmes() {
                 </div>
 
                 {/* Programme Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {programmes.map((programme, index) => (
                         <div
                             key={index}
