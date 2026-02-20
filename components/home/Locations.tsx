@@ -54,7 +54,7 @@ export default function Locations() {
                             <h3 className="text-xl font-bold uppercase tracking-wider text-white">JOS</h3>
                         </div>
                         <p className="text-white/70 text-sm max-w-sm mx-auto leading-relaxed">
-                            Top floor, science and technology education dept, close to school library permanent site, University of Jos
+                            Summit international college, Tudun Wada, Jos, Plateau State.
                         </p>
                     </div>
                 </div>

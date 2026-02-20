@@ -41,7 +41,7 @@ const EDE_COORDS: [number, number] = [7.7303, 4.4375]; // Polytechnic Ede
 const markers = [
     { name: 'IBADAN (Headquarters)', coords: IBADAN_COORDS, address: 'No 105, Top floor, Mouka Foam Building, Opp. Polaris Bank, Abayomi Bus Stop, Iwo Road' },
     { name: 'LAGOS', coords: LAGOS_COORDS, address: '5 Ladipo Banjo, off Mobil Junction, Oke-ira, Ogba' },
-    { name: 'JOS (Plateau)', coords: JOS_COORDS, address: 'Close to School Library, University of Jos' },
+    { name: 'JOS (Plateau)', coords: JOS_COORDS, address: 'Summit international college, Tudun Wada, Jos, Plateau State.' },
     { name: 'ILE-IFE', coords: IFE_COORDS, address: 'Total Tutorial Academy, OAU Campus' },
     { name: 'EDE', coords: EDE_COORDS, address: 'The Pavilion, Sports Complex, Polytechnic Ede' },
 ];

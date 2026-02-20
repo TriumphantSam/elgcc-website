@@ -29,10 +29,10 @@ const locations = [
     {
         city: 'JOS (PLATEAU)',
         subtitle: 'NEW CREATION FAMILY CHURCH',
-        address: 'Top floor, science and technology education department, close to the school library permanent site, University of Jos, Plateau State.',
+        address: 'Summit international college, Tudun Wada, Jos, Plateau State.',
         phones: '08035777652, 09121284061, 08163008217',
         leader: 'Brother Enoch on 08035777652, 09121284061, 08163008217',
-        meetingTimes: 'Every Sunday: 9am to 12noon\nEvery Thursdays: 4:30pm to 5:30pm.'
+        meetingTimes: 'Sundays: 9am and 5pm\nThursdays: 4pm'
     },
     {
         city: 'EDE',
