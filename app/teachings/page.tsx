@@ -1414,7 +1414,6 @@ const sermons: Sermon[] = [
     year: 2023,
     speaker: "Stephen Tijesuni Oyagbile"
   },
-  ,
   // 2024 Sermons
   {
     title: "Understanding the Purpose of Man in Time   Track 1",
