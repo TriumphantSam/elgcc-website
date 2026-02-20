@@ -28,10 +28,10 @@ export default function Hero() {
                     {/* CTA Buttons */}
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                         <Link href="#programmes" className="btn-primary">
-                            EXPLORE PROGRAMMES
+                            FELLOWSHIP WITH US
                         </Link>
                         <Link href="/teachings" className="btn-secondary">
-                            WATCH SERMONS
+                            LISTEN TO TEACHINGS
                         </Link>
                     </div>
 

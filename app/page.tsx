@@ -1,7 +1,8 @@
 import Hero from "@/components/home/Hero";
 import Programmes from "@/components/home/Programmes";
 import About from "@/components/home/About";
-import Contact from "@/components/home/Contact";
+import Locations from "@/components/home/Locations";
+import SocialMedia from "@/components/home/SocialMedia";
 
 export default function Home() {
     return (
@@ -9,7 +10,8 @@ export default function Home() {
             <Hero />
             <Programmes />
             <About />
-            <Contact />
+            <Locations />
+            <SocialMedia />
         </>
     );
 }

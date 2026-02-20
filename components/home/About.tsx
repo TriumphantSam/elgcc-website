@@ -22,7 +22,7 @@ export default function About() {
                             <span className="gradient-text">ELGCC</span>
                         </h2>
 
-                        <div className="space-y-4 text-white/70 leading-relaxed">
+                        <div className="space-y-4 text-white/70 leading-relaxed mb-8">
                             <p>
                                 Welcome to ELGCC - Eternal Life Global Community Church, a vibrant community of believers committed to experiencing God&apos;s presence,
                                 growing in His word, and impacting our world with the gospel of Jesus Christ.
@@ -39,6 +39,13 @@ export default function About() {
                                 ELGCC is a place where you belong. Join us as we journey together in faith, hope, and love.
                             </p>
                         </div>
+
+                        <a href="/contact" className="inline-flex items-center gap-2 group text-primary font-bold tracking-widest text-sm uppercase hover:text-primary-light transition-colors">
+                            <span className="border-b border-primary/30 group-hover:border-primary-light transition-colors pb-1">Get In Touch</span>
+                            <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>

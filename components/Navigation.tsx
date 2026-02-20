@@ -11,7 +11,9 @@ export default function Navigation() {
         { name: 'ABOUT', href: '#about' },
         { name: 'TEACHINGS', href: '/teachings' },
         { name: 'SPECIAL PROGRAMMES', href: '/programmes' },
-        { name: 'CONTACT', href: '#contact' },
+        { name: 'LOCATIONS', href: '/locations' },
+        { name: 'PARTNERSHIP', href: '/partnership' },
+        { name: 'CONTACT US', href: '/contact' },
     ];
 
     return (
@@ -44,7 +46,7 @@ export default function Navigation() {
 
                     {/* CTA Button */}
                     <div className="hidden md:block">
-                        <Link href="#contact" className="btn-primary text-sm">
+                        <Link href="/contact" className="btn-primary text-sm">
                             JOIN US
                         </Link>
                     </div>
@@ -95,7 +97,7 @@ export default function Navigation() {
                                 </Link>
                             ))}
                             <Link
-                                href="#contact"
+                                href="/contact"
                                 onClick={() => setIsMenuOpen(false)}
                                 className="btn-primary text-sm inline-block text-center"
                             >
