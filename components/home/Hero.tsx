@@ -25,7 +25,7 @@ export default function Hero() {
             {images.map((src, index) => (
                 <div
                     key={src}
-                    className={`absolute inset-0 transition-opacity duration-[2000ms] ease-in-out z-0 ${index === currentImageIndex ? 'opacity-40 scale-105' : 'opacity-0 scale-100'}`}
+                    className={`absolute inset-0 transition-opacity duration-[2000ms] ease-in-out z-0 ${index === currentImageIndex ? 'opacity-[0.65] scale-105' : 'opacity-0 scale-100'}`}
                     style={{
                         backgroundImage: `url('${src}')`,
                         backgroundPosition: 'center',
@@ -37,10 +37,10 @@ export default function Hero() {
             ))}
 
             {/* Gradient overlay for text readability */}
-            <div className="absolute inset-0 bg-gradient-to-br from-dark/95 via-dark/80 to-dark/95 z-0">
+            <div className="absolute inset-0 bg-gradient-to-br from-dark/80 via-dark/60 to-dark/80 z-0">
                 {/* Decorative elements */}
-                <div className="absolute top-20 right-20 w-72 h-72 bg-primary/10 rounded-full blur-[100px]"></div>
-                <div className="absolute bottom-20 left-20 w-96 h-96 bg-primary/10 rounded-full blur-[100px]"></div>
+                <div className="absolute top-20 right-20 w-72 h-72 bg-primary/20 rounded-full blur-[100px]"></div>
+                <div className="absolute bottom-20 left-20 w-96 h-96 bg-primary/20 rounded-full blur-[100px]"></div>
             </div>
 
             {/* Content */}
