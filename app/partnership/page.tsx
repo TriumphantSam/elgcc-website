@@ -78,13 +78,13 @@ export default function PartnershipPage() {
 
                     <h3 className="text-xl font-bold text-white mb-4 relative z-10">Have questions regarding your giving?</h3>
                     <p className="text-white/70 mb-8 max-w-xl mx-auto relative z-10">
-                        If you need further assistance or wish to notify us about your partnership, please feel free to reach out to our administration team.
+                        If you need further assistance or wish to notify us about your partnership, please feel free to reach out to us.
                     </p>
                     <a
                         href="mailto:Eternal_life_gcc@yahoo.com"
                         className="inline-flex items-center gap-2 bg-dark/80 text-white border border-white/10 font-bold px-8 py-4 rounded-xl hover:bg-white/10 hover:border-white/20 transition-all relative z-10 uppercase tracking-widest text-sm shadow-xl"
                     >
-                        Contact Administration
+                        Contact Us
                         <svg className="w-5 h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
