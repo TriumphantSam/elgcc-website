@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 
 export default function Hero() {
     const images = [
-        '/images/IMG_0658.jpg',
+        '/images/IMG_E4117.JPG',
         '/images/IMG_0787.jpg'
     ];
 
