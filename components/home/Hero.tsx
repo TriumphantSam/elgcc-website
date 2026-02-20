@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 export default function Hero() {
@@ -20,20 +21,22 @@ export default function Hero() {
     }, [images.length]);
 
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark">
+        <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden bg-dark">
             {/* Background Slideshow */}
             {images.map((src, index) => (
                 <div
                     key={src}
-                    className={`absolute inset-0 transition-opacity duration-[2000ms] ease-in-out z-0 ${index === currentImageIndex ? 'opacity-[0.65] scale-105' : 'opacity-0 scale-100'}`}
-                    style={{
-                        backgroundImage: `url('${src}')`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat',
-                        transitionProperty: 'opacity, transform'
-                    }}
-                />
+                    className={`absolute inset-0 transition-all duration-[2000ms] ease-in-out z-0 ${index === currentImageIndex ? 'opacity-[0.65] scale-105' : 'opacity-0 scale-100'}`}
+                >
+                    <Image
+                        src={src}
+                        alt="ELGCC Welcome"
+                        fill
+                        className="object-cover object-center md:object-top"
+                        priority={index === 0}
+                        quality={90}
+                    />
+                </div>
             ))}
 
             {/* Gradient overlay for text readability */}
