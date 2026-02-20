@@ -32,7 +32,7 @@ export default function Hero() {
                         src={src}
                         alt="ELGCC Welcome"
                         fill
-                        className="object-cover object-center md:object-top"
+                        className="object-cover object-top"
                         priority={index === 0}
                         quality={90}
                     />
