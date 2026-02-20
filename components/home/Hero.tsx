@@ -26,7 +26,7 @@ export default function Hero() {
             {images.map((src, index) => (
                 <div
                     key={src}
-                    className={`absolute inset-0 transition-all duration-[2000ms] ease-in-out z-0 ${index === currentImageIndex ? 'opacity-[0.65] scale-105' : 'opacity-0 scale-100'}`}
+                    className={`absolute inset-0 transition-all duration-[2000ms] ease-in-out z-0 ${index === currentImageIndex ? 'opacity-100 scale-105' : 'opacity-0 scale-100'}`}
                 >
                     <Image
                         src={src}
@@ -40,7 +40,7 @@ export default function Hero() {
             ))}
 
             {/* Gradient overlay for text readability */}
-            <div className="absolute inset-0 bg-gradient-to-br from-dark/80 via-dark/60 to-dark/80 z-0">
+            <div className="absolute inset-0 bg-gradient-to-br from-dark/80 via-dark/50 to-dark/80 z-0">
                 {/* Decorative elements */}
                 <div className="absolute top-20 right-20 w-72 h-72 bg-primary/20 rounded-full blur-[100px]"></div>
                 <div className="absolute bottom-20 left-20 w-96 h-96 bg-primary/20 rounded-full blur-[100px]"></div>
