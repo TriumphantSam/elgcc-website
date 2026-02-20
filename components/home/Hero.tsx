@@ -1,44 +1,77 @@
+'use client';
+
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
 
 export default function Hero() {
+    const images = [
+        '/images/IMG_0658.jpg',
+        '/images/IMG_0787.jpg'
+    ];
+
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+        }, 10000); // 10 seconds
+
+        return () => clearInterval(interval);
+    }, [images.length]);
+
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-            {/* Background with gradient overlay */}
-            <div className="absolute inset-0 bg-gradient-to-br from-dark via-dark-lighter to-dark z-0">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-dark">
+            {/* Background Slideshow */}
+            {images.map((src, index) => (
+                <div
+                    key={src}
+                    className={`absolute inset-0 transition-opacity duration-[2000ms] ease-in-out z-0 ${index === currentImageIndex ? 'opacity-40 scale-105' : 'opacity-0 scale-100'}`}
+                    style={{
+                        backgroundImage: `url('${src}')`,
+                        backgroundPosition: 'center',
+                        backgroundSize: 'cover',
+                        backgroundRepeat: 'no-repeat',
+                        transitionProperty: 'opacity, transform'
+                    }}
+                />
+            ))}
+
+            {/* Gradient overlay for text readability */}
+            <div className="absolute inset-0 bg-gradient-to-br from-dark/95 via-dark/80 to-dark/95 z-0">
                 {/* Decorative elements */}
-                <div className="absolute top-20 right-20 w-72 h-72 bg-primary/5 rounded-full blur-3xl"></div>
-                <div className="absolute bottom-20 left-20 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+                <div className="absolute top-20 right-20 w-72 h-72 bg-primary/10 rounded-full blur-[100px]"></div>
+                <div className="absolute bottom-20 left-20 w-96 h-96 bg-primary/10 rounded-full blur-[100px]"></div>
             </div>
 
             {/* Content */}
             <div className="container-custom relative z-10 text-center pt-20">
                 <div className="max-w-4xl mx-auto">
                     {/* Main Heading */}
-                    <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                    <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight drop-shadow-2xl">
                         <span className="block text-white">UNVEILING THE FATHER</span>
-                        <span className="block gradient-text">IN THE FACE OF THE SON,</span>
-                        <span className="block gradient-text">JESUS CHRIST</span>
+                        <span className="block text-primary-light mix-blend-screen text-shadow-sm">IN THE FACE OF THE SON,</span>
+                        <span className="block text-primary-light mix-blend-screen text-shadow-sm">JESUS CHRIST</span>
                     </h1>
 
                     {/* Subheading */}
-                    <p className="text-lg md:text-xl text-white/70 mb-8 max-w-2xl mx-auto">
+                    <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto drop-shadow-md font-medium">
                         Join us as we worship together, grow in faith, and transform lives through the power of God&apos;s word.
                     </p>
 
                     {/* CTA Buttons */}
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                        <Link href="#programmes" className="btn-primary">
+                        <Link href="#programmes" className="btn-primary shadow-xl hover:shadow-primary/20">
                             FELLOWSHIP WITH US
                         </Link>
-                        <Link href="/teachings" className="btn-secondary">
+                        <Link href="/teachings" className="btn-secondary shadow-xl hover:bg-white/10 backdrop-blur-md">
                             LISTEN TO TEACHINGS
                         </Link>
                     </div>
 
                     {/* Scroll Indicator */}
-                    <div className="mt-16 animate-bounce">
+                    <div className="mt-16 animate-bounce drop-shadow-xl">
                         <svg
-                            className="w-6 h-6 mx-auto text-primary"
+                            className="w-8 h-8 mx-auto text-primary-light"
                             fill="none"
                             stroke="currentColor"
                             viewBox="0 0 24 24"
