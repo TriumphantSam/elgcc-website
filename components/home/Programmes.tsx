@@ -6,28 +6,28 @@ export default function Programmes() {
             day: 'SUNDAY',
             time: '7:45AM',
             title: 'Sunday Service',
-            description: 'Join us for worship, teaching, and fellowship',
+            description: 'Join us',
             color: 'from-primary/20 to-primary/5',
         },
         {
             day: 'WEDNESDAY',
             time: '5:30PM - 8:00PM',
             title: 'Midweek Service',
-            description: 'Bible study and prayer meeting',
+            description: 'Join us',
             color: 'from-purple-500/20 to-purple-500/5',
         },
         {
             day: 'EVERY FIRST FRIDAY',
             time: '10:00PM',
             title: 'Night VIGIL',
-            description: 'Powerful night of worship, intercession and the word',
+            description: 'Prayer meeting',
             color: 'from-blue-500/20 to-blue-500/5',
         },
         {
             day: '2ND, 3RD & 4TH FRIDAY',
             time: '5:30PM - 8:00PM',
             title: 'Friday Service',
-            description: 'Teaching, prayers and spiritual growth',
+            description: 'Prayer meeting',
             color: 'from-emerald-500/20 to-emerald-500/5',
         }
     ];
