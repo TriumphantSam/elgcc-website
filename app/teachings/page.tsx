@@ -49,10 +49,6 @@ const sermons: Sermon[] = [
   { title: "Psalms by Pastor (16th Jan 2026) - The Honor of the Lord", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Psalms%20by%20Pastor%2816th%20Jan%202026%29-%20The%20Honor%20of%20the%20Lord.mp3", series: "Psalms", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
   { title: "Psalms by Pastor (16th Jan 2026) - The doors are opened", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Psalms%20by%20Pastor%2816th%20Jan%202026%29-%20The%20doors%20are%20opened.mp3", series: "Psalms", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
 
-  // Reviews
-  { title: "Review of Joy of the Lord by Pastor Tayo Esho Aduragbemi", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Review%20of%20Joy%20of%20the%20Lord%20by%20Pastor%20Tayo%20Esho%20Aduragbemi.mp3", series: "Reviews", year: 2026, speaker: "Pastor Tayo Esho Aduragbemi" },
-  { title: "Review of Joy of the Lord by Pastor Tayo Esho", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Review%20of%20Joy%20of%20the%20Lord%20by%20Pastor%20Tayo%20Esho.mp3", series: "Reviews", year: 2026, speaker: "Pastor Tayo Esho" },
-  { title: "Review of Joy of the Lord by Pastor Yewande", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Review%20of%20Joy%20of%20the%20Lord%20by%20Pastor%20Yewande.mp3", series: "Reviews", year: 2026, speaker: "Pastor Yewande" },
 
   // Special Messages
   { title: "January 2026 Healing Meeting", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/January%202026%20Healing%20Meeting.mp3", series: "Special Messages", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
