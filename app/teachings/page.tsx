@@ -54,6 +54,15 @@ const sermons: Sermon[] = [
   { title: "January 2026 Healing Meeting", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/January%202026%20Healing%20Meeting.mp3", series: "Special Messages", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
   { title: "Joy of the Lord (Impartation and prophecy 11th February 2026)", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Joy%20of%20the%20Lord%20%28Impartation%20and%20prophecy%2011th%20February%202026%29.mp3", series: "Special Messages", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
 
+  // General Teachings 2026
+  { title: "Believers Authority - Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2026/Believers%20Authority%20-Track%201.mp3", series: "General Teachings", year: 2026, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "Believers Authority - Track 2", audioUrl: "https://archive.org/download/elgcc-teachings-2026/Believers%20Authority%20-Track%202.mp3", series: "General Teachings", year: 2026, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "Believers Authority - Track 3", audioUrl: "https://archive.org/download/elgcc-teachings-2026/Believers%20Authority-%20Track%203.mp3", series: "General Teachings", year: 2026, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "The Joy of the Lord - Track 18", audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Joy%20of%20the%20Lord%20-%20Track%2018.mp3", series: "General Teachings", year: 2026, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "The Joy of the Lord - Track 19", audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Joy%20of%20the%20Lord%20-%20Track%2019.mp3", series: "General Teachings", year: 2026, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "The Joy of the Lord - Track 20", audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Joy%20of%20the%20Lord%20-%20Track%2020.mp3", series: "General Teachings", year: 2026, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "The Joy of the Lord - Track 21", audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Joy%20of%20the%20Lord%20-%20Track%2021.mp3", series: "General Teachings", year: 2026, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "The Joy of the Lord - Track 22", audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Joy%20of%20the%20Lord%20-%20Track%2022.mp3", series: "General Teachings", year: 2026, speaker: "Stephen Tijesuni Oyagbile" },
 
   // 2016 Sermons - All Series
   { title: "05. Infallible Proofs  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/05.%20Infallible%20Proofs-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
