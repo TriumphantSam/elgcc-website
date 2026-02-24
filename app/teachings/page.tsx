@@ -46,7 +46,9 @@ const sermons: Sermon[] = [
   { title: "The Joy of the Lord - Track 20", audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Joy%20of%20the%20Lord%20-%20Track%2020.mp3", series: "The Joy of the Lord", year: 2026, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "The Joy of the Lord - Track 21", audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Joy%20of%20the%20Lord%20-%20Track%2021.mp3", series: "The Joy of the Lord", year: 2026, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "The Joy of the Lord - Track 22", audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Joy%20of%20the%20Lord%20-%20Track%2022.mp3", series: "The Joy of the Lord", year: 2026, speaker: "Stephen Tijesuni Oyagbile" },
-
+  {
+    title: "The Joy of the Lord   Track 23", audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Joy%20of%20the%20Lord%20-%20Track%2023.mp3", series: "The Joy of the Lord", year: 2026, speaker: "Stephen Tijesuni Oyagbile"
+  },
   // Psalms Series
   { title: "Psalms by Pastor 1", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Psalms%20by%20Pastor%201.mp3", series: "Psalms", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
   { title: "Psalms 4th Feb", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/psalms%204th%20feb.mp3", series: "Psalms", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
