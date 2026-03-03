@@ -3175,7 +3175,51 @@ const sermons: Sermon[] = [
     series: "General Teachings",
     year: 2025,
     speaker: "Stephen Tijesuni Oyagbile"
+  },
+  // --- START OF 2026 SERMONS ---
+  {
+    title: "The Keys of the Kingdom(Impartation & Blessing of God through His Vessels   Track 1",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Keys%20of%20the%20Kingdom%28Impartation%20%26%20Blessing%20of%20God%20through%20His%20Vessels%20-%20Track%201.mp3",
+    series: "LIFE IN CHRIST CONFERENCE 2026",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "The Keys of the Kingdom(Impartation & Blessing of God through His Vessels   Track 2",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Keys%20of%20the%20Kingdom%28Impartation%20%26%20Blessing%20of%20God%20through%20His%20Vessels%20-%20Track%202.mp3",
+    series: "LIFE IN CHRIST CONFERENCE 2026",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "The Keys of the Kingdom(Impartation & Blessing of God through His Vessels   Track 3",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Keys%20of%20the%20Kingdom%28Impartation%20%26%20Blessing%20of%20God%20through%20His%20Vessels%20-%20Track%203.mp3",
+    series: "LIFE IN CHRIST CONFERENCE 2026",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "The Keys of the Kingdom(Impartation & Blessing of God through His Vessels   Track 4",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Keys%20of%20the%20Kingdom%28Impartation%20%26%20Blessing%20of%20God%20through%20His%20Vessels%20-%20Track%204.mp3",
+    series: "LIFE IN CHRIST CONFERENCE 2026",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "The Keys of the Kingdom(Impartation & Blessing of God through His Vessels   Track 5",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Keys%20of%20the%20Kingdom%28Impartation%20%26%20Blessing%20of%20God%20through%20His%20Vessels%20-%20Track%205.mp3",
+    series: "LIFE IN CHRIST CONFERENCE 2026",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "The Keys of the Kingdom(Impartation & Blessing of God through His Vessels   Track 6",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Keys%20of%20the%20Kingdom%28Impartation%20%26%20Blessing%20of%20God%20through%20His%20Vessels%20-%20Track%206.mp3",
+    series: "LIFE IN CHRIST CONFERENCE 2026",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
   }
+  // --- END OF 2026 ---
 ];
 
 // Helper to get consistent gradient for series
@@ -3500,6 +3544,9 @@ const getSeriesGradient = (series: string) => {
       return 'from-[#6B7F4C] to-[#1A1A1A]'; // Olive Theme
     case 'Why the Training of the Spirit':
       return 'from-[#4C6B7F] to-[#7898A8]'; // Blue Theme
+    // 2026 Series
+    case 'LIFE IN CHRIST CONFERENCE 2026':
+      return 'from-[#7B4C8B] to-[#A878C8]'; // Royal Purple Theme
     default:
       return 'from-[#6B7F4C] to-[#1A1A1A]'; // Olive to Dark
   }
@@ -3655,11 +3702,24 @@ export default function TeachingsPage() {
                           ) : (
                             // CSS Gradient Placeholder
                             <div className={`w-full h-full flex flex-col items-center justify-center p-6 text-center bg-gradient-to-br ${getSeriesGradient(sermon.series)}`}>
+                              {/* Year Badge */}
+                              <div className="absolute top-3 left-3 z-20 bg-black/40 backdrop-blur-sm text-white/90 font-bold text-xs px-2.5 py-1 rounded-full border border-white/20">
+                                {sermon.year}
+                              </div>
+                              {/* Track Number Badge */}
+                              {(() => {
+                                const trackMatch = sermon.title.match(/Track\s*(\d+)/i);
+                                return trackMatch ? (
+                                  <div className="absolute top-3 right-3 z-20 bg-black/40 backdrop-blur-sm text-white font-bold text-xs px-2.5 py-1 rounded-full border border-white/20">
+                                    Track {trackMatch[1]}
+                                  </div>
+                                ) : null;
+                              })()}
                               <div className="relative z-10 transform group-hover:scale-105 transition-transform duration-300 w-full">
                                 <span className="text-white/60 text-[10px] font-bold tracking-widest uppercase mb-2 block border border-white/20 rounded-full px-2 py-0.5 w-fit mx-auto bg-black/10 backdrop-blur-sm">
                                   {sermon.series}
                                 </span>
-                                <h3 className="text-lg md:text-xl font-bold text-white mb-3 leading-tight shadow-sm line-clamp-2 px-2">
+                                <h3 className="text-lg md:text-xl font-bold text-white mb-3 leading-tight shadow-sm line-clamp-3 px-2">
                                   {sermon.title}
                                 </h3>
                                 <div className="w-8 h-0.5 bg-white/40 mx-auto rounded-full mb-2"></div>
