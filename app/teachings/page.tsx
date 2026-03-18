@@ -3218,6 +3218,34 @@ const sermons: Sermon[] = [
     series: "LIFE IN CHRIST CONFERENCE 2026",
     year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Believers Authority  Track 4",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Believers%20Authority-%20Track%204.mp3",
+    series: "Believers Authority",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Believers Authority  Track 5",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Believers%20Authority-%20Track%205.mp3",
+    series: "Believers Authority",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Miracles in your Mouth",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth.mp3",
+    series: "Miracles in your Mouth",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "What to do after Life In Christ Conference 2026",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/What%20to%20do%20after%20Life%20In%20Christ%20Conference%202026.mp3",
+    series: "What to do after Life In Christ Conference 2026",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
   }
   // --- END OF 2026 ---
 ];
@@ -3547,6 +3575,12 @@ const getSeriesGradient = (series: string) => {
     // 2026 Series
     case 'LIFE IN CHRIST CONFERENCE 2026':
       return 'from-[#7B4C8B] to-[#A878C8]'; // Royal Purple Theme
+    case 'Believers Authority':
+      return 'from-[#8B4C4C] to-[#C87878]'; // Ruby Red Theme
+    case 'Miracles in your Mouth':
+      return 'from-[#4C8B7B] to-[#78C8B8]'; // Aqua Marine Theme
+    case 'What to do after Life In Christ Conference 2026':
+      return 'from-[#335588] to-[#6688BB]'; // Indigo Theme
     default:
       return 'from-[#6B7F4C] to-[#1A1A1A]'; // Olive to Dark
   }
