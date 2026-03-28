@@ -3246,6 +3246,45 @@ const sermons: Sermon[] = [
     series: "What to do after Life In Christ Conference 2026",
     year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
+  },
+  // Miracles in your Mouth - additional tracks
+  {
+    title: "Miracles in your Mouth Track 2",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%202.mp3",
+    series: "Miracles in your Mouth",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Miracles in your Mouth Track 3",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%203.mp3",
+    series: "Miracles in your Mouth",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  // Ogba Crusade 2026
+  {
+    title: "Ogba Lagos Crusade 1st Session - Friday Evening Session",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Ogba-%20Lagos%20Crusade%201st%20%20Session.mp3",
+    series: "Ogba Crusade 2026",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  // Ministers' Conference Teaching Session - separate album
+  {
+    title: "I'm but a Youth",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Ogba-%20Lagos%20Crusade%202nd%20Session.mp3",
+    series: "Ministers' Conference Teaching Session Ogba Lagos Crusade 2026",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+
+  {
+    title: "Ogba Lagos Crusade 3rd Session - Saturday Evening Session",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Ogba-%20Lagos%20Crusade%203rd%20Session.mp3",
+    series: "Ogba Crusade 2026",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
   }
   // --- END OF 2026 ---
 ];
@@ -3581,6 +3620,10 @@ const getSeriesGradient = (series: string) => {
       return 'from-[#4C8B7B] to-[#78C8B8]'; // Aqua Marine Theme
     case 'What to do after Life In Christ Conference 2026':
       return 'from-[#335588] to-[#6688BB]'; // Indigo Theme
+    case 'Ogba Crusade 2026':
+      return 'from-[#B85C00] to-[#E88C30]'; // Amber/Flame Theme (Crusade)
+    case "Ministers' Conference Teaching Session Ogba Lagos Crusade 2026":
+      return 'from-[#5C2D8B] to-[#9B5CC8]'; // Deep Violet (Ministers' Conference)
     default:
       return 'from-[#6B7F4C] to-[#1A1A1A]'; // Olive to Dark
   }
@@ -3602,13 +3645,14 @@ export default function TeachingsPage() {
     return matchesSearch && matchesYear;
   });
 
-  // Group by series
+  // Group by series, sorted newest year first
   const seriesList = Array.from(new Set(filteredSermons.map(s => s.series)));
   const sermonsBySeries = seriesList.map(series => ({
     series,
     sermons: filteredSermons.filter(s => s.series === series),
-    count: filteredSermons.filter(s => s.series === series).length
-  }));
+    count: filteredSermons.filter(s => s.series === series).length,
+    year: filteredSermons.filter(s => s.series === series)[0]?.year ?? 0
+  })).sort((a, b) => b.year - a.year);
 
   const toggleSeries = (series: string) => {
     const newExpanded = new Set(expandedSeries);
@@ -3686,7 +3730,7 @@ export default function TeachingsPage() {
       {/* Sermons by Series */}
       <div className="container-custom py-16">
         <div className="space-y-6">
-          {sermonsBySeries.map(({ series, sermons: seriesSermons, count }) => (
+          {sermonsBySeries.map(({ series, sermons: seriesSermons, count, year }) => (
             <div key={series} className="border border-white/10 rounded-xl overflow-hidden bg-dark-card">
               {/* Series Header */}
               <button
@@ -3700,7 +3744,14 @@ export default function TeachingsPage() {
                     </svg>
                   </div>
                   <div className="text-left">
-                    <h2 className="text-xl font-bold text-white">{series}</h2>
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <h2 className="text-xl font-bold text-white">{series}</h2>
+                      {selectedYear === 'all' && (
+                        <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-primary/20 text-primary border border-primary/30">
+                          {year}
+                        </span>
+                      )}
+                    </div>
                     <p className="text-white/60 text-sm">{count} {count === 1 ? 'message' : 'messages'}</p>
                   </div>
                 </div>
