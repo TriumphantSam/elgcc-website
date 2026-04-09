@@ -3242,9 +3242,9 @@ const sermons: Sermon[] = [
   },
   {
     title: "Miracles in your Mouth Track 1",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2024/MIRACLES%20IN%20YOUR%20MOUTH.mp3",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/MIRACLES%20IN%20YOUR%20MOUTH.mp3",
     series: "Miracles in your Mouth",
-    year: 2024,
+    year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
@@ -3257,9 +3257,9 @@ const sermons: Sermon[] = [
   // Miracles in your Mouth - additional tracks
   {
     title: "Miracles in your Mouth Track 2",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2024/Miracles%20in%20your%20Mouth%20Track%202.mp3",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%202.mp3",
     series: "Miracles in your Mouth",
-    year: 2024,
+    year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
