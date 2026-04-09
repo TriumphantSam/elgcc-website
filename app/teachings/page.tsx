@@ -3242,7 +3242,7 @@ const sermons: Sermon[] = [
   },
   {
     title: "Miracles in your Mouth Track 1",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%201.mp3",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth.mp3",
     series: "Miracles in your Mouth",
     year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
