@@ -50,7 +50,7 @@ const sermons: Sermon[] = [
     title: "The Joy of the Lord   Track 23", audioUrl: "https://archive.org/download/elgcc-teachings-2026/The%20Joy%20of%20the%20Lord%20-%20Track%2023.mp3", series: "The Joy of the Lord", year: 2026, speaker: "Stephen Tijesuni Oyagbile"
   },
   // Psalms Series
-  { title: "Psalms by Pastor 1", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Psalms%20by%20Pastor%201.mp3", series: "Psalms", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
+  { title: "Psalms by Pastor 1 Track 1", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Psalms%20by%20Pastor%201.mp3", series: "Psalms", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
   { title: "Psalms 4th Feb", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/psalms%204th%20feb.mp3", series: "Psalms", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
   { title: "Psalms by Pastor Yewande (16th Jan 2026) - it is my year of the open doors", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Psalms%20by%20Pastor%20Yewande%20%2816th%20Jan%202026%29-%20it%20is%20my%20year%20of%20the%20open%20doors.mp3", series: "Psalms", year: 2026, speaker: "Pastor Yewande" },
   { title: "Psalms by Pastor (16th Jan 2026) - The Honor of the Lord", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Psalms%20by%20Pastor%2816th%20Jan%202026%29-%20The%20Honor%20of%20the%20Lord.mp3", series: "Psalms", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
@@ -58,14 +58,7 @@ const sermons: Sermon[] = [
 
 
   // Special Messages
-  { title: "January 2026 Healing Meeting", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/January%202026%20Healing%20Meeting.mp3", series: "Special Messages", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
-  {
-    title: "March 2026 Healing meeting   The Mystery of the Love of God",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2026/March%202026%20Healing%20meeting%20-%20The%20Mystery%20of%20the%20Love%20of%20God.mp3",
-    series: "Special Messages",
-    year: 2026,
-    speaker: "Stephen Tijesuni Oyagbile"
-  },
+  { title: "January 2026 Healing Meeting Track 1", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/January%202026%20Healing%20Meeting.mp3", series: "Special Messages", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
   { title: "Joy of the Lord (Impartation and prophecy 11th February 2026)", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Joy%20of%20the%20Lord%20%28Impartation%20and%20prophecy%2011th%20February%202026%29.mp3", series: "Special Messages", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
 
   // Believers Authority Series 2026
@@ -93,7 +86,7 @@ const sermons: Sermon[] = [
   { title: "49. Jesus, Our Worship  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/49.%20Jesus%2C%20Our%20Worship-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "58. The Hardening of Pharaoh's Heart  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/58.%20The%20Hardening%20of%20Pharaoh%27s%20Heart-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "59. Joy and the Believer in Christ  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/59.%20Joy%20and%20the%20Believer%20in%20Christ-%20Pastor%20Stephen.mp3", series: "General Teachings", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "20. New Creation Realities I (The Reality of the Word)  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/NEW%20CREATION%20REALITIES/20.%20New%20Creation%20Realities%20I%20%28The%20Reality%20of%20the%20Word%29-%20Pastor%20Stephen.mp3", series: "NEW CREATION REALITIES", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "20. New Creation Realities I (The Reality of the Word)  Pastor Stephen Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/NEW%20CREATION%20REALITIES/20.%20New%20Creation%20Realities%20I%20%28The%20Reality%20of%20the%20Word%29-%20Pastor%20Stephen.mp3", series: "NEW CREATION REALITIES", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "21. New Creation Realities II (The Reality of Our Righteousness)  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/NEW%20CREATION%20REALITIES/21.%20New%20Creation%20Realities%20II%20%28The%20Reality%20of%20Our%20Righteousness%29-%20Pastor%20Stephen.mp3", series: "NEW CREATION REALITIES", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "22. New Creation Realities III (The Reality of Our Redemption)  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/NEW%20CREATION%20REALITIES/22.%20New%20Creation%20Realities%20III%20%28The%20Reality%20of%20Our%20Redemption%29-%20Pastor%20Stephen.mp3", series: "NEW CREATION REALITIES", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "23. New Creation Realities IV (The Reality of Our Authority in Christ)  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/NEW%20CREATION%20REALITIES/23.%20New%20Creation%20Realities%20IV%20%28The%20Reality%20of%20Our%20Authority%20in%20Christ%29-%20Pastor%20Stephen.mp3", series: "NEW CREATION REALITIES", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
@@ -114,7 +107,7 @@ const sermons: Sermon[] = [
   { title: "Understanding the Old Testament & New Testament   Track 4", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/Understanding%20the%20OT%20%26%20NT/Understanding%20the%20Old%20Testament%20%26%20New%20Testament%20-%20Track%204.mp3", series: "Understanding the OT & NT", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Understanding the Old Testament & New Testament   Track 5", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/Understanding%20the%20OT%20%26%20NT/Understanding%20the%20Old%20Testament%20%26%20New%20Testament%20-%20Track%205.mp3", series: "Understanding the OT & NT", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Understanding the Old Testament & New Testament   Track 6", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/Understanding%20the%20OT%20%26%20NT/Understanding%20the%20Old%20Testament%20%26%20New%20Testament%20-%20Track%206.mp3", series: "Understanding the OT & NT", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "77. The Work of the Gospel  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/Work%20of%20the%20Gospel/77.%20The%20Work%20of%20the%20Gospel-%20Pastor%20Stephen.mp3", series: "Work of the Gospel", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "77. The Work of the Gospel  Pastor Stephen Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/Work%20of%20the%20Gospel/77.%20The%20Work%20of%20the%20Gospel-%20Pastor%20Stephen.mp3", series: "Work of the Gospel", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "78. The Work of the Gospel II  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2016/C%3A/Sermons/2016/Work%20of%20the%20Gospel/78.%20The%20Work%20of%20the%20Gospel%20II-%20Pastor%20Stephen.mp3", series: "Work of the Gospel", year: 2016, speaker: "Stephen Tijesuni Oyagbile" },
 
   // 2017 Sermons - All Series
@@ -126,7 +119,7 @@ const sermons: Sermon[] = [
   { title: "Ecclesiology Series 1", audioUrl: "https://archive.org/download/elgcc-teachings-2017/ECCLESIOLOGY%20series%201/Ecclesiology%20Series%201.mp3", series: "ECCLESIOLOGY series 1", year: 2017, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Faith in the Gospel of Christ (Discerning Materialism)", audioUrl: "https://archive.org/download/elgcc-teachings-2017/Faith%20in%20the%20Gospel%20of%20Christ%20%28Discerning%20Materialism%29.mp3", series: "General Teachings", year: 2017, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Following God's Will for Your Life", audioUrl: "https://archive.org/download/elgcc-teachings-2017/Following%20God%27s%20Will%20for%20Your%20Life.mp3", series: "General Teachings", year: 2017, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "01. Fulfilling Our Purpose I  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2017/Fulfilling%20Our%20Purpose/01.%20Fulfilling%20Our%20Purpose%20I-%20Pastor%20Stephen.mp3", series: "Fulfilling Our Purpose", year: 2017, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "01. Fulfilling Our Purpose I  Pastor Stephen Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2017/Fulfilling%20Our%20Purpose/01.%20Fulfilling%20Our%20Purpose%20I-%20Pastor%20Stephen.mp3", series: "Fulfilling Our Purpose", year: 2017, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "02. Fulfilling Our Purpose II  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2017/Fulfilling%20Our%20Purpose/02.%20Fulfilling%20Our%20Purpose%20II-%20Pastor%20Stephen.mp3", series: "Fulfilling Our Purpose", year: 2017, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Investigating God's Nature Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2017/INVESTIGATING%20GOD%27S%20NATURE/Investigating%20God%27s%20Nature%20Track%201.mp3", series: "INVESTIGATING GOD'S NATURE", year: 2017, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Investigating God's Nature Track 2", audioUrl: "https://archive.org/download/elgcc-teachings-2017/INVESTIGATING%20GOD%27S%20NATURE/Investigating%20God%27s%20Nature%20Track%202.mp3", series: "INVESTIGATING GOD'S NATURE", year: 2017, speaker: "Stephen Tijesuni Oyagbile" },
@@ -183,7 +176,7 @@ const sermons: Sermon[] = [
   { title: "CHRISTIANITY AND HONOUR TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2018/CHRISTIANITY%20AND%20HONOUR/CHRISTIANITY%20AND%20HONOUR%20TRACK%205.mp3", series: "CHRISTIANITY AND HONOUR", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHRISTIANITY AND HONOUR TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2018/CHRISTIANITY%20AND%20HONOUR/CHRISTIANITY%20AND%20HONOUR%20TRACK%206.mp3", series: "CHRISTIANITY AND HONOUR", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHRISTIANITY AND HONOUR", audioUrl: "https://archive.org/download/elgcc-teachings-2018/CHRISTIANITY%20AND%20HONOUR/CHRISTIANITY%20AND%20HONOUR.mp3", series: "CHRISTIANITY AND HONOUR", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "THE COST OF DISCIPLESHIP 1", audioUrl: "https://archive.org/download/elgcc-teachings-2018/COST%20OF%20DISCIPLESHIP/THE%20COST%20OF%20DISCIPLESHIP%201.mp3", series: "COST OF DISCIPLESHIP", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "THE COST OF DISCIPLESHIP 1 Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2018/COST%20OF%20DISCIPLESHIP/THE%20COST%20OF%20DISCIPLESHIP%201.mp3", series: "COST OF DISCIPLESHIP", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE COST OF DISCIPLESHIP 2", audioUrl: "https://archive.org/download/elgcc-teachings-2018/COST%20OF%20DISCIPLESHIP/THE%20COST%20OF%20DISCIPLESHIP%202.mp3", series: "COST OF DISCIPLESHIP", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHRISTIANITY & MATERIAL WEALTH TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2018/Christianity%20and%20Material%20Wealth/CHRISTIANITY%20%26%20MATERIAL%20WEALTH%20TRACK%201.mp3", series: "Christianity and Material Wealth", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHRISTIANITY & MATERIAL WEALTH TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2018/Christianity%20and%20Material%20Wealth/CHRISTIANITY%20%26%20MATERIAL%20WEALTH%20TRACK%202.mp3", series: "Christianity and Material Wealth", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
@@ -239,7 +232,7 @@ const sermons: Sermon[] = [
   { title: "My Love Walk Track 4", audioUrl: "https://archive.org/download/elgcc-teachings-2018/MY%20LOVE%20WALK/My%20Love%20Walk%20Track%204.mp3", series: "MY LOVE WALK", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "My Love Walk Track 5", audioUrl: "https://archive.org/download/elgcc-teachings-2018/MY%20LOVE%20WALK/My%20Love%20Walk%20Track%205.mp3", series: "MY LOVE WALK", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "MY MINISTRY OF LAYING HANDS", audioUrl: "https://archive.org/download/elgcc-teachings-2018/MY%20MINISTRY%20OF%20LAYING%20OF%20HANDS/MY%20MINISTRY%20OF%20LAYING%20HANDS.mp3", series: "MY MINISTRY OF LAYING OF HANDS", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "Ministers of the Spirit I  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2018/Ministers%20of%20the%20Spirit/Ministers%20of%20the%20Spirit%20I-%20Pastor%20Stephen.mp3", series: "Ministers of the Spirit", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "Ministers of the Spirit I  Pastor Stephen Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2018/Ministers%20of%20the%20Spirit/Ministers%20of%20the%20Spirit%20I-%20Pastor%20Stephen.mp3", series: "Ministers of the Spirit", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Ministers of the Spirit II  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2018/Ministers%20of%20the%20Spirit/Ministers%20of%20the%20Spirit%20II-%20Pastor%20Stephen.mp3", series: "Ministers of the Spirit", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Ministers of the Spirit III  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2018/Ministers%20of%20the%20Spirit/Ministers%20of%20the%20Spirit%20III-%20Pastor%20Stephen.mp3", series: "Ministers of the Spirit", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Ministers of the Spirit IV  Pastor Stephen", audioUrl: "https://archive.org/download/elgcc-teachings-2018/Ministers%20of%20the%20Spirit/Ministers%20of%20the%20Spirit%20IV-%20Pastor%20Stephen.mp3", series: "Ministers of the Spirit", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
@@ -247,11 +240,11 @@ const sermons: Sermon[] = [
   { title: "75. Participating in Christian Gatherings Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2018/Participating%20in%20Christian%20Gatherings/75.%20Participating%20in%20Christian%20Gatherings%20Track%201.mp3", series: "Participating in Christian Gatherings", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "76. Participating in Christian Gatherings Track 2", audioUrl: "https://archive.org/download/elgcc-teachings-2018/Participating%20in%20Christian%20Gatherings/76.%20Participating%20in%20Christian%20Gatherings%20Track%202.mp3", series: "Participating in Christian Gatherings", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "SIGHTS AND SOUNDS IN THE SUPERNATURAL", audioUrl: "https://archive.org/download/elgcc-teachings-2018/SIGHTS%20AND%20SOUNDS%20IN%20THE%20SUPERNATURAL/SIGHTS%20AND%20SOUNDS%20IN%20THE%20SUPERNATURAL.mp3", series: "SIGHTS AND SOUNDS IN THE SUPERNATURAL", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "THE PASSION OF THE CHURCH 1", audioUrl: "https://archive.org/download/elgcc-teachings-2018/THE%20PASSION%20OF%20THE%20CHURCH/THE%20PASSION%20OF%20THE%20CHURCH%201.mp3", series: "THE PASSION OF THE CHURCH", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "THE PASSION OF THE CHURCH 1 Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2018/THE%20PASSION%20OF%20THE%20CHURCH/THE%20PASSION%20OF%20THE%20CHURCH%201.mp3", series: "THE PASSION OF THE CHURCH", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE PASSION OF THE CHURCH 2", audioUrl: "https://archive.org/download/elgcc-teachings-2018/THE%20PASSION%20OF%20THE%20CHURCH/THE%20PASSION%20OF%20THE%20CHURCH%202.mp3", series: "THE PASSION OF THE CHURCH", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE PASSION OF THE CHURCH 3", audioUrl: "https://archive.org/download/elgcc-teachings-2018/THE%20PASSION%20OF%20THE%20CHURCH/THE%20PASSION%20OF%20THE%20CHURCH%203.mp3", series: "THE PASSION OF THE CHURCH", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE POWER OF EXPECTATION", audioUrl: "https://archive.org/download/elgcc-teachings-2018/THE%20POWER%20OF%20EXPECTATION.mp3", series: "General Teachings", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "THE REALITY OF ETERNAL LIFE 1", audioUrl: "https://archive.org/download/elgcc-teachings-2018/THE%20REALITY%20OF%20ETERNAL%20LIFE/THE%20REALITY%20OF%20ETERNAL%20LIFE%201.mp3", series: "THE REALITY OF ETERNAL LIFE", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "THE REALITY OF ETERNAL LIFE 1 Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2018/THE%20REALITY%20OF%20ETERNAL%20LIFE/THE%20REALITY%20OF%20ETERNAL%20LIFE%201.mp3", series: "THE REALITY OF ETERNAL LIFE", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE REALITY OF ETERNAL LIFE 2", audioUrl: "https://archive.org/download/elgcc-teachings-2018/THE%20REALITY%20OF%20ETERNAL%20LIFE/THE%20REALITY%20OF%20ETERNAL%20LIFE%202.mp3", series: "THE REALITY OF ETERNAL LIFE", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE REALITY OF ETERNAL LIFE 3", audioUrl: "https://archive.org/download/elgcc-teachings-2018/THE%20REALITY%20OF%20ETERNAL%20LIFE/THE%20REALITY%20OF%20ETERNAL%20LIFE%203.mp3", series: "THE REALITY OF ETERNAL LIFE", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE REALITY OF ETERNAL LIFE 4", audioUrl: "https://archive.org/download/elgcc-teachings-2018/THE%20REALITY%20OF%20ETERNAL%20LIFE/THE%20REALITY%20OF%20ETERNAL%20LIFE%204.mp3", series: "THE REALITY OF ETERNAL LIFE", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
@@ -264,13 +257,13 @@ const sermons: Sermon[] = [
   { title: "The Culture of Soul winning Track 5", audioUrl: "https://archive.org/download/elgcc-teachings-2018/The%20Culture%20of%20Soul-winning%20Series/The%20Culture%20of%20Soul-winning%20Track%205.mp3", series: "The Culture of Soul-winning Series", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "The Gospel of Christ   Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2018/The%20Gospel%20of%20Christ/The%20Gospel%20of%20Christ%20-%20Track%201.mp3", series: "The Gospel of Christ", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "The Gospel of Christ   Track 2", audioUrl: "https://archive.org/download/elgcc-teachings-2018/The%20Gospel%20of%20Christ/The%20Gospel%20of%20Christ%20-%20Track%202.mp3", series: "The Gospel of Christ", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "The Mission is Possible (1)", audioUrl: "https://archive.org/download/elgcc-teachings-2018/The%20Mission%20is%20Possible/The%20Mission%20is%20Possible%20%281%29.mp3", series: "The Mission is Possible", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "The Mission is Possible (1) Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2018/The%20Mission%20is%20Possible/The%20Mission%20is%20Possible%20%281%29.mp3", series: "The Mission is Possible", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "The Mission is Possible (2)", audioUrl: "https://archive.org/download/elgcc-teachings-2018/The%20Mission%20is%20Possible/The%20Mission%20is%20Possible%20%282%29.mp3", series: "The Mission is Possible", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "The Mission is Possible (Utterance)", audioUrl: "https://archive.org/download/elgcc-teachings-2018/The%20Mission%20is%20Possible/The%20Mission%20is%20Possible%20%28Utterance%29.mp3", series: "The Mission is Possible", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "The Power Of Consistency", audioUrl: "https://archive.org/download/elgcc-teachings-2018/The%20Power%20Of%20Consistency.mp3", series: "General Teachings", year: 2018, speaker: "Stephen Tijesuni Oyagbile" },
 
   // 2019 Sermons - All Series
-  { title: "ACCOUNTABILITY (WHAT IT MEANS) 1", audioUrl: "https://archive.org/download/elgcc-teachings-2019/ACCOUNTABILITY%20%28WHAT%20IT%20MEANS%29/ACCOUNTABILITY%20%28WHAT%20IT%20MEANS%29%201.mp3", series: "ACCOUNTABILITY (WHAT IT MEANS)", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "ACCOUNTABILITY (WHAT IT MEANS) 1 Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2019/ACCOUNTABILITY%20%28WHAT%20IT%20MEANS%29/ACCOUNTABILITY%20%28WHAT%20IT%20MEANS%29%201.mp3", series: "ACCOUNTABILITY (WHAT IT MEANS)", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "ACCOUNTABILITY (WHAT IT MEANS) 2", audioUrl: "https://archive.org/download/elgcc-teachings-2019/ACCOUNTABILITY%20%28WHAT%20IT%20MEANS%29/ACCOUNTABILITY%20%28WHAT%20IT%20MEANS%29%202.mp3", series: "ACCOUNTABILITY (WHAT IT MEANS)", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "ACCOUNTABILITY (WHAT IT MEANS) 3", audioUrl: "https://archive.org/download/elgcc-teachings-2019/ACCOUNTABILITY%20%28WHAT%20IT%20MEANS%29/ACCOUNTABILITY%20%28WHAT%20IT%20MEANS%29%203.mp3", series: "ACCOUNTABILITY (WHAT IT MEANS)", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Christ Our Sufficiency", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Christ-Our-Sufficiency.mp3", series: "General Teachings", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
@@ -279,7 +272,7 @@ const sermons: Sermon[] = [
   { title: "COMMITMENT MUCH MORE TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Christian%20Commitment%20Much%20More/COMMITMENT%20MUCH%20MORE%20TRACK%203.mp3", series: "Christian Commitment Much More", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "COMMITMENT MUCH MORE TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Christian%20Commitment%20Much%20More/COMMITMENT%20MUCH%20MORE%20TRACK%204.mp3", series: "Christian Commitment Much More", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "COMMITMENT MUCH MORE TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Christian%20Commitment%20Much%20More/COMMITMENT%20MUCH%20MORE%20TRACK%205.mp3", series: "Christian Commitment Much More", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "Retreat 2019 D  A life of Consecration", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Church%20Retreat%20%20August%202019/Retreat%202019%20D-%20A%20life%20of%20Consecration.mp3", series: "Church Retreat  August 2019", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "Retreat 2019 D  A life of Consecration Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Church%20Retreat%20%20August%202019/Retreat%202019%20D-%20A%20life%20of%20Consecration.mp3", series: "Church Retreat  August 2019", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Retreat 2019 E Sensitivity of the Heart (Making Sound Judgement", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Church%20Retreat%20%20August%202019/Retreat%202019%20E%20Sensitivity%20of%20the%20Heart%20%28Making%20Sound%20Judgement.mp3", series: "Church Retreat  August 2019", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Retreat 2019 F Supernatural Relationship", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Church%20Retreat%20%20August%202019/Retreat%202019%20F-Supernatural%20Relationship.mp3", series: "Church Retreat  August 2019", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Retreat 2019 G Follow after love", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Church%20Retreat%20%20August%202019/Retreat%202019%20G%20Follow%20after%20love.mp3", series: "Church Retreat  August 2019", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
@@ -303,7 +296,7 @@ const sermons: Sermon[] = [
   { title: "Following the Leading of God's Spirit Track 4", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Following%20the%20Leading%20of%20God%27s%20Spirit/Following%20the%20Leading%20of%20God%27s%20Spirit%20Track%204.mp3", series: "Following the Leading of God's Spirit", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Following the Leading of God's Spirit Track 5", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Following%20the%20Leading%20of%20God%27s%20Spirit/Following%20the%20Leading%20of%20God%27s%20Spirit%20Track%205.mp3", series: "Following the Leading of God's Spirit", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Following the Leading of the Spirit (Q&A) Wednesday 20022019", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Following%20the%20Leading%20of%20God%27s%20Spirit/Following%20the%20Leading%20of%20the%20Spirit%20%28Q%26A%29%20Wednesday%2020022019.mp3", series: "Following the Leading of God's Spirit", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "INVESTIGATING THE FATHER'S NATURE 1", audioUrl: "https://archive.org/download/elgcc-teachings-2019/INVESTIGATING%20THE%20FATHER%27S%20NATURE/INVESTIGATING%20THE%20FATHER%27S%20NATURE%201.mp3", series: "INVESTIGATING THE FATHER'S NATURE", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "INVESTIGATING THE FATHER'S NATURE 1 Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2019/INVESTIGATING%20THE%20FATHER%27S%20NATURE/INVESTIGATING%20THE%20FATHER%27S%20NATURE%201.mp3", series: "INVESTIGATING THE FATHER'S NATURE", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "INVESTIGATING THE FATHER'S NATURE 2", audioUrl: "https://archive.org/download/elgcc-teachings-2019/INVESTIGATING%20THE%20FATHER%27S%20NATURE/INVESTIGATING%20THE%20FATHER%27S%20NATURE%202.mp3", series: "INVESTIGATING THE FATHER'S NATURE", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "INVESTIGATING THE FATHER'S NATURE 3", audioUrl: "https://archive.org/download/elgcc-teachings-2019/INVESTIGATING%20THE%20FATHER%27S%20NATURE/INVESTIGATING%20THE%20FATHER%27S%20NATURE%203.mp3", series: "INVESTIGATING THE FATHER'S NATURE", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "INVESTIGATING THE FATHER'S NATURE 4", audioUrl: "https://archive.org/download/elgcc-teachings-2019/INVESTIGATING%20THE%20FATHER%27S%20NATURE/INVESTIGATING%20THE%20FATHER%27S%20NATURE%204.mp3", series: "INVESTIGATING THE FATHER'S NATURE", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
@@ -357,7 +350,7 @@ const sermons: Sermon[] = [
   { title: "OUR SUPERNATURAL FACULTIES TRACK 8", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Our%20Supernatural%20faculties/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%208.mp3", series: "Our Supernatural faculties", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "OUR SUPERNATURAL FACULTIES TRACK 9", audioUrl: "https://archive.org/download/elgcc-teachings-2019/Our%20Supernatural%20faculties/OUR%20SUPERNATURAL%20FACULTIES%20TRACK%209.mp3", series: "Our Supernatural faculties", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "PRAYING FOR OTHER SAINTS", audioUrl: "https://archive.org/download/elgcc-teachings-2019/PRAYING%20FOR%20OTHER%20SAINTS.mp3", series: "General Teachings", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "PREACHING THE GOPEL (INSTRUCTION BY PASTOR)", audioUrl: "https://archive.org/download/elgcc-teachings-2019/PREACHING%20THE%20GOSPEL%202/PREACHING%20THE%20GOPEL%20%28INSTRUCTION%20BY%20PASTOR%29.mp3", series: "PREACHING THE GOSPEL 2", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "PREACHING THE GOPEL (INSTRUCTION BY PASTOR) Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2019/PREACHING%20THE%20GOSPEL%202/PREACHING%20THE%20GOPEL%20%28INSTRUCTION%20BY%20PASTOR%29.mp3", series: "PREACHING THE GOSPEL 2", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "PREACHING THE GOSPEL (2) 1", audioUrl: "https://archive.org/download/elgcc-teachings-2019/PREACHING%20THE%20GOSPEL%202/PREACHING%20THE%20GOSPEL%20%282%29%201.mp3", series: "PREACHING THE GOSPEL 2", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "PREACHING THE GOSPEL (2) 2", audioUrl: "https://archive.org/download/elgcc-teachings-2019/PREACHING%20THE%20GOSPEL%202/PREACHING%20THE%20GOSPEL%20%282%29%202.mp3", series: "PREACHING THE GOSPEL 2", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "PREACHING THE GOSPEL (2) 3", audioUrl: "https://archive.org/download/elgcc-teachings-2019/PREACHING%20THE%20GOSPEL%202/PREACHING%20THE%20GOSPEL%20%282%29%203.mp3", series: "PREACHING THE GOSPEL 2", year: 2019, speaker: "Stephen Tijesuni Oyagbile" },
@@ -417,7 +410,7 @@ const sermons: Sermon[] = [
   { title: "HOW TO RECEIVE THE TRAINING OF THE SPIRIT OF GOD TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2020/26.%20HOW%20TO%20RECEIVE%20THE%20TRAINING%20OF%20THE%20SPIRIT%20OF%20GOD/HOW%20TO%20RECEIVE%20THE%20TRAINING%20OF%20THE%20SPIRIT%20OF%20GOD%20TRACK%201.mp3", series: "26. HOW TO RECEIVE THE TRAINING OF THE SPIRIT OF GOD", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "HOW TO RECEIVE THE TRAINING OF THE SPIRIT OF GOD TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2020/26.%20HOW%20TO%20RECEIVE%20THE%20TRAINING%20OF%20THE%20SPIRIT%20OF%20GOD/HOW%20TO%20RECEIVE%20THE%20TRAINING%20OF%20THE%20SPIRIT%20OF%20GOD%20TRACK%202.mp3", series: "26. HOW TO RECEIVE THE TRAINING OF THE SPIRIT OF GOD", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "27. WHAT TO DO AFTER TRAINING OF THE SPIRIT", audioUrl: "https://archive.org/download/elgcc-teachings-2020/27.%20WHAT%20TO%20DO%20AFTER%20TRAINING%20OF%20THE%20SPIRIT.mp3", series: "General Teachings", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "UNDERSTANDING CHRISTIAN DISCIPLESHIP 1", audioUrl: "https://archive.org/download/elgcc-teachings-2020/28.%20UNDERSTANDING%20CHRISTIAN%20DISCIPLESHIP/UNDERSTANDING%20CHRISTIAN%20DISCIPLESHIP%201.mp3", series: "28. UNDERSTANDING CHRISTIAN DISCIPLESHIP", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "UNDERSTANDING CHRISTIAN DISCIPLESHIP 1 Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2020/28.%20UNDERSTANDING%20CHRISTIAN%20DISCIPLESHIP/UNDERSTANDING%20CHRISTIAN%20DISCIPLESHIP%201.mp3", series: "28. UNDERSTANDING CHRISTIAN DISCIPLESHIP", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "UNDERSTANDING CHRISTIAN DISCIPLESHIP 2", audioUrl: "https://archive.org/download/elgcc-teachings-2020/28.%20UNDERSTANDING%20CHRISTIAN%20DISCIPLESHIP/UNDERSTANDING%20CHRISTIAN%20DISCIPLESHIP%202.mp3", series: "28. UNDERSTANDING CHRISTIAN DISCIPLESHIP", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "UNDERSTANDING CHRISTIAN DISCIPLESHIP 3", audioUrl: "https://archive.org/download/elgcc-teachings-2020/28.%20UNDERSTANDING%20CHRISTIAN%20DISCIPLESHIP/UNDERSTANDING%20CHRISTIAN%20DISCIPLESHIP%203.mp3", series: "28. UNDERSTANDING CHRISTIAN DISCIPLESHIP", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "UNDERSTANDING CHRISTIAN DISCIPLESHIP 4", audioUrl: "https://archive.org/download/elgcc-teachings-2020/28.%20UNDERSTANDING%20CHRISTIAN%20DISCIPLESHIP/UNDERSTANDING%20CHRISTIAN%20DISCIPLESHIP%204.mp3", series: "28. UNDERSTANDING CHRISTIAN DISCIPLESHIP", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
@@ -465,7 +458,7 @@ const sermons: Sermon[] = [
   { title: "uncut psalm 08112020", audioUrl: "https://archive.org/download/elgcc-teachings-2020/29.%20WHAT%20DOES%20IT%20MEAN%20TO%20BE%20BORN%20AGAIN/uncut%20psalm%2008112020.mp3", series: "29. WHAT DOES IT MEAN TO BE BORN AGAIN", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "SHOULD A BELIEVER IN CHRIST FAST TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2020/3.%20SHOULD%20A%20BELIEVER%20IN%20CHRIST%20FAST/SHOULD%20A%20BELIEVER%20IN%20CHRIST%20FAST%20TRACK%20%202.mp3", series: "3. SHOULD A BELIEVER IN CHRIST FAST", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "SHOULD A BELIEVER IN CHRIST FAST TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2020/3.%20SHOULD%20A%20BELIEVER%20IN%20CHRIST%20FAST/SHOULD%20A%20BELIEVER%20IN%20CHRIST%20FAST%20TRACK%201.mp3", series: "3. SHOULD A BELIEVER IN CHRIST FAST", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "WITHOUT MURMURING OR DISPUTATION 1", audioUrl: "https://archive.org/download/elgcc-teachings-2020/4.%20WITHOUT%20MURMURINGS%20OR%20DISPUTINGS/WITHOUT%20MURMURING%20OR%20DISPUTATION%201.mp3", series: "4. WITHOUT MURMURINGS OR DISPUTINGS", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "WITHOUT MURMURING OR DISPUTATION 1 Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2020/4.%20WITHOUT%20MURMURINGS%20OR%20DISPUTINGS/WITHOUT%20MURMURING%20OR%20DISPUTATION%201.mp3", series: "4. WITHOUT MURMURINGS OR DISPUTINGS", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "WITHOUT MURMURING OR DISPUTATION 2", audioUrl: "https://archive.org/download/elgcc-teachings-2020/4.%20WITHOUT%20MURMURINGS%20OR%20DISPUTINGS/WITHOUT%20MURMURING%20OR%20DISPUTATION%202.mp3", series: "4. WITHOUT MURMURINGS OR DISPUTINGS", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "5. HOW TO PREPARE FOR CHRISTIAN MEETINGS", audioUrl: "https://archive.org/download/elgcc-teachings-2020/5.%20HOW%20TO%20PREPARE%20FOR%20CHRISTIAN%20MEETINGS.mp3", series: "General Teachings", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE PRACTISE OF GIVING TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2020/6.%20THE%20PRACTISE%20OF%20GIVING/THE%20PRACTISE%20OF%20GIVING%20TRACK%201.mp3", series: "6. THE PRACTISE OF GIVING", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
@@ -478,7 +471,7 @@ const sermons: Sermon[] = [
   { title: "THE GOSPEL; OUR ATTITUDE & OUR PREDETERMINED RESPONSE TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2020/7%20THE%20GOSPEL%3B%20OUR%20ATTITUDE%20%26%20OUR%20PREDETERMINED%20RESPONSE/THE%20GOSPEL%3B%20OUR%20ATTITUDE%20%26%20OUR%20PREDETERMINED%20RESPONSE%20TRACK%202.mp3", series: "7 THE GOSPEL; OUR ATTITUDE & OUR PREDETERMINED RESPONSE", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "8. ASSURED IN CHRIST, I AM NOT AFRAID", audioUrl: "https://archive.org/download/elgcc-teachings-2020/8.%20ASSURED%20IN%20CHRIST%2C%20I%20AM%20NOT%20AFRAID.mp3", series: "General Teachings", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "9. NOTHING IS WRONG WITH YOU; DWELLING IN FORGIVENESS OF SINS", audioUrl: "https://archive.org/download/elgcc-teachings-2020/9.%20NOTHING%20IS%20WRONG%20WITH%20YOU%3B%20DWELLING%20IN%20FORGIVENESS%20OF%20SINS.mp3", series: "General Teachings", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "CHURCH RETREAT 2020 CONTROL OVER APPETITE", audioUrl: "https://archive.org/download/elgcc-teachings-2020/Church%20Retreat%202020/CHURCH%20RETREAT%202020%20-%20CONTROL%20OVER%20APPETITE.mp3", series: "Church Retreat 2020", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "CHURCH RETREAT 2020 CONTROL OVER APPETITE Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2020/Church%20Retreat%202020/CHURCH%20RETREAT%202020%20-%20CONTROL%20OVER%20APPETITE.mp3", series: "Church Retreat 2020", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHURCH RETREAT 2020 HOW TO SERVE IN YOUR LOCAL CHURCH (THE BASICS)", audioUrl: "https://archive.org/download/elgcc-teachings-2020/Church%20Retreat%202020/CHURCH%20RETREAT%202020%20-%20HOW%20TO%20SERVE%20IN%20YOUR%20LOCAL%20CHURCH%20%28THE%20BASICS%29.mp3", series: "Church Retreat 2020", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHURCH RETREAT 2020 KEEPING SUPERNATURAL RELATIONSHIPS", audioUrl: "https://archive.org/download/elgcc-teachings-2020/Church%20Retreat%202020/CHURCH%20RETREAT%202020%20-%20KEEPING%20SUPERNATURAL%20RELATIONSHIPS.mp3", series: "Church Retreat 2020", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHURCH RETREAT 2020 PATIENCE IN MINISTRY", audioUrl: "https://archive.org/download/elgcc-teachings-2020/Church%20Retreat%202020/CHURCH%20RETREAT%202020%20-%20PATIENCE%20IN%20MINISTRY.mp3", series: "Church Retreat 2020", year: 2020, speaker: "Stephen Tijesuni Oyagbile" },
@@ -530,11 +523,11 @@ const sermons: Sermon[] = [
   { title: "THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT) TRACK 7", audioUrl: "https://archive.org/download/elgcc-teachings-2021/14.%20THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29/THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29%20TRACK%207.mp3", series: "14. THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT) TRACK 8", audioUrl: "https://archive.org/download/elgcc-teachings-2021/14.%20THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29/THE%20MINISTRY%20OF%20LAYING%20ON%20OF%20HANDS%20%28WHAT%20IT%20MEANS%20%26%20HOW%20TO%20RECEIVE%20IT%29%20TRACK%208.mp3", series: "14. THE MINISTRY OF LAYING ON OF HANDS (WHAT IT MEANS & HOW TO RECEIVE IT)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "15. HEALING SERVICE DECEMBER 2021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/15.%20HEALING%20SERVICE%20DECEMBER%202021.mp3", series: "General Teachings", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES) TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/16.%20CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29/CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29%20TRACK%202.mp3", series: "16. CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES) Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/16.%20CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29/CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29.mp3", series: "16. CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES) TRACK 2 Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/16.%20CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29/CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29%20TRACK%202.mp3", series: "16. CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES)", audioUrl: "https://archive.org/download/elgcc-teachings-2021/16.%20CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29/CHRISTIAN%20GIVING%20%28UNDERSTANDING%20TRUE%20RICHES%29.mp3", series: "16. CHRISTIAN GIVING (UNDERSTANDING TRUE RICHES)", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "SUPERNATURALLY CONSCIOUS IN DISCIPLESHIP TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2.%20SUPERNATURALLY%20CONSCIOUS%20IN%20DISCIPLESHIP/SUPERNATURALLY%20CONSCIOUS%20IN%20DISCIPLESHIP%20TRACK%201.mp3", series: "2. SUPERNATURALLY CONSCIOUS IN DISCIPLESHIP", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "SUPERNATURALLY CONSCIOUS IN DISCIPLESHIP TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2.%20SUPERNATURALLY%20CONSCIOUS%20IN%20DISCIPLESHIP/SUPERNATURALLY%20CONSCIOUS%20IN%20DISCIPLESHIP%20TRACK%202.mp3", series: "2. SUPERNATURALLY CONSCIOUS IN DISCIPLESHIP", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "CHARGE; DO NOT SLEEP, PRAY", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/CHARGE%3B%20DO%20NOT%20SLEEP%2C%20PRAY.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "CHARGE; DO NOT SLEEP, PRAY Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/CHARGE%3B%20DO%20NOT%20SLEEP%2C%20PRAY.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "INSTRUCTIONS 02052021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/INSTRUCTIONS%2002052021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "INSTRUCTIONS 05052021 (2)", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/INSTRUCTIONS%2005052021%20%282%29.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "INSTRUCTIONS 14052021", audioUrl: "https://archive.org/download/elgcc-teachings-2021/2021%202/INSTRUCTIONS%2014052021.mp3", series: "2021 2", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
@@ -637,7 +630,7 @@ const sermons: Sermon[] = [
   { title: "EXCEEDING GREATNESS OF HIS POWER TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2021/9.%20EXCEEDING%20GREATNESS%20OF%20HIS%20POWER/EXCEEDING%20GREATNESS%20OF%20HIS%20POWER%20TRACK%204.mp3", series: "9. EXCEEDING GREATNESS OF HIS POWER", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "EXCEEDING GREATNESS OF HIS POWER TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2021/9.%20EXCEEDING%20GREATNESS%20OF%20HIS%20POWER/EXCEEDING%20GREATNESS%20OF%20HIS%20POWER%20TRACK%205.mp3", series: "9. EXCEEDING GREATNESS OF HIS POWER", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "EXCEEDING GREATNESS OF HIS POWER TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2021/9.%20EXCEEDING%20GREATNESS%20OF%20HIS%20POWER/EXCEEDING%20GREATNESS%20OF%20HIS%20POWER%20TRACK%206.mp3", series: "9. EXCEEDING GREATNESS OF HIS POWER", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "CHURCH RETREAT 2021 (LABORING IN PRAYERS)", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28LABORING%20IN%20PRAYERS%29.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "CHURCH RETREAT 2021 (LABORING IN PRAYERS) Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28LABORING%20IN%20PRAYERS%29.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHURCH RETREAT 2021 (MAINTAINING THE BOND OF UNITY)", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28MAINTAINING%20THE%20BOND%20OF%20UNITY%29.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHURCH RETREAT 2021 (OUR GIVING) 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28OUR%20GIVING%29%201.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHURCH RETREAT 2021 (OUR GIVING) 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28OUR%20GIVING%29%202.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
@@ -645,7 +638,7 @@ const sermons: Sermon[] = [
   { title: "CHURCH RETREAT 2021 (THE CHURCH AND HER MISSION) 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28THE%20CHURCH%20AND%20HER%20MISSION%29%202.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHURCH RETREAT 2021 (THE CHURCH AND HER MISSION) 3", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28THE%20CHURCH%20AND%20HER%20MISSION%29%203.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHURCH RETREAT 2021 (THE CHURCH AND HER MISSION) 4 - Q&A", audioUrl: "https://archive.org/download/elgcc-teachings-2021/CHURCH%20RETREAT%202021/CHURCH%20RETREAT%202021%20%28THE%20CHURCH%20AND%20HER%20MISSION%29%204%20-%20Q%26A.mp3", series: "CHURCH RETREAT 2021", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "CHRISTIAN CONDUCT AND SERVICE", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20CHRISTIAN%20CONDUCT%20AND%20SERVICE.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "CHRISTIAN CONDUCT AND SERVICE Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20CHRISTIAN%20CONDUCT%20AND%20SERVICE.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHRISTIAN LIVING EP. 1", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20CHRISTIAN%20LIVING%20EP.%201.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHRISTIAN LIVING EP. 2", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20CHRISTIAN%20LIVING%20EP.%202.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "CHRISTIAN LIVING EP. 3", audioUrl: "https://archive.org/download/elgcc-teachings-2021/JOS%20BRETHREN%20RETREAT/JOS%20BRETHREN%20RETREAT%20-%20CHRISTIAN%20LIVING%20EP.%203.mp3", series: "JOS BRETHREN RETREAT", year: 2021, speaker: "Stephen Tijesuni Oyagbile" },
@@ -692,7 +685,7 @@ const sermons: Sermon[] = [
   { title: "COMMITMENT TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/15.%20COMMITMENT/COMMITMENT%20TRACK%202.mp3", series: "15. COMMITMENT", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "COMMITMENT TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/15.%20COMMITMENT/COMMITMENT%20TRACK%203.mp3", series: "15. COMMITMENT", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "COMMITMENT TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2022/15.%20COMMITMENT/COMMITMENT%20TRACK%204.mp3", series: "15. COMMITMENT", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%202.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 2 Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%202.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%203.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%204.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%205.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
@@ -737,10 +730,10 @@ const sermons: Sermon[] = [
   { title: "BIBLE INTERPRETATION TRACK 9", audioUrl: "https://archive.org/download/elgcc-teachings-2022/2.%20BIBLE%20INTERPRETATION/BIBLE%20INTERPRETATION%20TRACK%209.mp3", series: "2. BIBLE INTERPRETATION", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "NECESSITY OF PRAYERS TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/20.%20NECESSITY%20OF%20PRAYERS/NECESSITY%20OF%20PRAYERS%20TRACK%201.mp3", series: "20. NECESSITY OF PRAYERS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "NECESSITY OF PRAYERS TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/20.%20NECESSITY%20OF%20PRAYERS/NECESSITY%20OF%20PRAYERS%20TRACK%202.mp3", series: "20. NECESSITY OF PRAYERS", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "A LIFE OF TOTAL CONSECRATION TO GOD'S LIFE", audioUrl: "https://archive.org/download/elgcc-teachings-2022/3.%20A%20LIFE%20OF%20TOTAL%20CONSECRATION%20TO%20GOD%27S%20PLAN/A%20LIFE%20OF%20TOTAL%20CONSECRATION%20TO%20GOD%27S%20LIFE.mp3", series: "3. A LIFE OF TOTAL CONSECRATION TO GOD'S PLAN", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "A LIFE OF TOTAL CONSECRATION TO GOD'S LIFE Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/3.%20A%20LIFE%20OF%20TOTAL%20CONSECRATION%20TO%20GOD%27S%20PLAN/A%20LIFE%20OF%20TOTAL%20CONSECRATION%20TO%20GOD%27S%20LIFE.mp3", series: "3. A LIFE OF TOTAL CONSECRATION TO GOD'S PLAN", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "PSALMS 09012022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/3.%20A%20LIFE%20OF%20TOTAL%20CONSECRATION%20TO%20GOD%27S%20PLAN/PSALMS%2009012022.mp3", series: "3. A LIFE OF TOTAL CONSECRATION TO GOD'S PLAN", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "5. HEALING SERVICE (19012022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICE%20%2819012022%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "5. HEALING SERVICE APRIL (20042022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20APRIL%20%2820042022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "5. HEALING SERVICE APRIL (20042022) Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20APRIL%20%2820042022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "5. HEALING SERVICE DECEMBER 14122022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20DECEMBER%2014122022.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "5. HEALING SERVICE FEBRUARY (16022022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20FEBRUARY%20%2816022022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "5. HEALING SERVICE JANUARY (19012022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/5.%20HEALING%20SERVICES/5.%20HEALING%20SERVICE%20JANUARY%20%2819012022%29.mp3", series: "5. HEALING SERVICES", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
@@ -782,7 +775,7 @@ const sermons: Sermon[] = [
   { title: "PSALM GIVEN ON 16012022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALM%20GIVEN%20ON%2016012022.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "PSALMS (THE NATIONS ARE OPEN NOW AND OTHERS)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALMS%20%28THE%20NATIONS%20ARE%20OPEN%20NOW%20AND%20OTHERS%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "PSALMS ONA TI LA", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALMS%20-%20ONA%20TI%20LA.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "PSALM GIVEN BY PASTOR ON 30012022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALMS%20GIVEN/PSALM%20GIVEN%20BY%20PASTOR%20ON%2030012022.mp3", series: "PSALMS GIVEN", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "PSALM GIVEN BY PASTOR ON 30012022 Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALMS%20GIVEN/PSALM%20GIVEN%20BY%20PASTOR%20ON%2030012022.mp3", series: "PSALMS GIVEN", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "PSALM GIVEN ON 16012022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/PSALMS%20GIVEN/PSALM%20GIVEN%20ON%2016012022.mp3", series: "PSALMS GIVEN", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "QUESTION AND ANSWER (SAT 23072022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/QUESTION%20AND%20ANSWER%20%28SAT%2023072022%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "QUESTION AND ANSWER SERVICE (SATURDAY 23072022)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/QUESTION%20AND%20ANSWER%20SERVICE%20%28SATURDAY%2023072022%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
@@ -790,9 +783,9 @@ const sermons: Sermon[] = [
   { title: "SUNDAY SERVICE 28082022", audioUrl: "https://archive.org/download/elgcc-teachings-2022/SUNDAY%20SERVICE%2028082022.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "SUPERNATURAL BOLDNESS; WORKING IN THE CONFIDENCE OF THE SPIRIT (CHRIST WORKING IN AND THROUGH THE CHURCH). TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/SUPERNATURAL%20BOLDNESS%3B%20WORKING%20IN%20THE%20CONFIDENCE%20OF%20THE%20SPIRIT%20%28CHRIST%20WORKING%20IN%20AND%20THROUGH%20THE%20CHURCH%29.%20TRACK%201.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE BASICS OF DISCIPLESHIP", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20BASICS%20OF%20DISCIPLESHIP%20%28LEADERS%2C%20AND%20WORKERS%27%20MEETING%202022%29/THE%20BASICS%20OF%20DISCIPLESHIP.mp3", series: "THE BASICS OF DISCIPLESHIP (LEADERS, AND WORKERS' MEETING 2022)", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "THE MISSION IS POSSIBLE 1. (OFFA MEETING)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20MISSION%20IS%20POSSIBLE%20%28OFFA%29/THE%20MISSION%20IS%20POSSIBLE%201.%20%28OFFA%20MEETING%29.mp3", series: "THE MISSION IS POSSIBLE (OFFA)", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "THE MISSION IS POSSIBLE 1. (OFFA MEETING) Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20MISSION%20IS%20POSSIBLE%20%28OFFA%29/THE%20MISSION%20IS%20POSSIBLE%201.%20%28OFFA%20MEETING%29.mp3", series: "THE MISSION IS POSSIBLE (OFFA)", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE MISSION IS POSSIBLE 2. (OFFA MEETING)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20MISSION%20IS%20POSSIBLE%20%28OFFA%29/THE%20MISSION%20IS%20POSSIBLE%202.%20%28OFFA%20MEETING%29.mp3", series: "THE MISSION IS POSSIBLE (OFFA)", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "THE MISSION IS POSSIBLE 1. (OFFA MEETING)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20MISSION%20IS%20POSSIBLE/THE%20MISSION%20IS%20POSSIBLE%201.%20%28OFFA%20MEETING%29.mp3", series: "THE MISSION IS POSSIBLE", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "THE MISSION IS POSSIBLE 1. (OFFA MEETING) Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20MISSION%20IS%20POSSIBLE/THE%20MISSION%20IS%20POSSIBLE%201.%20%28OFFA%20MEETING%29.mp3", series: "THE MISSION IS POSSIBLE", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "THE MISSION IS POSSIBLE 2. (OFFA MEETING)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/THE%20MISSION%20IS%20POSSIBLE/THE%20MISSION%20IS%20POSSIBLE%202.%20%28OFFA%20MEETING%29.mp3", series: "THE MISSION IS POSSIBLE", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "UNITY IN THE HARVEST (PASTOR WUNMI)", audioUrl: "https://archive.org/download/elgcc-teachings-2022/UNITY%20IN%20THE%20HARVEST%20%28PASTOR%20WUNMI%29.mp3", series: "General Teachings", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
 
@@ -801,7 +794,7 @@ const sermons: Sermon[] = [
   { title: "REDEEMING THE TIMES (NEW YEAR EXHORTATION) TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2023/1.%20REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29/REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29%20TRACK%201.mp3", series: "1. REDEEMING THE TIMES (NEW YEAR EXHORTATION)", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "REDEEMING THE TIMES (NEW YEAR EXHORTATION) TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2023/1.%20REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29/REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29%20TRACK%202.mp3", series: "1. REDEEMING THE TIMES (NEW YEAR EXHORTATION)", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "REDEEMING THE TIMES (NEW YEAR EXHORTATION) TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2023/1.%20REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29/REDEEMING%20THE%20TIMES%20%28NEW%20YEAR%20EXHORTATION%29%20TRACK%203.mp3", series: "1. REDEEMING THE TIMES (NEW YEAR EXHORTATION)", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "10. How do I Handle Difficult Disciples", audioUrl: "https://archive.org/download/elgcc-teachings-2023/10.%20How%20to%20Handle%20Difficult%20Disciples/10.%20How%20do%20I%20Handle%20Difficult%20Disciples.mp3", series: "10. How to Handle Difficult Disciples", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "10. How do I Handle Difficult Disciples Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2023/10.%20How%20to%20Handle%20Difficult%20Disciples/10.%20How%20do%20I%20Handle%20Difficult%20Disciples.mp3", series: "10. How to Handle Difficult Disciples", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Questions and Answers (How to Handle Difficult Disciples) 1", audioUrl: "https://archive.org/download/elgcc-teachings-2023/10.%20How%20to%20Handle%20Difficult%20Disciples/Questions%20and%20Answers%20%28How%20to%20Handle%20Difficult%20Disciples%29%201.mp3", series: "10. How to Handle Difficult Disciples", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "Questions and Answers (How to Handle Difficult Disciples) 2", audioUrl: "https://archive.org/download/elgcc-teachings-2023/10.%20How%20to%20Handle%20Difficult%20Disciples/Questions%20and%20Answers%20%28How%20to%20Handle%20Difficult%20Disciples%29%202.mp3", series: "10. How to Handle Difficult Disciples", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "The Leading of God's Spirit Series 5 (Track 1)", audioUrl: "https://archive.org/download/elgcc-teachings-2023/11.%20The%20Leading%20of%20God%27s%20Spirit%20Series%205/The%20Leading%20of%20God%27s%20Spirit%20Series%205%20%28Track%201%29.mp3", series: "11. The Leading of God's Spirit Series 5", year: 2023, speaker: "Stephen Tijesuni Oyagbile" },
@@ -848,7 +841,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "DOMINION IN CHRIST TRACK 10",
+    title: "DOMINION IN CHRIST TRACK 10 Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2023/3.%20DOMINION%20IN%20CHRIST/DOMINION%20IN%20CHRIST%20TRACK%2010.mp3",
     series: "3. DOMINION IN CHRIST",
     year: 2023,
@@ -1235,7 +1228,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "APATA GOSPEL INVASION 2023 (DAY 1)",
+    title: "APATA GOSPEL INVASION 2023 (DAY 1) Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2023/APATA%20GOSPEL%20INVASION/APATA%20GOSPEL%20INVASION%202023%20%28DAY%201%29.mp3",
     series: "APATA GOSPEL INVASION",
     year: 2023,
@@ -1333,7 +1326,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "Diverse Miracles (Healing Meeting October 2023)",
+    title: "Diverse Miracles (Healing Meeting October 2023) Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2023/HEALING%20MEETINGS/Diverse%20Miracles%20%28Healing%20Meeting%20October%202023%29.mp3",
     series: "HEALING MEETINGS",
     year: 2023,
@@ -1481,7 +1474,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "4. Pillar of Wisdom; Wisdom of Accountability.",
+    title: "4. Pillar of Wisdom; Wisdom of Accountability. Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/4.%20Pillar%20of%20Wisdom%3B%20Wisdom%20of%20Accountability/4.%20Pillar%20of%20Wisdom%3B%20Wisdom%20of%20Accountability..mp3",
     series: "4. Pillar of Wisdom; Wisdom of Accountability",
     year: 2024,
@@ -1607,7 +1600,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "Amazing Grace 1",
+    title: "Amazing Grace 1 Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/Amazing%20Grace%20TRECA%20Conference%202024/Amazing%20Grace%201.mp3",
     series: "Amazing Grace TRECA Conference 2024",
     year: 2024,
@@ -1810,7 +1803,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "(God of All Flesh)JANUARY 2024 HEALING MEETING",
+    title: "(God of All Flesh)JANUARY 2024 HEALING MEETING Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/HEALING%20MEETINGS%202024/%28God%20of%20All%20Flesh%29JANUARY%202024%20HEALING%20MEETING.mp3",
     series: "HEALING MEETINGS 2024",
     year: 2024,
@@ -1831,7 +1824,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "August 2024 Healing Meeting(That the excellency of the Power may be of God Track 1)",
+    title: "August 2024 Healing Meeting(That the excellency of the Power may be of God)",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/HEALING%20MEETINGS%202024/August%202024%20Healing%20Meeting%28That%20the%20excellency%20of%20the%20Power%20may%20be%20of%20God%29.mp3",
     series: "HEALING MEETINGS 2024",
     year: 2024,
@@ -1866,7 +1859,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "October 2024 Healing Meeting(Walking on Raging Seas Track 1)",
+    title: "October 2024 Healing Meeting(Walking on Raging Seas)",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/HEALING%20MEETINGS%202024/October%202024%20Healing%20Meeting%28Walking%20on%20Raging%20Seas%29.mp3",
     series: "HEALING MEETINGS 2024",
     year: 2024,
@@ -1887,7 +1880,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "How to make your church Grow 1",
+    title: "How to make your church Grow 1 Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/How%20to%20make%20your%20church%20Grow/How%20to%20make%20your%20church%20Grow%201.mp3",
     series: "How to make your church Grow",
     year: 2024,
@@ -1908,7 +1901,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "Friday Afternoon",
+    title: "Friday Afternoon Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/LICC%202024/Friday%20Afternoon.mp3",
     series: "LICC 2024",
     year: 2024,
@@ -1985,7 +1978,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "OAU Crusade Day 1 (Evening Session)",
+    title: "OAU Crusade Day 1 (Evening Session) Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/OAU%20CRUSADE%202024/OAU%20Crusade%20Day%201%20%28Evening%20Session%29.mp3",
     series: "OAU CRUSADE 2024",
     year: 2024,
@@ -2265,7 +2258,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "Secondary School 1",
+    title: "Secondary School 1 Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/Secondary%20School%202024/Secondary%20School%201.mp3",
     series: "Secondary School 2024",
     year: 2024,
@@ -2371,7 +2364,7 @@ const sermons: Sermon[] = [
   },
   // 2025 Sermons
   {
-    title: "LIFE IN CHRIST CONFERENCE  2025 SESSION 1",
+    title: "LIFE IN CHRIST CONFERENCE  2025 SESSION 1 Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2025/LICC%202025%20TEACHINGS/LIFE%20IN%20CHRIST%20CONFERENCE%20%202025%20SESSION%201.mp3",
     series: "LICC 2025 TEACHINGS",
     year: 2025,
@@ -3023,7 +3016,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "April 2025 Healing Meeting (How to receive Healing Miracles 1)",
+    title: "April 2025 Healing Meeting (How to receive Healing Miracles 1) Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2025/Healing%20Meetings/April%202025%20Healing%20Meeting%20%28How%20to%20receive%20Healing%20Miracles%201%29.mp3",
     series: "Healing Meetings",
     year: 2025,
@@ -3107,7 +3100,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "Ikirun Gospel Crusade  Friday Evening Session(Great Power Great Grace)",
+    title: "Ikirun Gospel Crusade  Friday Evening Session(Great Power Great Grace) Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2025/Ikirun%20Gospel%20crusade%202025/Ikirun%20Gospel%20Crusade%20%20Friday%20Evening%20Session%28Great%20Power%20Great%20Grace%29.mp3",
     series: "Ikirun Gospel crusade 2025",
     year: 2025,
@@ -3242,9 +3235,9 @@ const sermons: Sermon[] = [
   },
   {
     title: "Miracles in your Mouth Track 1",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2024/MIRACLES%20IN%20YOUR%20MOUTH.mp3",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth.mp3",
     series: "Miracles in your Mouth",
-    year: 2024,
+    year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
@@ -3257,9 +3250,9 @@ const sermons: Sermon[] = [
   // Miracles in your Mouth - additional tracks
   {
     title: "Miracles in your Mouth Track 2",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2024/Miracles%20in%20your%20Mouth%20Track%202.mp3",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%202.mp3",
     series: "Miracles in your Mouth",
-    year: 2024,
+    year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
@@ -3269,16 +3262,9 @@ const sermons: Sermon[] = [
     year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
   },
-  {
-    title: "Miracles in your Mouth Track 4",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%204.mp3",
-    series: "Miracles in your Mouth",
-    year: 2026,
-    speaker: "Stephen Tijesuni Oyagbile"
-  },
   // Ogba Crusade 2026
   {
-    title: "Ogba Lagos Crusade 1st Session - Friday Evening Session",
+    title: "Ogba Lagos Crusade 1st Session - Friday Evening Session Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2026/Ogba-%20Lagos%20Crusade%201st%20%20Session.mp3",
     series: "Ogba Crusade 2026",
     year: 2026,

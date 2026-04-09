@@ -59,13 +59,6 @@ const sermons: Sermon[] = [
 
   // Special Messages
   { title: "January 2026 Healing Meeting", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/January%202026%20Healing%20Meeting.mp3", series: "Special Messages", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
-  {
-    title: "March 2026 Healing meeting   The Mystery of the Love of God",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2026/March%202026%20Healing%20meeting%20-%20The%20Mystery%20of%20the%20Love%20of%20God.mp3",
-    series: "Special Messages",
-    year: 2026,
-    speaker: "Stephen Tijesuni Oyagbile"
-  },
   { title: "Joy of the Lord (Impartation and prophecy 11th February 2026)", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Joy%20of%20the%20Lord%20%28Impartation%20and%20prophecy%2011th%20February%202026%29.mp3", series: "Special Messages", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
 
   // Believers Authority Series 2026
@@ -697,7 +690,7 @@ const sermons: Sermon[] = [
   { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 4", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%204.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 5", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%205.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "BY MY SPIRIT (MAKING FULL PROOF OF YOUR MINISTRY).TRACK 6", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/BY%20MY%20SPIRIT%20%28MAKING%20FULL%20PROOF%20OF%20YOUR%20MINISTRY%29.TRACK%206.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
-  { title: "POWER THROUGH PRAYERS", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/POWER%20THROUGH%20PRAYERS.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
+  { title: "POWER THROUGH PRAYERS Track 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/16.%20CHURCH%20RETREAT%202022/POWER%20THROUGH%20PRAYERS.mp3", series: "16. CHURCH RETREAT 2022", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "HOW TO BE A BLESSING IN THIS LOCAL CHURCH TRACK 1", audioUrl: "https://archive.org/download/elgcc-teachings-2022/17.%20HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH/HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH%20TRACK%201.mp3", series: "17. HOW TO BE A BLESSING IN THIS LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "HOW TO BE A BLESSING IN THIS LOCAL CHURCH TRACK 2", audioUrl: "https://archive.org/download/elgcc-teachings-2022/17.%20HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH/HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH%20TRACK%202.mp3", series: "17. HOW TO BE A BLESSING IN THIS LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
   { title: "HOW TO BE A BLESSING IN THIS LOCAL CHURCH TRACK 3", audioUrl: "https://archive.org/download/elgcc-teachings-2022/17.%20HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH/HOW%20TO%20BE%20A%20BLESSING%20IN%20THIS%20LOCAL%20CHURCH%20TRACK%203.mp3", series: "17. HOW TO BE A BLESSING IN THIS LOCAL CHURCH", year: 2022, speaker: "Stephen Tijesuni Oyagbile" },
@@ -1810,7 +1803,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "(God of All Flesh)JANUARY 2024 HEALING MEETING",
+    title: "(God of All Flesh)JANUARY 2024 HEALING MEETING Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/HEALING%20MEETINGS%202024/%28God%20of%20All%20Flesh%29JANUARY%202024%20HEALING%20MEETING.mp3",
     series: "HEALING MEETINGS 2024",
     year: 2024,
@@ -1831,7 +1824,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "August 2024 Healing Meeting(That the excellency of the Power may be of God Track 1)",
+    title: "August 2024 Healing Meeting(That the excellency of the Power may be of God)",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/HEALING%20MEETINGS%202024/August%202024%20Healing%20Meeting%28That%20the%20excellency%20of%20the%20Power%20may%20be%20of%20God%29.mp3",
     series: "HEALING MEETINGS 2024",
     year: 2024,
@@ -1866,7 +1859,7 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "October 2024 Healing Meeting(Walking on Raging Seas Track 1)",
+    title: "October 2024 Healing Meeting(Walking on Raging Seas)",
     audioUrl: "https://archive.org/download/elgcc-teachings-2024/HEALING%20MEETINGS%202024/October%202024%20Healing%20Meeting%28Walking%20on%20Raging%20Seas%29.mp3",
     series: "HEALING MEETINGS 2024",
     year: 2024,
@@ -3242,9 +3235,9 @@ const sermons: Sermon[] = [
   },
   {
     title: "Miracles in your Mouth Track 1",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2024/MIRACLES%20IN%20YOUR%20MOUTH.mp3",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth.mp3",
     series: "Miracles in your Mouth",
-    year: 2024,
+    year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
@@ -3257,21 +3250,14 @@ const sermons: Sermon[] = [
   // Miracles in your Mouth - additional tracks
   {
     title: "Miracles in your Mouth Track 2",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2024/Miracles%20in%20your%20Mouth%20Track%202.mp3",
-    series: "Miracles in your Mouth",
-    year: 2024,
-    speaker: "Stephen Tijesuni Oyagbile"
-  },
-  {
-    title: "Miracles in your Mouth Track 3",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%203.mp3",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%202.mp3",
     series: "Miracles in your Mouth",
     year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
-    title: "Miracles in your Mouth Track 4",
-    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%204.mp3",
+    title: "Miracles in your Mouth Track 3",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%203.mp3",
     series: "Miracles in your Mouth",
     year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
