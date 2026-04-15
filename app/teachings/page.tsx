@@ -3241,6 +3241,27 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
+    title: "Believers Authority  Track 6",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Believers%20Authority-%20Track%206.mp3",
+    series: "Believers Authority",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Believers Authority  Track 7",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Believers%20Authority-%20Track%207.mp3",
+    series: "Believers Authority",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Believers Authority  Track 8",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Believers%20Authority-%20Track%208.mp3",
+    series: "Believers Authority",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
     title: "Miracles in your Mouth Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth.mp3",
     series: "Miracles in your Mouth",
