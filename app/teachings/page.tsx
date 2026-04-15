@@ -3297,6 +3297,13 @@ const sermons: Sermon[] = [
     year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
   },
+  {
+    title: "Miracles in your Mouth Track 5",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%205.mp3",
+    series: "Miracles in your Mouth",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
   // Ogba Crusade 2026
   {
     title: "Ogba Lagos Crusade 1st Session - Friday Evening Session",
@@ -3319,6 +3326,56 @@ const sermons: Sermon[] = [
     audioUrl: "https://archive.org/download/elgcc-teachings-2026/Ogba-%20Lagos%20Crusade%203rd%20Session.mp3",
     series: "Ogba Crusade 2026",
     year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  // --- ADDITIONAL OLDER TEACHINGS RECENTLY UPLOADED ---
+  {
+    title: "Cost of Discipleship",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/COST%20OF%20DISCIPLESHIP.m4a",
+    series: "COST OF DISCIPLESHIP",
+    year: 2018,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Living in Honour",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Living%20in%20Honour-%20Pastor%20Stephen%20Oyagbile.mp3",
+    series: "General Teachings",
+    year: 2021,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "My Ministry of Laying Hands",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/MY%20MINISTRY%20OF%20LAYING%20HANDS.mp3",
+    series: "General Teachings",
+    year: 2020,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "My Words and My Supernatural Life",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/MY%20WORDS%20AND%20MY%20SUPERNATURAL%20LIFE.m4a",
+    series: "General Teachings",
+    year: 2020,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Sights and Sounds in the Supernatural",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/SIGHTS%20AND%20SOUNDS%20IN%20THE%20SUPERNATURAL.m4a",
+    series: "SIGHTS AND SOUNDS IN THE SUPERNATURAL",
+    year: 2018,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "The Reality of the Word",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/THE%20REALITY%20OF%20THE%20WORD.mp3",
+    series: "General Teachings",
+    year: 2018,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Training of the Spirit",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Training%20of%20the%20Spirit.mp3",
+    series: "General Teachings",
+    year: 2019,
     speaker: "Stephen Tijesuni Oyagbile"
   }
   // --- END OF 2026 ---
