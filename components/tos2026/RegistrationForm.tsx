@@ -401,7 +401,7 @@ export default function RegistrationForm() {
                     special registration form below.
                   </p>
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSeVcygVdpn3pcNh1cXVBzBHOAZhSpsQHccqQVUd6UNeocHNbA/viewform"
+                    href="https://forms.gle/5CtijdKdMsh8xmMy8"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-[#D4A843] font-semibold text-sm hover:text-[#F0D78C] transition-colors"
