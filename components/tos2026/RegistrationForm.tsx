@@ -137,11 +137,11 @@ export default function RegistrationForm() {
 
     const finalCoordinator = registrationType === 'individual'
       ? {
-          fullName: attendees[0].fullName,
-          phoneNumber: attendees[0].phoneNumber,
-          emailAddress: attendees[0].emailAddress,
-          churchName: attendees[0].localChurch,
-        }
+        fullName: attendees[0].fullName,
+        phoneNumber: attendees[0].phoneNumber,
+        emailAddress: attendees[0].emailAddress,
+        churchName: attendees[0].localChurch,
+      }
       : coordinator;
 
     try {
@@ -251,22 +251,20 @@ export default function RegistrationForm() {
                 setRegistrationType('individual');
                 setAttendees([attendees[0]]); // Reset to 1 attendee
               }}
-              className={`flex-1 py-4 px-2 rounded-xl border text-sm md:text-base font-bold transition-all ${
-                registrationType === 'individual'
+              className={`flex-1 py-4 px-2 rounded-xl border text-sm md:text-base font-bold transition-all ${registrationType === 'individual'
                   ? 'border-[#D4A843] bg-[#D4A843]/10 text-[#D4A843]'
                   : 'border-white/10 text-white/50 hover:bg-white/5'
-              }`}
+                }`}
             >
               👤 Just Myself
             </button>
             <button
               type="button"
               onClick={() => setRegistrationType('group')}
-              className={`flex-1 py-4 px-2 rounded-xl border text-sm md:text-base font-bold transition-all ${
-                registrationType === 'group'
+              className={`flex-1 py-4 px-2 rounded-xl border text-sm md:text-base font-bold transition-all ${registrationType === 'group'
                   ? 'border-[#D4A843] bg-[#D4A843]/10 text-[#D4A843]'
                   : 'border-white/10 text-white/50 hover:bg-white/5'
-              }`}
+                }`}
             >
               👥 Group / Church
             </button>
@@ -275,66 +273,66 @@ export default function RegistrationForm() {
           {/* Section: Coordinator Info (Groups Only) */}
           {registrationType === 'group' && (
             <section className="tos-fade-in">
-            <div className="flex items-center gap-3 mb-5">
-              <div className="w-8 h-8 rounded-lg bg-[#D4A843]/20 flex items-center justify-center">
-                <span className="text-[#D4A843] font-bold text-sm">1</span>
+              <div className="flex items-center gap-3 mb-5">
+                <div className="w-8 h-8 rounded-lg bg-[#D4A843]/20 flex items-center justify-center">
+                  <span className="text-[#D4A843] font-bold text-sm">1</span>
+                </div>
+                <h2 className="text-xl font-bold text-white">
+                  Your Information
+                </h2>
               </div>
-              <h2 className="text-xl font-bold text-white">
-                Your Information
-              </h2>
-            </div>
-            <div className="tos-card rounded-2xl p-5 md:p-6">
-              <p className="text-white/40 text-sm mb-5">
-                This is the contact person coordinating this registration.
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label className="tos-label">Full Name *</label>
-                  <input
-                    type="text"
-                    className={`tos-input ${coordErrors.fullName ? 'error' : ''}`}
-                    placeholder="Your full name"
-                    value={coordinator.fullName}
-                    onChange={(e) => updateCoordinator('fullName', e.target.value)}
-                  />
-                  {coordErrors.fullName && <p className="tos-error-text">{coordErrors.fullName}</p>}
-                </div>
-                <div>
-                  <label className="tos-label">Church / Organization *</label>
-                  <input
-                    type="text"
-                    className={`tos-input ${coordErrors.churchName ? 'error' : ''}`}
-                    placeholder="Name of your church"
-                    value={coordinator.churchName}
-                    onChange={(e) => updateCoordinator('churchName', e.target.value)}
-                  />
-                  {coordErrors.churchName && <p className="tos-error-text">{coordErrors.churchName}</p>}
-                </div>
-                <div>
-                  <label className="tos-label">Phone Number *</label>
-                  <input
-                    type="tel"
-                    className={`tos-input ${coordErrors.phoneNumber ? 'error' : ''}`}
-                    placeholder="e.g. 08012345678"
-                    value={coordinator.phoneNumber}
-                    onChange={(e) => updateCoordinator('phoneNumber', e.target.value)}
-                  />
-                  {coordErrors.phoneNumber && <p className="tos-error-text">{coordErrors.phoneNumber}</p>}
-                </div>
-                <div>
-                  <label className="tos-label">Email Address *</label>
-                  <input
-                    type="email"
-                    className={`tos-input ${coordErrors.emailAddress ? 'error' : ''}`}
-                    placeholder="email@example.com"
-                    value={coordinator.emailAddress}
-                    onChange={(e) => updateCoordinator('emailAddress', e.target.value)}
-                  />
-                  {coordErrors.emailAddress && <p className="tos-error-text">{coordErrors.emailAddress}</p>}
+              <div className="tos-card rounded-2xl p-5 md:p-6">
+                <p className="text-white/40 text-sm mb-5">
+                  This is the contact person coordinating this registration.
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div>
+                    <label className="tos-label">Full Name *</label>
+                    <input
+                      type="text"
+                      className={`tos-input ${coordErrors.fullName ? 'error' : ''}`}
+                      placeholder="Your full name"
+                      value={coordinator.fullName}
+                      onChange={(e) => updateCoordinator('fullName', e.target.value)}
+                    />
+                    {coordErrors.fullName && <p className="tos-error-text">{coordErrors.fullName}</p>}
+                  </div>
+                  <div>
+                    <label className="tos-label">Church / Organization *</label>
+                    <input
+                      type="text"
+                      className={`tos-input ${coordErrors.churchName ? 'error' : ''}`}
+                      placeholder="Name of your church"
+                      value={coordinator.churchName}
+                      onChange={(e) => updateCoordinator('churchName', e.target.value)}
+                    />
+                    {coordErrors.churchName && <p className="tos-error-text">{coordErrors.churchName}</p>}
+                  </div>
+                  <div>
+                    <label className="tos-label">Phone Number *</label>
+                    <input
+                      type="tel"
+                      className={`tos-input ${coordErrors.phoneNumber ? 'error' : ''}`}
+                      placeholder="e.g. 08012345678"
+                      value={coordinator.phoneNumber}
+                      onChange={(e) => updateCoordinator('phoneNumber', e.target.value)}
+                    />
+                    {coordErrors.phoneNumber && <p className="tos-error-text">{coordErrors.phoneNumber}</p>}
+                  </div>
+                  <div>
+                    <label className="tos-label">Email Address *</label>
+                    <input
+                      type="email"
+                      className={`tos-input ${coordErrors.emailAddress ? 'error' : ''}`}
+                      placeholder="email@example.com"
+                      value={coordinator.emailAddress}
+                      onChange={(e) => updateCoordinator('emailAddress', e.target.value)}
+                    />
+                    {coordErrors.emailAddress && <p className="tos-error-text">{coordErrors.emailAddress}</p>}
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
+            </section>
           )}
 
           {/* Section: Attendees */}
@@ -397,8 +395,8 @@ export default function RegistrationForm() {
                   </h3>
                   <p className="text-white/40 text-sm mb-3">
                     If you have a special arrangement, referral, or have been
-                    approved for free/discounted registration, please use the
-                    special registration form below.
+                    approved for special registration, please use the
+                    special registration form below with your proof of payment.
                   </p>
                   <a
                     href="https://forms.gle/5CtijdKdMsh8xmMy8"
