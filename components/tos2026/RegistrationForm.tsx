@@ -181,41 +181,41 @@ export default function RegistrationForm() {
       <div className="container-custom py-16 max-w-2xl mx-auto">
         <div className="tos-card rounded-2xl p-8 md:p-12 text-center tos-fade-in">
           <div className="text-6xl mb-6">✅</div>
-          <h2 className="text-3xl font-black text-white mb-3">
+          <h2 className="text-3xl font-black text-slate-900 mb-3">
             Registration Successful!
           </h2>
-          <p className="text-white/50 mb-6">
+          <p className="text-slate-500 mb-6">
             Your registration has been recorded. Once Flutterwave is integrated,
             payment will be processed automatically.
           </p>
-          <div className="bg-white/5 rounded-xl p-5 mb-6 text-left space-y-3">
+          <div className="bg-slate-50 rounded-xl p-5 mb-6 text-left space-y-3">
             <div className="flex justify-between">
-              <span className="text-white/50 text-sm">Registration ID</span>
+              <span className="text-slate-500 text-sm">Registration ID</span>
               <span className="text-[#D4A843] font-mono font-bold text-sm">
                 {registrationData.registrationId}
               </span>
             </div>
             <div className="flex justify-between">
-              <span className="text-white/50 text-sm">Coordinator</span>
-              <span className="text-white font-semibold text-sm">{coordinator.fullName}</span>
+              <span className="text-slate-500 text-sm">Coordinator</span>
+              <span className="text-slate-900 font-semibold text-sm">{coordinator.fullName}</span>
             </div>
             <div className="flex justify-between">
-              <span className="text-white/50 text-sm">Church</span>
-              <span className="text-white font-semibold text-sm">{coordinator.churchName}</span>
+              <span className="text-slate-500 text-sm">Church</span>
+              <span className="text-slate-900 font-semibold text-sm">{coordinator.churchName}</span>
             </div>
             <div className="flex justify-between">
-              <span className="text-white/50 text-sm">Attendees</span>
-              <span className="text-white font-semibold text-sm">{attendees.length}</span>
+              <span className="text-slate-500 text-sm">Attendees</span>
+              <span className="text-slate-900 font-semibold text-sm">{attendees.length}</span>
             </div>
-            <div className="w-full h-px bg-white/10" />
+            <div className="w-full h-px bg-slate-200" />
             <div className="flex justify-between">
-              <span className="text-white/50 text-sm">Total Amount</span>
+              <span className="text-slate-500 text-sm">Total Amount</span>
               <span className="text-[#D4A843] font-black text-lg">
                 {formatPrice(registrationData.total)}
               </span>
             </div>
           </div>
-          <p className="text-white/30 text-xs mb-6">
+          <p className="text-slate-400 text-xs mb-6">
             A confirmation email will be sent to {coordinator.emailAddress} once
             payment is confirmed.
           </p>
@@ -253,7 +253,7 @@ export default function RegistrationForm() {
               }}
               className={`flex-1 py-4 px-2 rounded-xl border text-sm md:text-base font-bold transition-all ${registrationType === 'individual'
                   ? 'border-[#D4A843] bg-[#D4A843]/10 text-[#D4A843]'
-                  : 'border-white/10 text-white/50 hover:bg-white/5'
+                  : 'border-slate-200 text-slate-500 hover:bg-slate-50'
                 }`}
             >
               👤 Just Myself
@@ -263,7 +263,7 @@ export default function RegistrationForm() {
               onClick={() => setRegistrationType('group')}
               className={`flex-1 py-4 px-2 rounded-xl border text-sm md:text-base font-bold transition-all ${registrationType === 'group'
                   ? 'border-[#D4A843] bg-[#D4A843]/10 text-[#D4A843]'
-                  : 'border-white/10 text-white/50 hover:bg-white/5'
+                  : 'border-slate-200 text-slate-500 hover:bg-slate-50'
                 }`}
             >
               👥 Group / Church
@@ -277,12 +277,12 @@ export default function RegistrationForm() {
                 <div className="w-8 h-8 rounded-lg bg-[#D4A843]/20 flex items-center justify-center">
                   <span className="text-[#D4A843] font-bold text-sm">1</span>
                 </div>
-                <h2 className="text-xl font-bold text-white">
+                <h2 className="text-xl font-bold text-slate-900">
                   Your Information
                 </h2>
               </div>
               <div className="tos-card rounded-2xl p-5 md:p-6">
-                <p className="text-white/40 text-sm mb-5">
+                <p className="text-slate-500 text-sm mb-5">
                   This is the contact person coordinating this registration.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -344,10 +344,10 @@ export default function RegistrationForm() {
                     {registrationType === 'group' ? '2' : '1'}
                   </span>
                 </div>
-                <h2 className="text-xl font-bold text-white">
+                <h2 className="text-xl font-bold text-slate-900">
                   {registrationType === 'group' ? 'Attendees' : 'Your Details'}
                   {registrationType === 'group' && (
-                    <span className="text-white/30 font-normal text-base ml-2">
+                    <span className="text-slate-400 font-normal text-base ml-2">
                       ({attendees.length})
                     </span>
                   )}
@@ -386,14 +386,14 @@ export default function RegistrationForm() {
 
           {/* Special Registration Section */}
           <section id="special-registration">
-            <div className="tos-card rounded-2xl p-5 md:p-6 border-dashed border-white/10">
+            <div className="tos-card rounded-2xl p-5 md:p-6 border-dashed border-slate-200">
               <div className="flex items-start gap-4">
                 <div className="text-3xl">🎟️</div>
                 <div>
-                  <h3 className="font-bold text-white mb-1">
+                  <h3 className="font-bold text-slate-900 mb-1">
                     Special / Discounted Registration
                   </h3>
-                  <p className="text-white/40 text-sm mb-3">
+                  <p className="text-slate-500 text-sm mb-3">
                     If you have a special arrangement, referral, or have been
                     approved for special registration, please use the
                     special registration form below with your proof of payment.
@@ -429,7 +429,7 @@ export default function RegistrationForm() {
       <div className="tos-mobile-bottom-bar lg:hidden">
         <div className="flex items-center justify-between mb-2">
           <div>
-            <span className="text-white/50 text-xs">{attendees.length} attendee{attendees.length !== 1 ? 's' : ''}</span>
+            <span className="text-slate-500 text-xs">{attendees.length} attendee{attendees.length !== 1 ? 's' : ''}</span>
             <div className="text-[#D4A843] font-black text-xl">{formatPrice(total)}</div>
           </div>
           <button

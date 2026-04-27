@@ -36,14 +36,14 @@ export default function AttendeeCard({
             style={{
               background: selectedCat
                 ? `${selectedCat.color}20`
-                : 'rgba(255,255,255,0.08)',
-              color: selectedCat ? selectedCat.color : 'rgba(255,255,255,0.5)',
+                : 'rgba(0,0,0,0.08)',
+              color: selectedCat ? selectedCat.color : 'rgba(0,0,0,0.5)',
             }}
           >
             {index + 1}
           </div>
           <div>
-            <h3 className="font-bold text-white text-sm">
+            <h3 className="font-bold text-slate-900 text-sm">
               {attendee.fullName || `Attendee ${index + 1}`}
             </h3>
             {selectedCat && (
@@ -60,7 +60,7 @@ export default function AttendeeCard({
           <button
             type="button"
             onClick={onRemove}
-            className="text-white/30 hover:text-red-400 transition-colors p-1.5 rounded-lg hover:bg-red-400/10"
+            className="text-slate-400 hover:text-red-500 transition-colors p-1.5 rounded-lg hover:bg-red-50"
             title="Remove attendee"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -106,14 +106,14 @@ export default function AttendeeCard({
                   className={`w-4 h-4 rounded-full border-2 flex items-center justify-center transition-all ${
                     attendee.gender === g
                       ? 'border-[#D4A843] bg-[#D4A843]'
-                      : 'border-white/30'
+                      : 'border-slate-300'
                   }`}
                 >
                   {attendee.gender === g && (
                     <div className="w-1.5 h-1.5 rounded-full bg-[#1A1A1A]" />
                   )}
                 </div>
-                <span className="text-white/80 text-sm">{g}</span>
+                <span className="text-slate-700 text-sm">{g}</span>
               </label>
             ))}
           </div>
@@ -149,7 +149,7 @@ export default function AttendeeCard({
                   style={
                     attendee.category === cat.id
                       ? { borderColor: cat.color, backgroundColor: cat.color }
-                      : { borderColor: 'rgba(255,255,255,0.3)' }
+                      : { borderColor: 'rgba(0,0,0,0.3)' }
                   }
                 >
                   {attendee.category === cat.id && (
@@ -157,9 +157,9 @@ export default function AttendeeCard({
                   )}
                 </div>
                 <div className="flex-1 flex items-center justify-between">
-                  <span className="text-white/80 text-sm">
+                  <span className="text-slate-700 text-sm">
                     {cat.icon} {cat.label}
-                    <span className="text-white/40 text-xs ml-1">({cat.ageRange})</span>
+                    <span className="text-slate-500 text-xs ml-1">({cat.ageRange})</span>
                   </span>
                   <span
                     className="font-bold text-xs"
@@ -235,7 +235,7 @@ export default function AttendeeCard({
         <div className="md:col-span-2">
           <label className="tos-label">
             Medical Conditions{' '}
-            <span className="text-white/30 normal-case">(Peptic ulcer, Sickle cell, Asthma, Diabetes, Seizure, etc.)</span>
+            <span className="text-slate-400 normal-case">(Peptic ulcer, Sickle cell, Asthma, Diabetes, Seizure, etc.)</span>
           </label>
           <input
             type="text"

@@ -18,13 +18,13 @@ export default function EventHero() {
 
         {/* Event name */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black tracking-tight mb-4 tos-fade-in">
-          <span className="text-white">TRAINING OF</span>
+          <span className="text-slate-900">TRAINING OF</span>
           <br />
           <span className="bg-gradient-to-r from-[#D4A843] via-[#F0D78C] to-[#D4A843] bg-clip-text text-transparent">
             THE SPIRIT
           </span>
           <br />
-          <span className="text-white/60 text-3xl md:text-5xl lg:text-6xl font-bold">
+          <span className="text-slate-600 text-3xl md:text-5xl lg:text-6xl font-bold">
             2026
           </span>
         </h1>
@@ -37,8 +37,8 @@ export default function EventHero() {
             </svg>
             <span className="font-bold text-lg">August 3 – 8, 2026</span>
           </div>
-          <div className="hidden sm:block w-1 h-1 rounded-full bg-white/30" />
-          <div className="flex items-center gap-2 text-white/50">
+          <div className="hidden sm:block w-1 h-1 rounded-full bg-slate-200" />
+          <div className="flex items-center gap-2 text-slate-500">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -48,14 +48,14 @@ export default function EventHero() {
         </div>
 
         {/* Description */}
-        <p className="text-white/50 max-w-2xl mx-auto text-base md:text-lg leading-relaxed mb-8 tos-fade-in" style={{ animationDelay: '0.3s' }}>
+        <p className="text-slate-600 max-w-2xl mx-auto text-base md:text-lg leading-relaxed mb-8 tos-fade-in" style={{ animationDelay: '0.3s' }}>
           An annual spiritual empowerment conference by Eternal Life Global Community Church.
           Register yourself or your church group below.
         </p>
 
         {/* Scroll indicator */}
         <div className="tos-fade-in" style={{ animationDelay: '0.5s' }}>
-          <div className="inline-flex items-center gap-2 text-white/30 text-sm">
+          <div className="inline-flex items-center gap-2 text-slate-400 text-sm">
             <span>Scroll to register</span>
             <svg className="w-4 h-4 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
