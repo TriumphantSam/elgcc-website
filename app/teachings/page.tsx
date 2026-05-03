@@ -66,6 +66,13 @@ const sermons: Sermon[] = [
     year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
   },
+  {
+    title: "April 2026 Healing meeting   The Materiality of God's Power to heal",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/April%202026%20Healing%20meeting%20-%20The%20Materiality%20of%20God%27s%20Power%20to%20heal.mp3",
+    series: "Special Messages",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
   { title: "Joy of the Lord (Impartation and prophecy 11th February 2026)", audioUrl: "https://archive.org/download/elgcc-fasting-teachings-2026/C%3A/Users/Adeyemi%20Olayemi/Music/2026%20teachings/Joy%20of%20the%20Lord%20%28Impartation%20and%20prophecy%2011th%20February%202026%29.mp3", series: "Special Messages", year: 2026, speaker: "Pastor Stephen Tijesuni Oyagbile" },
 
   // Believers Authority Series 2026
@@ -3262,6 +3269,20 @@ const sermons: Sermon[] = [
     speaker: "Stephen Tijesuni Oyagbile"
   },
   {
+    title: "Believers Authority  Track 9",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Believers%20Authority-%20Track%209.mp3",
+    series: "Believers Authority",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Believers Authority  Track 10",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Believers%20Authority-%20Track%2010.mp3",
+    series: "Believers Authority",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
     title: "Miracles in your Mouth Track 1",
     audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth.mp3",
     series: "Miracles in your Mouth",
@@ -3300,6 +3321,20 @@ const sermons: Sermon[] = [
   {
     title: "Miracles in your Mouth Track 5",
     audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%205.mp3",
+    series: "Miracles in your Mouth",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Miracles in your Mouth Track 6",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%206.mp3",
+    series: "Miracles in your Mouth",
+    year: 2026,
+    speaker: "Stephen Tijesuni Oyagbile"
+  },
+  {
+    title: "Miracles in your Mouth Track 7",
+    audioUrl: "https://archive.org/download/elgcc-teachings-2026/Miracles%20in%20your%20Mouth%20Track%207.mp3",
     series: "Miracles in your Mouth",
     year: 2026,
     speaker: "Stephen Tijesuni Oyagbile"
