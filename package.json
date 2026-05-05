@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "validate:teachings": "node scripts/validate-teachings.js",
+    "test:teachings-uploader": "python scripts/test-teaching-uploader.py"
   },
   "dependencies": {
     "@types/leaflet": "^1.9.21",

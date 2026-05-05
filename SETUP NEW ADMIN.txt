@@ -1,0 +1,118 @@
+Below is the simple “new PC setup” guide you can give to a staff member.
+
+**What They Need**
+They need:
+- The church GitHub login or a church publisher GitHub login
+- Archive.org login already available or configured
+- The staff uploader password: `elgcc`
+
+**Step 1: Install The Needed Apps**
+On the new PC, install these:
+
+1. Install Git  
+   Download: [https://git-scm.com/download/win](https://git-scm.com/download/win)
+
+2. Install Node.js  
+   Download the LTS version: [https://nodejs.org](https://nodejs.org)
+
+3. Install Python  
+   Download: [https://www.python.org/downloads/windows](https://www.python.org/downloads/windows)
+
+Important during Python install: tick the box that says **Add python.exe to PATH**.
+
+**Step 2: Open PowerShell**
+1. Click the Windows Start button.
+2. Search `PowerShell`.
+3. Open it.
+
+**Step 3: Download The Website Folder**
+In PowerShell, paste this, but replace `CHURCH-GITHUB-ACCOUNT` with the real church GitHub username:
+
+```powershell:
+
+cd $env:USERPROFILE\Desktop
+git clone https://github.com/ELGCC-ORG/elgcc-website.git
+cd elgcc-website
+```
+
+If GitHub asks them to sign in, they should sign in with the church GitHub account.
+GITHUB ACCOUNT:
+Username:ELGCC
+Password:@(Eternallife25)@@
+
+**Step 4: Install Website Files**
+Still in PowerShell, run:
+
+```powershell: 
+
+npm install
+```
+
+Wait until it finishes.
+
+**Step 5: Install Archive.org Uploader**
+Run:
+
+```powershell:
+
+python -m pip install internetarchive
+```
+
+**Step 6: Set The Staff Password**
+Run:
+
+```powershell
+
+setx TEACHING_UPLOADER_PASSWORD "elgcc"
+```
+
+**Step 7: Allow The App To Publish**
+Only do this if this staff member is trusted to publish live updates:
+
+```powershell:
+
+setx TEACHING_UPLOADER_ALLOW_PUSH 1
+```
+
+After this, close PowerShell completely.
+
+**Step 8: Open The Upload Assistant**
+Go to:
+
+```text
+Desktop > elgcc-website
+```
+
+Double-click:
+
+```text
+Teaching Upload Assistant.bat
+```
+
+The upload window should open.
+
+**How They Use It**
+1. Enter the year, for example `2026`.
+2. Enter the series, for example `Believers Authority`.
+3. Speaker can stay as `Stephen Tijesuni Oyagbile`.
+4. Click `Choose Files` or `Choose Folder`.
+5. Review the sermon titles.
+6. Click `Upload and Update Website`.
+7. Enter password: `elgcc`.
+8. Wait until it says upload complete.
+
+**If It Does Not Open**
+Open PowerShell inside the `elgcc-website` folder and run:
+
+```powershell
+python teaching_upload_assistant.py
+```
+
+**One Important Note**
+The PC must be signed into Git as the church GitHub account or a church publisher account. Otherwise, the upload assistant may update the files but fail when trying to publish to GitHub.
+
+
+Vercel Account:
+eternallifegcc@gmail.com
+
+You can login with the GitHub account after logging in to github
