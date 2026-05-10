@@ -23,7 +23,7 @@ export default function PaymentResultPage({ searchParams }: PaymentResultPagePro
           </h1>
           <p className="text-slate-500 mb-6">
             {isSuccess
-              ? 'Thank you. Your Training of the Spirit 2026 registration payment has been confirmed.'
+              ? searchParams.message || 'Thank you. Your Training of the Spirit 2026 registration payment has been confirmed.'
               : searchParams.message || 'We could not confirm this payment. If money was deducted, please contact the ELGCC admin team with your payment reference.'}
           </p>
 

@@ -75,6 +75,37 @@ async function getRegistrationsSheet() {
   return sheet;
 }
 
+export async function getGoogleSheetsDiagnostics() {
+  const credentials = getGoogleSheetCredentials();
+
+  if (!credentials) {
+    return {
+      configured: false,
+      connected: false,
+      registrationsSheetFound: false,
+      error: 'Google Sheets credentials are missing.',
+    };
+  }
+
+  try {
+    const sheet = await getRegistrationsSheet();
+
+    return {
+      configured: true,
+      connected: Boolean(sheet),
+      registrationsSheetFound: Boolean(sheet),
+      error: '',
+    };
+  } catch (error) {
+    return {
+      configured: true,
+      connected: false,
+      registrationsSheetFound: false,
+      error: error instanceof Error ? error.message : 'Unable to connect to Google Sheets.',
+    };
+  }
+}
+
 export async function appendToGoogleSheet(registration: Registration) {
   try {
     const sheet = await getRegistrationsSheet();

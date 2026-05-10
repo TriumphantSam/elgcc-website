@@ -8,6 +8,7 @@ import {
 import {
   markFlutterwaveRegistrationFailed,
   markFlutterwaveRegistrationPaid,
+  markVerifiedFlutterwavePaymentWithoutRegistration,
 } from '@/lib/tos2026/payments';
 
 function paymentResultUrl(req: NextRequest, status: string, registrationId?: string, message?: string) {
@@ -41,8 +42,27 @@ export async function GET(req: NextRequest) {
     }
 
     if (isSuccessfulFlutterwaveTransaction(transaction)) {
-      const registration = await markFlutterwaveRegistrationPaid(transaction);
-      return NextResponse.redirect(paymentResultUrl(req, 'success', registration.registrationId));
+      try {
+        const registration = await markFlutterwaveRegistrationPaid(transaction);
+        return NextResponse.redirect(paymentResultUrl(req, 'success', registration.registrationId));
+      } catch (error) {
+        const missingRegistration =
+          error instanceof Error && error.message.includes('No TOS registration found');
+
+        if (!missingRegistration) {
+          throw error;
+        }
+
+        const fallbackPayment = await markVerifiedFlutterwavePaymentWithoutRegistration(transaction);
+        return NextResponse.redirect(
+          paymentResultUrl(
+            req,
+            'success',
+            fallbackPayment.registrationId,
+            'Payment was confirmed. The admin team should reconcile this registration in Google Sheets.'
+          )
+        );
+      }
     }
 
     await markFlutterwaveRegistrationFailed(transaction);

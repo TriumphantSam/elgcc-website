@@ -79,6 +79,21 @@ export async function markFlutterwaveRegistrationPaid(transaction: FlutterwaveTr
   return paidRegistration;
 }
 
+export async function markVerifiedFlutterwavePaymentWithoutRegistration(transaction: FlutterwaveTransaction) {
+  const registrationId = getRegistrationIdFromTransaction(transaction);
+
+  if (!registrationId) {
+    throw new Error('Flutterwave transaction is missing a TOS registration reference.');
+  }
+
+  return {
+    registrationId,
+    paymentReference: transaction.tx_ref || registrationId,
+    flutterwaveTransactionId: transaction.id ? String(transaction.id) : '',
+    paidAt: new Date().toISOString(),
+  };
+}
+
 export async function markFlutterwaveRegistrationFailed(transaction: FlutterwaveTransaction) {
   const registrationId = getRegistrationIdFromTransaction(transaction);
 

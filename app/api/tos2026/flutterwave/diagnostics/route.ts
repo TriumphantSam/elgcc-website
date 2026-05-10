@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { generateRegistrationId } from '@/lib/tos2026/pricing';
 import { createFlutterwavePaymentLink, getSiteUrl, isFlutterwaveConfigured } from '@/lib/tos2026/flutterwave';
+import { getGoogleSheetsDiagnostics } from '@/lib/tos2026/sheets';
 import { Registration } from '@/lib/tos2026/types';
 
 function isAuthorized(req: NextRequest) {
@@ -25,6 +26,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ success: false, error: 'Unauthorized' }, { status: 401 });
   }
 
+  const googleSheets = await getGoogleSheetsDiagnostics();
   const siteUrl = getSiteUrl(req.nextUrl.origin);
   const diagnostics = {
     nodeEnv: process.env.NODE_ENV,
@@ -35,6 +37,7 @@ export async function GET(req: NextRequest) {
     title: process.env.FLUTTERWAVE_TITLE || 'ELGCC Training of the Spirit 2026',
     forwardSecretPresent: Boolean(process.env.ELGCC_FORWARD_SECRET),
     requireFlutterwavePayment: process.env.TOS_REQUIRE_FLUTTERWAVE_PAYMENT !== '0',
+    googleSheets,
   };
 
   if (req.nextUrl.searchParams.get('createLink') !== '1') {
