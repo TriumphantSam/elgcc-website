@@ -11,6 +11,10 @@ import {
   isFlutterwaveConfigured,
 } from '@/lib/tos2026/flutterwave';
 
+function requiresOnlinePayment() {
+  return process.env.TOS_REQUIRE_FLUTTERWAVE_PAYMENT !== '0';
+}
+
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
@@ -94,7 +98,18 @@ export async function POST(req: NextRequest) {
       });
     }
 
-    // Placeholder mode: record registration and notify without online payment.
+    if (requiresOnlinePayment()) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: 'Online payment is not configured yet. Please contact the ELGCC admin team.',
+        },
+        { status: 503 }
+      );
+    }
+
+    // Local/manual fallback mode. Disable this in production by leaving
+    // TOS_REQUIRE_FLUTTERWAVE_PAYMENT unset or set to any value except "0".
     await sendConfirmationEmail(registration);
 
     return NextResponse.json({

@@ -169,7 +169,7 @@ export default function RegistrationForm() {
       }
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : 'Something went wrong';
-      alert('Error: ' + message);
+      alert(message);
     } finally {
       setIsSubmitting(false);
     }
