@@ -182,11 +182,11 @@ export default function RegistrationForm() {
         <div className="tos-card rounded-2xl p-8 md:p-12 text-center tos-fade-in">
           <div className="text-6xl mb-6">✅</div>
           <h2 className="text-3xl font-black text-slate-900 mb-3">
-            Registration Successful!
+            Registration Recorded
           </h2>
           <p className="text-slate-500 mb-6">
-            Your registration has been recorded. Once Flutterwave is integrated,
-            payment will be processed automatically.
+            Your registration has been recorded. Online payment is not configured yet,
+            so the ELGCC admin team will follow up with payment instructions.
           </p>
           <div className="bg-slate-50 rounded-xl p-5 mb-6 text-left space-y-3">
             <div className="flex justify-between">

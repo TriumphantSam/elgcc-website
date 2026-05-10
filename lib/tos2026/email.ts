@@ -36,11 +36,12 @@ export async function sendConfirmationEmail(registration: Registration) {
       
       <div style="padding: 30px;">
         <p>Dear <strong>${registration.coordinator.fullName}</strong>,</p>
-        <p>Thank you for registering for Training of the Spirit 2026. Your registration has been successfully received!</p>
+        <p>Thank you for registering for Training of the Spirit 2026. Your payment has been confirmed and your registration is complete.</p>
         
         <div style="background-color: #F5F1E8; padding: 20px; border-radius: 6px; margin: 25px 0;">
           <h3 style="margin-top: 0; color: #1A2A0F;">Registration Details</h3>
           <p style="margin: 5px 0;"><strong>Registration ID:</strong> <span style="font-family: monospace; color: #D4A843;">${registration.registrationId}</span></p>
+          <p style="margin: 5px 0;"><strong>Payment Reference:</strong> <span style="font-family: monospace;">${registration.paymentReference || 'N/A'}</span></p>
           <p style="margin: 5px 0;"><strong>Church/Organization:</strong> ${registration.coordinator.churchName}</p>
           <p style="margin: 5px 0;"><strong>Total Attendees:</strong> ${registration.attendees.length}</p>
           <p style="margin: 5px 0;"><strong>Total Amount:</strong> ${formatPrice(registration.totalAmount)}</p>

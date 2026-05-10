@@ -38,6 +38,8 @@ export interface Registration {
   paymentReference: string;
   registeredAt: string;
   paidAt?: string;
+  flutterwaveTransactionId?: string;
+  paymentProvider?: 'flutterwave';
 }
 
 export interface CategoryConfig {

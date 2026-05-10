@@ -1,31 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { generateRegistrationId, calculatePriceBreakdown } from '@/lib/tos2026/pricing';
 import { Attendee, CoordinatorInfo, Registration } from '@/lib/tos2026/types';
-import fs from 'fs';
-import path from 'path';
 
 import { appendToGoogleSheet } from '@/lib/tos2026/sheets';
 import { sendConfirmationEmail } from '@/lib/tos2026/email';
-
-// Simple file-based storage (will be replaced by Google Sheets)
-const DATA_DIR = path.join(process.cwd(), 'data');
-const DATA_FILE = path.join(DATA_DIR, 'tos2026-registrations.json');
-
-function ensureDataDir() {
-  if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-  }
-  if (!fs.existsSync(DATA_FILE)) {
-    fs.writeFileSync(DATA_FILE, '[]', 'utf-8');
-  }
-}
-
-function saveRegistration(reg: Registration) {
-  ensureDataDir();
-  const existing = JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
-  existing.push(reg);
-  fs.writeFileSync(DATA_FILE, JSON.stringify(existing, null, 2), 'utf-8');
-}
+import { saveLocalRegistration, getLocalRegistrations } from '@/lib/tos2026/registrations';
+import {
+  createFlutterwavePaymentLink,
+  getFlutterwaveTxRef,
+  isFlutterwaveConfigured,
+} from '@/lib/tos2026/flutterwave';
 
 export async function POST(req: NextRequest) {
   try {
@@ -68,6 +52,8 @@ export async function POST(req: NextRequest) {
     // Calculate total
     const { total } = calculatePriceBreakdown(attendees);
     const registrationId = generateRegistrationId();
+    const flutterwaveConfigured = isFlutterwaveConfigured();
+    const paymentReference = flutterwaveConfigured ? getFlutterwaveTxRef(registrationId) : '';
 
     // Build registration record
     const registration: Registration = {
@@ -76,13 +62,14 @@ export async function POST(req: NextRequest) {
       attendees,
       totalAmount: total,
       paymentStatus: 'pending',
-      paymentReference: '',
+      paymentReference,
+      paymentProvider: flutterwaveConfigured ? 'flutterwave' : undefined,
       registeredAt: new Date().toISOString(),
     };
 
     // Save to local file (fallback storage)
     try {
-      saveRegistration(registration);
+      saveLocalRegistration(registration);
     } catch (fsError) {
       // On Vercel, filesystem is read-only — log and continue
       console.log('File storage unavailable (expected on Vercel):', fsError);
@@ -91,25 +78,31 @@ export async function POST(req: NextRequest) {
     // Sync to Google Sheets (if credentials are set)
     await appendToGoogleSheet(registration);
 
-    // Send confirmation email (if credentials are set)
-    await sendConfirmationEmail(registration);
+    if (flutterwaveConfigured) {
+      const { paymentLink, txRef } = await createFlutterwavePaymentLink(
+        { ...registration, paymentReference },
+        req.nextUrl.origin
+      );
 
-    // TODO: Integrate Flutterwave when API keys are available
-    // For now, check if keys exist
-    const flutterwavePublicKey = process.env.FLUTTERWAVE_PUBLIC_KEY;
-    if (flutterwavePublicKey && flutterwavePublicKey !== 'PLACEHOLDER') {
-      // In the future, generate a Flutterwave payment link here
-      // const paymentLink = await createFlutterwavePaymentLink(registration);
-      // return NextResponse.json({ success: true, registrationId, paymentLink });
+      return NextResponse.json({
+        success: true,
+        registrationId,
+        total,
+        paymentReference: txRef,
+        paymentLink,
+        message: 'Registration recorded. Redirecting to Flutterwave for payment.',
+      });
     }
 
-    // Placeholder mode: return success without payment
+    // Placeholder mode: record registration and notify without online payment.
+    await sendConfirmationEmail(registration);
+
     return NextResponse.json({
       success: true,
       registrationId,
       total,
-      paymentLink: null, // null = placeholder mode (no Flutterwave yet)
-      message: 'Registration recorded. Payment integration pending.',
+      paymentLink: null,
+      message: 'Registration recorded. Online payment is not configured yet.',
     });
   } catch (error) {
     console.error('Registration error:', error);
@@ -134,8 +127,7 @@ export async function GET(req: NextRequest) {
   }
 
   try {
-    ensureDataDir();
-    const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
+    const data = getLocalRegistrations();
     return NextResponse.json({ success: true, registrations: data });
   } catch {
     return NextResponse.json({ success: true, registrations: [] });
