@@ -1,5 +1,9 @@
 import Link from 'next/link';
+import { findRegistrationForPayment } from '@/lib/tos2026/payments';
+import { formatPrice } from '@/lib/tos2026/pricing';
 import '../tos2026.css';
+
+export const dynamic = 'force-dynamic';
 
 interface PaymentResultPageProps {
   searchParams: {
@@ -9,9 +13,12 @@ interface PaymentResultPageProps {
   };
 }
 
-export default function PaymentResultPage({ searchParams }: PaymentResultPageProps) {
+export default async function PaymentResultPage({ searchParams }: PaymentResultPageProps) {
   const isSuccess = searchParams.status === 'success';
   const registrationId = searchParams.registrationId;
+  const registration = isSuccess && registrationId
+    ? await findRegistrationForPayment(registrationId)
+    : null;
 
   return (
     <div className="min-h-screen bg-slate-50 py-16 px-4">
@@ -27,15 +34,55 @@ export default function PaymentResultPage({ searchParams }: PaymentResultPagePro
               : searchParams.message || 'We could not confirm this payment. If money was deducted, please contact the ELGCC admin team with your payment reference.'}
           </p>
 
-          {registrationId && (
-            <div className="bg-slate-50 rounded-xl p-5 mb-6 text-left">
-              <div className="flex justify-between gap-4">
+          {(registration || registrationId) && (
+            <div className="bg-slate-50 rounded-xl p-5 mb-6 text-left space-y-3">
+              <div className="flex justify-between gap-4 border-b border-slate-200 pb-3">
                 <span className="text-slate-500 text-sm">Registration ID</span>
-                <span className="text-[#D4A843] font-mono font-bold text-sm text-right">
-                  {registrationId}
+                <span className="text-[#D4A843] font-mono font-bold text-sm text-right">{registrationId}</span>
+              </div>
+
+              <div className="flex justify-between gap-4">
+                <span className="text-slate-500 text-sm">Payment Status</span>
+                <span className="font-bold text-green-700 text-sm text-right">
+                  {isSuccess ? 'Confirmed' : 'Not Confirmed'}
                 </span>
               </div>
+
+              {registration && (
+                <>
+                  <div className="flex justify-between gap-4">
+                    <span className="text-slate-500 text-sm">Payment Reference</span>
+                    <span className="font-mono text-slate-800 text-sm text-right">
+                      {registration.paymentReference || 'N/A'}
+                    </span>
+                  </div>
+                  <div className="flex justify-between gap-4">
+                    <span className="text-slate-500 text-sm">Total Amount Paid</span>
+                    <span className="font-bold text-slate-900 text-sm text-right">
+                      {formatPrice(registration.totalAmount)}
+                    </span>
+                  </div>
+                  <div className="flex justify-between gap-4">
+                    <span className="text-slate-500 text-sm">Coordinator</span>
+                    <span className="font-semibold text-slate-900 text-sm text-right">
+                      {registration.coordinator.fullName}
+                    </span>
+                  </div>
+                  <div className="flex justify-between gap-4">
+                    <span className="text-slate-500 text-sm">Number of Attendees</span>
+                    <span className="font-semibold text-slate-900 text-sm text-right">
+                      {registration.attendees.length}
+                    </span>
+                  </div>
+                </>
+              )}
             </div>
+          )}
+
+          {isSuccess && (
+            <p className="text-slate-500 text-sm mb-6">
+              A confirmation email has been sent to the coordinator. For corrections, email eternallifegcc@gmail.com.
+            </p>
           )}
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">

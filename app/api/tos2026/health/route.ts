@@ -42,6 +42,7 @@ export async function GET(req: NextRequest) {
         '',
         `Google Sheet: ${health.googleSheets.sheetTitle || 'not available'}`,
         `Rows detected: ${health.googleSheets.rowCount ?? 'not available'}`,
+        `Email account: ${health.email.from || 'not available'}`,
       ].join('\n')
     );
   }

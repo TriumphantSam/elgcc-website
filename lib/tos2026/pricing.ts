@@ -5,7 +5,7 @@ export const CATEGORIES: CategoryConfig[] = [
     id: 'child',
     label: 'Child',
     ageRange: '6 – 15 years',
-    price: 200, // TODO: restore to 5000 after testing
+    price: 5000,
     color: '#60A5FA',
     icon: '👦',
   },
