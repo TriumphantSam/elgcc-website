@@ -89,11 +89,18 @@ export async function getGoogleSheetsDiagnostics() {
 
   try {
     const sheet = await getRegistrationsSheet();
+    const rows = sheet ? await sheet.getRows<RegistrationSheetRow>() : [];
 
     return {
       configured: true,
       connected: Boolean(sheet),
       registrationsSheetFound: Boolean(sheet),
+      spreadsheetIdPreview: credentials.spreadsheetId
+        ? `${credentials.spreadsheetId.slice(0, 6)}...${credentials.spreadsheetId.slice(-4)}`
+        : '',
+      sheetTitle: sheet?.title || '',
+      rowCount: rows.length,
+      headers: sheet?.headerValues || [],
       error: '',
     };
   } catch (error) {

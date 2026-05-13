@@ -2,22 +2,33 @@ import nodemailer from 'nodemailer';
 import { Registration } from './types';
 import { formatPrice } from './pricing';
 
-export async function sendConfirmationEmail(registration: Registration) {
+function getEmailTransport() {
   const emailUser = process.env.EMAIL_USER;
   const emailPass = process.env.EMAIL_PASS;
-  
+
   if (!emailUser || !emailPass) {
+    return null;
+  }
+
+  return {
+    emailUser,
+    transporter: nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: emailUser,
+        pass: emailPass,
+      },
+    }),
+  };
+}
+
+export async function sendConfirmationEmail(registration: Registration) {
+  const email = getEmailTransport();
+
+  if (!email) {
     console.warn('Email credentials not set. Skipping confirmation email.');
     return;
   }
-
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-      user: emailUser,
-      pass: emailPass,
-    },
-  });
 
   const attendeeListHtml = registration.attendees.map(att => `
     <tr>
@@ -73,8 +84,8 @@ export async function sendConfirmationEmail(registration: Registration) {
   `;
 
   try {
-    await transporter.sendMail({
-      from: `"ELGCC TOS 2026" <${emailUser}>`,
+    await email.transporter.sendMail({
+      from: `"ELGCC TOS 2026" <${email.emailUser}>`,
       to: registration.coordinator.emailAddress,
       subject: `Confirmation: TOS 2026 Registration (${registration.registrationId})`,
       html,
@@ -82,5 +93,29 @@ export async function sendConfirmationEmail(registration: Registration) {
     console.log(`Confirmation email sent to ${registration.coordinator.emailAddress}`);
   } catch (error) {
     console.error('Failed to send confirmation email:', error);
+  }
+}
+
+export async function sendAdminAlertEmail(subject: string, message: string) {
+  const email = getEmailTransport();
+
+  if (!email) {
+    console.warn('Email credentials not set. Skipping admin alert email.');
+    return false;
+  }
+
+  const alertEmail = process.env.TOS_ALERT_EMAIL || email.emailUser;
+
+  try {
+    await email.transporter.sendMail({
+      from: `"ELGCC Website Monitor" <${email.emailUser}>`,
+      to: alertEmail,
+      subject,
+      text: message,
+    });
+    return true;
+  } catch (error) {
+    console.error('Failed to send admin alert email:', error);
+    return false;
   }
 }
