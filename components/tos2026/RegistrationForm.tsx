@@ -427,6 +427,10 @@ export default function RegistrationForm() {
 
       {/* ── Mobile Bottom Bar ── */}
       <div className="tos-mobile-bottom-bar lg:hidden">
+        <p className="mb-2 text-[11px] leading-snug text-slate-500">
+          Bank Transfer may show TriumphantTech after entering the Indulge MFB details. Continue
+          only if Flutterwave shows ELGCC Training of the Spirit 2026, and pay the exact amount.
+        </p>
         <div className="flex items-center justify-between mb-2">
           <div>
             <span className="text-slate-500 text-xs">{attendees.length} attendee{attendees.length !== 1 ? 's' : ''}</span>

@@ -81,6 +81,16 @@ export default function PriceSummary({
             </span>
           </div>
 
+          <div className="rounded-xl bg-amber-50 border border-amber-200 p-3">
+            <p className="text-amber-900 text-xs leading-relaxed">
+              Payments are processed securely through Flutterwave. If you choose Bank Transfer,
+              your bank app may display TriumphantTech after you enter the Indulge MFB account
+              details. This is due to the payment processor account. Please continue only if the
+              Flutterwave checkout page shows ELGCC Training of the Spirit 2026, and pay the exact
+              amount displayed. You will receive confirmation after payment.
+            </p>
+          </div>
+
           {/* CTA Button */}
           <button
             type="button"
