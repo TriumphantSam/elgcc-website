@@ -87,6 +87,7 @@ export async function createFlutterwavePaymentLink(registration: Registration, o
       meta: {
         source: TOS_PAYMENT_SOURCE,
         registrationId: registration.registrationId,
+        registrationType: registration.registrationType || 'individual',
         attendeeCount: registration.attendees.length,
         coordinatorChurch: registration.coordinator.churchName,
       },

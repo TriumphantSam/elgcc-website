@@ -4,6 +4,7 @@ import { JWT } from 'google-auth-library';
 
 const REGISTRATION_HEADERS = [
   'Registration ID',
+  'Registration Type',
   'Date',
   'Payment Status',
   'Payment Reference',
@@ -125,6 +126,7 @@ export async function appendToGoogleSheet(registration: Registration) {
     // Flatten registration -> one row per attendee
     const rows = registration.attendees.map(att => ({
       'Registration ID': registration.registrationId,
+      'Registration Type': registration.registrationType === 'group' ? 'Group / Church' : 'Individual',
       'Date': new Date(registration.registeredAt).toLocaleString(),
       'Payment Status': registration.paymentStatus,
       'Payment Reference': registration.paymentReference,
@@ -210,6 +212,7 @@ export async function getRegistrationFromGoogleSheet(registrationId: string): Pr
 
     return {
       registrationId,
+      registrationType: String(first.get('Registration Type') || '').toLowerCase().startsWith('group') ? 'group' : 'individual',
       coordinator: {
         fullName: String(first.get('Coordinator Name') || ''),
         phoneNumber: String(first.get('Coordinator Phone') || ''),

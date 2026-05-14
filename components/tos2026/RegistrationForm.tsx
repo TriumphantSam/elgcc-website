@@ -38,6 +38,7 @@ export default function RegistrationForm() {
   const [registrationData, setRegistrationData] = useState<{
     registrationId: string;
     total: number;
+    coordinator: CoordinatorInfo;
   } | null>(null);
 
   const updateCoordinator = (field: keyof CoordinatorInfo, value: string) => {
@@ -148,7 +149,7 @@ export default function RegistrationForm() {
       const res = await fetch('/api/tos2026/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ coordinator: finalCoordinator, attendees }),
+        body: JSON.stringify({ coordinator: finalCoordinator, attendees, registrationType }),
       });
 
       const data = await res.json();
@@ -163,6 +164,7 @@ export default function RegistrationForm() {
         setRegistrationData({
           registrationId: data.registrationId,
           total,
+          coordinator: finalCoordinator,
         });
         setShowSuccess(true);
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -196,12 +198,14 @@ export default function RegistrationForm() {
               </span>
             </div>
             <div className="flex justify-between">
-              <span className="text-slate-500 text-sm">Coordinator</span>
-              <span className="text-slate-900 font-semibold text-sm">{coordinator.fullName}</span>
+              <span className="text-slate-500 text-sm">
+                {registrationType === 'group' ? 'Coordinator' : 'Registrant'}
+              </span>
+              <span className="text-slate-900 font-semibold text-sm">{registrationData.coordinator.fullName}</span>
             </div>
             <div className="flex justify-between">
               <span className="text-slate-500 text-sm">Church</span>
-              <span className="text-slate-900 font-semibold text-sm">{coordinator.churchName}</span>
+              <span className="text-slate-900 font-semibold text-sm">{registrationData.coordinator.churchName}</span>
             </div>
             <div className="flex justify-between">
               <span className="text-slate-500 text-sm">Attendees</span>
@@ -216,7 +220,7 @@ export default function RegistrationForm() {
             </div>
           </div>
           <p className="text-slate-400 text-xs mb-6">
-            A confirmation email will be sent to {coordinator.emailAddress} once
+            A confirmation email will be sent to {registrationData.coordinator.emailAddress} once
             payment is confirmed.
           </p>
           <button

@@ -19,6 +19,8 @@ export default async function PaymentResultPage({ searchParams }: PaymentResultP
   const registration = isSuccess && registrationId
     ? await findRegistrationForPayment(registrationId)
     : null;
+  const isGroupRegistration = registration?.registrationType === 'group' || (registration?.attendees.length || 0) > 1;
+  const contactLabel = isGroupRegistration ? 'Coordinator' : 'Registrant';
 
   return (
     <div className="min-h-screen bg-slate-50 py-16 px-4">
@@ -63,7 +65,7 @@ export default async function PaymentResultPage({ searchParams }: PaymentResultP
                     </span>
                   </div>
                   <div className="flex justify-between gap-4">
-                    <span className="text-slate-500 text-sm">Coordinator</span>
+                    <span className="text-slate-500 text-sm">{contactLabel}</span>
                     <span className="font-semibold text-slate-900 text-sm text-right">
                       {registration.coordinator.fullName}
                     </span>
@@ -81,7 +83,7 @@ export default async function PaymentResultPage({ searchParams }: PaymentResultP
 
           {isSuccess && (
             <p className="text-slate-500 text-sm mb-6">
-              A confirmation email has been sent to the coordinator. For corrections, email eternallifegcc@gmail.com.
+              A confirmation email has been sent to the {contactLabel.toLowerCase()}. For corrections, email eternallifegcc@gmail.com.
             </p>
           )}
 

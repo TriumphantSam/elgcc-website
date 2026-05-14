@@ -10,6 +10,8 @@ export type Region = 'Southern Nigeria' | 'Northern Nigeria' | 'Outside Nigeria'
 
 export type PaymentStatus = 'pending' | 'paid' | 'failed' | 'free';
 
+export type RegistrationType = 'individual' | 'group';
+
 export interface Attendee {
   id: string;
   fullName: string;
@@ -31,6 +33,7 @@ export interface CoordinatorInfo {
 
 export interface Registration {
   registrationId: string;
+  registrationType?: RegistrationType;
   coordinator: CoordinatorInfo;
   attendees: Attendee[];
   totalAmount: number;

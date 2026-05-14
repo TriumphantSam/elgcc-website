@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { generateRegistrationId, calculatePriceBreakdown } from '@/lib/tos2026/pricing';
-import { Attendee, CoordinatorInfo, Registration } from '@/lib/tos2026/types';
+import { Attendee, CoordinatorInfo, Registration, RegistrationType } from '@/lib/tos2026/types';
 
 import { appendToGoogleSheet } from '@/lib/tos2026/sheets';
 import { sendConfirmationEmail } from '@/lib/tos2026/email';
@@ -18,12 +18,14 @@ function requiresOnlinePayment() {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { coordinator, attendees } = body as {
+    const { coordinator, attendees, registrationType } = body as {
       coordinator: CoordinatorInfo;
       attendees: Attendee[];
+      registrationType?: RegistrationType;
     };
+    const safeRegistrationType: RegistrationType = registrationType === 'group' ? 'group' : 'individual';
 
-    // Validate coordinator
+    // Validate registration contact
     if (
       !coordinator?.fullName?.trim() ||
       !coordinator?.phoneNumber?.trim() ||
@@ -31,7 +33,7 @@ export async function POST(req: NextRequest) {
       !coordinator?.churchName?.trim()
     ) {
       return NextResponse.json(
-        { success: false, error: 'Missing coordinator information' },
+        { success: false, error: 'Missing registration contact information' },
         { status: 400 }
       );
     }
@@ -62,6 +64,7 @@ export async function POST(req: NextRequest) {
     // Build registration record
     const registration: Registration = {
       registrationId,
+      registrationType: safeRegistrationType,
       coordinator,
       attendees,
       totalAmount: total,

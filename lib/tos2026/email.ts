@@ -79,6 +79,9 @@ export async function sendConfirmationEmail(registration: Registration) {
   const contactEmail = getContactEmail();
   const adminEmail = getAdminEmail(email.emailUser);
   const coordinatorEmail = registration.coordinator.emailAddress;
+  const isGroupRegistration = registration.registrationType === 'group' || registration.attendees.length > 1;
+  const contactLabel = isGroupRegistration ? 'Coordinator' : 'Registrant';
+  const contactSectionTitle = `${contactLabel} Details`;
   const attendeeListHtml = registration.attendees.map(att => `
     <tr>
       <td style="padding: 10px; border-bottom: 1px solid #eee;"><strong>${att.fullName}</strong></td>
@@ -112,7 +115,7 @@ export async function sendConfirmationEmail(registration: Registration) {
         </div>
 
         <div style="background-color: #fff; border: 1px solid #eee; padding: 20px; border-radius: 6px; margin: 25px 0;">
-          <h3 style="margin-top: 0; color: #1A2A0F;">Coordinator Details</h3>
+          <h3 style="margin-top: 0; color: #1A2A0F;">${contactSectionTitle}</h3>
           <p style="margin: 5px 0;"><strong>Name:</strong> ${registration.coordinator.fullName}</p>
           <p style="margin: 5px 0;"><strong>Phone:</strong> ${registration.coordinator.phoneNumber}</p>
           <p style="margin: 5px 0;"><strong>Email:</strong> ${registration.coordinator.emailAddress}</p>

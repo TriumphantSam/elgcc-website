@@ -55,6 +55,7 @@ export async function GET(req: NextRequest) {
   const registrationId = generateRegistrationId();
   const registration: Registration = {
     registrationId,
+    registrationType: 'individual',
     coordinator: {
       fullName: 'ELGCC Payment Diagnostics',
       phoneNumber: '08000000000',
